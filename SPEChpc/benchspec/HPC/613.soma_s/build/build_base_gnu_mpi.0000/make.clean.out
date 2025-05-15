@@ -1,0 +1,5 @@
+rm -rf *.o  stateR42time10Npoly32000.txt
+find . \( -name \*.o -o -name '*.fppized.f*' -o -name '*.i' -o -name '*.mod' \) -print | xargs rm -rf
+rm -rf soma
+rm -rf soma.exe
+rm -rf core

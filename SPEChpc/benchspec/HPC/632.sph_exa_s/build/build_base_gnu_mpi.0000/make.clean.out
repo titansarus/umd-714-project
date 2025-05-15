@@ -1,0 +1,5 @@
+rm -rf *.o  sqpatch.dat
+find . \( -name \*.o -o -name '*.fppized.f*' -o -name '*.i' -o -name '*.mod' \) -print | xargs rm -rf
+rm -rf sph_exa
+rm -rf sph_exa.exe
+rm -rf core

@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>628.pot3d SPEChpc 2021 Benchmark Description</title>
+</head>
+<body>
+<div style="text-align: center">
+<h1>628.pot3d<br />
+SPEChpc&trade; 2021 Benchmark Description</h1>
+</div>
+
+<h2>Benchmark Name</h2>
+
+<p>628.pot3d (POT3D)</p>
+
+<hr />
+
+<h2>Benchmark Author</h2>
+
+<p>Submitted by Ron Caplan &lt;caplanr_at_predsci_dot_com&gt;</p>
+
+<p>Authors listed in alphabetic order: <br/>
+---------------------------------- <br/>
+<ul>
+<li>Ronald M. Caplan</li>
+<li>Jon A. Linker</li>
+<li>Roberto Lionello</li>
+<li>Zoran Mikic</li>
+</ul>
+<br/>
+</p>
+
+<hr />
+
+<h2>Benchmark Program General Category</h2>
+
+<p>Solar Physics</p>
+
+<hr />
+
+<h2>Benchmark Description</h2>
+
+<p>
+POT3D computes potential field solutions used to approximate the 3D solar coronal magnetic field using observed photospheric magnetic fields as a boundary condition.  It is used for numerous studies of coronal structure and dynamics.  It is also part of the <a href=https://ccmc.gsfc.nasa.gov/models/modelinfo.php?model=CORHEL/MAS/WSA/ENLIL/>CORHEL package</a> at NASA's CCMC where it is used to generate WSA solar wind solutions for use in analysis and providing boundary conditions for heliospheric simulations.
+
+POT3D uses a preconditioned conjugate gradient sparse matrix solver for the Laplace equation in 3D spherical coordinates.  The Laplacian is evaluated using finite differences on a logically-rectangular non-uniform spherical grid.  Polar boundary conditions involve small collective operations to compute polar averages.
+</p>
+<hr />
+
+<h2>Input Description</h2>
+
+<p>
+<ul>
+<li>pot3d.dat - Namelist containing input parameters.</li>
+<li>br_input.h5 - Boundary magnetic field (r-component) on theta-phi grid in HDF5 format (including scales).</li>
+</ul>
+POT3D uses a namelist in an input file called "pot3d.dat" to set all parameters of a run.
+It also requires an input 2D data set in HDF5 format to use for the lower boundary condition.
+This file in the tests provided are called "br_input_<TEST>.h5" where <TEST> is the specific test name.
+
+The code can optionally output the potential solution in HDF5 by setting "phifile" to a filename such as "phi.h5".
+To refrain from writing the solution, set phifile=''.
+</pre>
+
+<hr />
+
+<h2>Output Description</h2>
+
+<p>
+POT3D outputs the norm of the solved potential, as well as the magnetic energy for each component of the derived magnetic field (as well as the total).  These values are printed to the screen and can be used for validation.
+<br>
+<br>
+If selected, POT3D also writes the potential solution to a 3D HDF5 file called phi.h5.  This involves gathering the solution to rank 0, so it is not recommended for large runs.   The resulting file can be validated with the provided files through the included DIFFV program.
+</p>
+
+<h2>Programming Language</h2>
+
+<p>Fortran</p>
+
+<hr />
+
+<h2>External Dependencies</h2>
+
+<p>HDF5 Library, MPI Library</p>
+
+<h2>Runtime Limitations (such as number of ranks)</h2>
+
+<p>Size of local grid on each rank must be smaller than the 32-bit integer limit of 2.14 billion points.</p>
+
+<h2>Known portability issues</h2>
+<ul>
+<li>Code does not yet run using the GNU-8 OpenACC implementation.</li>
+<li>HPG testing shows one system (NEC Aurora) will get runtime failures with some rank counts.  Disabling reording of the Cartesian topology via the portability flag "-DSPEC_NO_REORDER" can be used to solve the issue.
+</ul>
+<hr />
+
+<h2>Version and Licensing</h2>
+
+<p>Application Version: 2.21-SPEC</p>
+<p>License: Apache 2.0 with the following additional notice:</p>
+<p>POT3D's development and support requires substantial effort and we therefore request that Predictive Science Inc. should be acknowledged as the creators of POTS3D by any authors who use it (or derivatives thereof) in their published works.</p>
+
+<hr />
+
+<h2>References</h2>
+
+<ul>
+
+<li><a href=https://arxiv.org/pdf/1709.01126.pdf>Preprint:  From MPI to MPI+OpenACC: Conversion of a legacy FORTRAN
+PCG solver for the spherical Laplace equation. arXiv:1709.01126 (2017)</a></li>
+<li><a href=http://on-demand.gputechconf.com/gtc/2017/video/s7535-ronald-caplan-potential-field-solutions-of-the-solar-corona-converting-a-pcg-solver-from-mpi-to-mpi+openacc.mp4>GTC2017 Video: Potential Field Soultions of the Solar Corona: Converting a PCG Solver from MPI to MPI+OpenACC</a>
+</li>
+<li><a href=https://ccmc.gsfc.nasa.gov/models/modelinfo.php?model=CORHEL/MAS/WSA/ENLIL/>CORHEL package at Community Cooridinated Modeling Center.</a></li>
+<li><a href=http://www.predsci.com>Predictive Science Inc.</a>
+</ul>
+<hr />
+
+<p>Last updated: $Date$</p>
+</body>
+</html>

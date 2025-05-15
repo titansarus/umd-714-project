@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>635.weather SPEChpc 2021 Benchmark Description</title>
+</head>
+<body>
+<div style="text-align: center">
+<h1>635.weather<br />
+SPEChpc&trade; 2021 Benchmark Description</h1>
+</div>
+
+<h2>Benchmark Name</h2>
+
+<p>635.weather (miniWeather)</p>
+
+<hr />
+
+<h2>Benchmark Author</h2>
+
+<p>Matthew Norman &lt;normanmr_at_ornl.gov&gt;</p>
+<br/>
+</p>
+
+<hr />
+
+<h2>Benchmark Program General Category</h2>
+
+<p>Weather</p>
+
+<hr />
+
+<h2>Benchmark Description</h2>
+
+<p>
+The miniWeather code mimics the basic dynamics seen in atmospheric weather and climate. The dynamics themselves are dry compressible, stratified, non-hydrostatic flows dominated by buoyant forces that are relatively small perturbations on a hydrostatic background state. The equations in this code themselves form the backbone of pretty much all fluid dynamics codes, and this particular flavor forms the base of all weather and climate modeling.
+
+With about 500 total lines of code (and only about 200 lines that you care about), it serves as an approachable place to learn parallelization and porting using MPI + X, where X is OpenMP, OpenACC, CUDA, or potentially other approaches to CPU and accelerated parallelization. The code uses periodic boundary conditions in the x-direction and solid wall boundary conditions in the z-direction.
+</p>
+<h3>Brief Description of the Code</h3>
+<p>
+<b>Domain Parameters:</b>
+<br><br>
+A fuller description of the science, math, and dynamics are play are given later, but this section is reserved to describing some of the main variables and flow in the code. The code is decomposed in two spatial dimensions, x and z, with nx_glob and nz_glob cells in the global domain and nx and nz cells in the local domain, using straightforward domain decomposition for MPI-level parallelization. The global domain is of size xlen and zlen meters, and hs "halo" cells are appended to both sides of each dimension for convenience in forming stencils of cells for reconstruction.
+<br><br>
+<b>Fluid State Variables</b>
+<br><br>
+There are four main arrays used in this code: state, state_tmp, flux, and tend, and the dimensions for each are given in the code upon declaration in the comments. Each of these arrays is described briefly below:
+<ul>
+<li>state: This is the fluid state at the current time step, and it is the only array that persists from one time step to the next. The other four are only used within the calculations to advance the model to the next time step. The fluid state describes the average state over each cell area in the spatial domain. This variable contains four fluid states, which are the traditional mass, momenta, and thermodynamic quantities of most fluid models:
+<ol>
+<li>Density (ID_DENS): The 2-D density of the fluid, \large \rho, in \large \text{kg}\ \text{m}^{-2} (note this is normally \large \text{kg}\ \text{m}^{-3}, but this is a 2-D model, not 3-D)
+</li><li>
+U-momentum (ID_UMOM): The momentum per unit area of the fluid in the x-direction calculated as \large \rho u, where u is the x-direction wind velocity. The units are \large \text{kg}\ \text{m}^{-1}\ \text{s}^{-1}. Note that to get true momentum, you must integrate over the cell.
+</li><li>
+W-momentum (ID_WMOM): The momentum per unit area of the fluid in the z-direction calculated as \large \rho w, where w is the z-direction wind velocity. The units are \large \text{kg}\ \text{m}^{-1}\ \text{s}^{-1}. Note that to get true momentum, you must integrate over the cell.
+</li><li>
+Potential Temperature (ID_RHOT): The product of density and potential temperature, \large \rho \theta, where \large \theta=T\left(P_{0}/P\right)^{R_{d}/c_{p}}, \large P_{0}=10^{5}\,\text{Pa}, T is the true temperature, and \large R_d and\large c_p are the dry air constant and specific heat at constant pressure for dry air, respectively. The units of this quantity are \large \text{K}\,\text{kg}\,\text{m}^{-2}.
+</li>
+</ol>
+</li><li>
+state_tmp: This is a temporary copy of the fluid state used in the Runge-Kutta integration to keep from overwriting the state at the beginning of the time step, and it has the same units and meaning.
+</li><li>
+flux: This is fluid state at cell boundaries in the x- and z-directions, and the units and meanings are the same as for state and state_tmp. In the x-direction update, the values of flux at indices i and i+1 represents the fluid state at the left- and right-hand boundaries of cell i. The indexing is analagous in the z-direction. The fluxes are used to exchange fluid properties with neighboring cells.
+</li><li>
+tend: This is the time tendency of the fluid state \large \partial\mathbf{q}/\partial t, where \large \mathbf{q} is the the state vector, and as the name suggests, it has the same meaning and units as state, except per unit time (appending \large \text{s}^{-1} to the units). In the Finite-Volume method, the time tendency of a cell is equivalent to the divergence of the flux across a cell.
+</li></ul>
+<br>
+<b>Overal Model Flow</b>
+<br><br>
+This code follows a traditional Finite-Volume control flow.
+<br><br>
+To compute the time tendency, given an initial state at the beginning of a time step that contains cell-averages of the fluid state, the value of the state at cell boundaries is reconstructed using a stencil. Then, a viscous term is added to the fluid state at the cell boundaries to improve stability. Next, the tendencies are computed as the divergence of the flux across the cell. Finally, the tendencies are applied to the fluid state.
+<br><br>
+Once the time tendency is computed, the fluid PDEs are essentially now cast as a set of ODEs varying only in time, and this is called the "semi-discretized" form of the equations. To solve the equations in time, an ODE solver is used, in this case, a Runge-Kutta method. Finally, at the highest level, the equations are split into separate solves in each dimension, x and z.
+</p>
+<hr />
+
+<h2>Input Description</h2>
+
+<p>
+The benchmark takes the following 6 input parameters:
+<ol>
+<li>NetCDF output file name
+</li>
+<li>Global X-dimension size
+</li>
+<li>Global Z-dimension size
+</li>
+<li>Number of time-steps to run
+</li>
+<li>Output ever N number of time-steps
+</li>
+<li>Model number to use:
+<ol>
+<li>Colliding Thermals
+</li><li>Rising Thermals
+</li><li>Mountain Gravity Waves (not-used in hpc2020 due to time constraints)
+</li><li>Turbulence (not-used in hpc2020 since model uses random numbers)
+</li><li>Density Current
+</li><li>Injection
+</li>
+</ol>
+</ol>
+</p>
+
+<h2>Output Description</h2>
+
+<p>
+Each run produces NetCDF files containing the output from the run.  The utility 997.ncmpidiff is then used to compare the 
+the generated files to a set of known correct results.</p>
+
+<h2>Programming Language</h2>
+
+<p>Fortran</p>
+
+<hr />
+
+<h2>External Dependencies</h2>
+
+<p>PNetCDF Library, MPI Library, NcmpiDiff utility</p>
+
+<h2>Runtime Limitations (such as number of ranks)</h2>
+
+<p>No known runtime limitations.</p>
+
+<h2>Known portability issues</h2>
+<p>No known portability issues.</p>
+<hr />
+
+<h2>Version and Licensing</h2>
+
+<p>Application Version: versioning not used.  Original source for the miniWeather git repository:
+<pre>
+git clone https://github.com/mrnorman/miniWeather.git
+git checkout 1d142b026ca7ec9812bfe4cd6d45f239895a466c
+</pre>
+</p>
+<p>License: BSD 2-Clause "Simplified" License</p>
+
+<hr />
+
+<h2>References</h2>
+
+<ul>
+
+<li><a href=https://github.com/mrnorman/miniWeather>miniWeather on Github</a></li>
+</ul>
+<hr />
+
+<p>Last updated: $Date$</p>
+</body>
+</html>

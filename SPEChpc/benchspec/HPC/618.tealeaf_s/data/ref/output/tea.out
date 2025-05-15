@@ -1,0 +1,114 @@
+Solution Parameters:
+	dt_init = 0.004000
+	end_time = 100.000000
+	end_step = 15
+	grid_x_min = 0.000000
+	grid_y_min = 0.000000
+	grid_x_max = 10.000000
+	grid_y_max = 10.000000
+	grid_x_cells = 16384
+	grid_y_cells = 16384
+	presteps = 20
+	ppcg_inner_steps = 350
+	eps_lim = 0.000100
+	max_iters = 5000
+	eps = 0.000000
+	halo_depth = 2
+	check_result = 1
+	coefficient = 1
+	num_chunks_per_rank = 1
+	summary_frequency = 10
+	
+state 0
+	density = 1.000000000000E+02
+	energy= 1.000000000000E-04
+	
+state 1
+	density = 1.000000000000E-01
+	energy= 2.500000000000E+01
+	x_min = 6.103515625000E-06
+	y_min = 1.000006103516E+00
+	x_max = 9.999938964844E-01
+	y_max = 1.999993896484E+00
+	radius = 0.000000000000E+00
+	geometry = 0
+	
+state 2
+	density = 1.000000000000E-01
+	energy= 1.000000000000E-01
+	x_min = 1.000006103516E+00
+	y_min = 1.000006103516E+00
+	x_max = 5.999993896484E+00
+	y_max = 1.999993896484E+00
+	radius = 0.000000000000E+00
+	geometry = 0
+	
+state 3
+	density = 1.000000000000E-01
+	energy= 1.000000000000E-01
+	x_min = 5.000006103516E+00
+	y_min = 1.000006103516E+00
+	x_max = 5.999993896484E+00
+	y_max = 7.999993896484E+00
+	radius = 0.000000000000E+00
+	geometry = 0
+	
+state 4
+	density = 1.000000000000E-01
+	energy= 1.000000000000E-01
+	x_min = 5.000006103516E+00
+	y_min = 7.000006103516E+00
+	x_max = 9.999993896484E+00
+	y_max = 7.999993896484E+00
+	radius = 0.000000000000E+00
+	geometry = 0
+
+Timestep 1
+Error: 			1.195537e+00
+
+Timestep 2
+Error: 			7.193046e-02
+
+Timestep 3
+Error: 			4.172825e-03
+
+Timestep 4
+Error: 			3.160304e-04
+
+Timestep 5
+Error: 			4.497453e-05
+
+Timestep 6
+Error: 			3.921335e-06
+
+Timestep 7
+Error: 			1.546561e-06
+
+Timestep 8
+Error: 			1.896031e-07
+
+Timestep 9
+Error: 			7.474257e-08
+
+Timestep 10
+Error: 			1.616191e-08
+
+Timestep 11
+Error: 			4.302489e-09
+
+Timestep 12
+Error: 			7.662071e-10
+
+Timestep 13
+Error: 			6.244507e-10
+
+Timestep 14
+Error: 			1.209488e-10
+
+Timestep 15
+Error: 			5.472574e-11
+
+Checking results...
+Expected 9.737550790531344e+01
+Actual   9.737550790497004e+01
+This run [32mPASSED[0m (Difference is within 0.00000000%)

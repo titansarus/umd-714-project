@@ -1,0 +1,10 @@
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG specmpitime/specmpitime_mod.F90 -o specmpitime/specmpitime_mod.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG miniWeather.F90 -o miniWeather.fppized.f90
+mpiifort -c -o specmpitime/specmpitime_mod.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none specmpitime/specmpitime_mod.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiicc -c -o specmpitime/specmpitime.o -DSPEC -DNDEBUG  -Ispecmpitime  -Ofast -march=native -lm                 specmpitime/specmpitime.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiifort -c -o miniWeather.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none miniWeather.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort       -Ofast -march=native -fno-stack-protector     -ffree-line-length-none    miniWeather.fppized.o specmpitime/specmpitime_mod.fppized.o specmpitime/specmpitime.o                      -o weather  
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'

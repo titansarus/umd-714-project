@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>618.tealeaf_s: SPEChpc 2021 Benchmark Description</title>
+</head>
+<body>
+<div style="text-align: center">
+<h1>618.tealeaf_s<br />
+SPEChpc&trade; 2021 Benchmark Description</h1>
+</div>
+
+<h2>Benchmark Name</h2>
+
+<p>618.tealeaf_s </p>
+
+<hr />
+
+<h2>Benchmark Author</h2>
+
+<p>Submitted by Simon McIntosh-Smith, simonm __at__ cs.bris.ac.uk </p>
+
+<p>Simon McIntosh-Smith &lt;simonm &#x5b;at&#x5d; cs.bris.ac.uk &gt;<br />
+University of Bristol<br />
+Bristol, BS8 1TH, UK<br /></p>
+
+<p> Authors listed in alphabetic order: <br/> 
+---------------------------------- <br/>  
+<ul>
+<li> David Beckingsale </li>
+<li> Michael Boulton </li>
+<li> Tom Deakin </li>
+<li> Paul Garrett </li>
+<li> Wayne Gaudin </li>
+<li> Wei Liu </li>
+<li> Matt Martineau </li>
+<li> Simon McIntosh-Smith </li>
+<li> Grzegorz (George) Pawelczak </li>
+<li> Oliver Perks </li>
+<li> Douglas Shanks </li>
+<li> Richard Smedley-Stevenson </li>
+</ul>
+</p>
+
+
+<hr />
+
+<h2>Benchmark Program General Category</h2>
+
+<p>Physics / High Energy Physics</p>
+
+<hr />
+
+<h2>Benchmark Description</h2>
+
+<p>
+TeaLeaf is a mini-app that solves the linear heat conduction equation 
+on a spatially decomposed regular grid using a 5 point stencil with 
+implicit solvers. TeaLeaf currently solves the equations in two dimensions, 
+but three dimensional support is in beta.
+</p>
+
+<p>
+In TeaLeaf temperatures are stored at the cell centres. A conduction coefficient is 
+calculated that is equal to the cell centred density or the reciprocal of the density. 
+This is then averaged to each face of the cell for use in the solution. The solve is 
+carried out using an implicit method due to the severe timestep limitations imposed 
+by the stability criteria of an explicit solution for a parabolic partial differential 
+equation. The implicit method requires the solution of a system of linear equations 
+which form a regular sparse matrix with a well defined structure.
+</p>
+
+<p>
+The computation in TeaLeaf has been broken down into "kernels", low level building 
+blocks with minimal complexity. Each kernel loops over the entire grid and updates 
+the relevant mesh variables. Control logic within each kernel is kept to a minimum, 
+allowing maximum optimisation by the compiler. Memory is sacrificed in order to increase 
+performance, and any updates to variables that would introduce dependencies between loop 
+iterations are written into copies of the mesh.
+</p>
+
+<hr />
+
+<h2>Input Description</h2>
+
+<p>All the input that is required to
+generate a TeaLeaf run is contained within the tea.in
+input file.</p>
+
+<p> 
+The initial time step, simualtion end time and end step are set by 
+<code>initial_timestep</code>, <code>end_time</code>, <code>end_step</code> parameters respectively. 
+</p>
+
+<p>The follwoing two options set the cell count for each coordinate
+ direction. The default is 10 cells in each direction. </p>
+<pre> 
+x_cells
+y_cells
+</pre>
+
+<p> The parameters, <code>xmin</code>, <code>xmax</code>, <code>ymin</code> and <code>ymax</code>,
+set the size of the computational domain. 
+The default domain size is a 10cm square.
+</p>
+
+<p> 
+The geometric information and initial conditions 
+are set using the following keywords with three possible 
+variations. Note that state 1 is always the ambient 
+material and any geometry information is ignored. 
+Areas not covered by other defined states receive the 
+energy and density of state 1.
+</p>
+
+<pre>
+state
+density
+energy
+geometry 
+</pre>
+
+
+
+<p> The option <code>visit_frequency</code> is the step frequency of visualisations dumps. The files produced are text base VTK files and are easily viewed in an application such as ViSit. The default is to output no graphical data. Note that the overhead of output is high, so should not be invoked when performance benchmarking is being carried out.
+</p> 
+
+<p>
+The option <code>summary_frequency</code> is the step frequency of summary dumps. This requires a global reduction and associated synchronisation, so performance will be slightly affected as the frequency is increased. The default is for a summary dump to be produced every 10 steps and at the end of the simulation.
+</p>
+
+
+
+<p>There are a number of other
+inputs that can be used for fine control, profiling and visualization. The full
+description of these can be found in the links detailed below.</p>
+
+
+<hr>
+<h2>Output Description</h2>
+
+<p>The most important output from
+TeaLeaf is the field summary print that details the average state variables
+of the system, which includes volume, mass, density, energy, temperature.</p>
+
+<p>Timestep information is also output every step.</p>
+
+<p>VTK files can also be outputted
+to allow visualization but this is not recommended for benchmarking runs due to
+the overhead incurred.</p>
+
+
+<hr />
+
+<h2>Programming Language</h2>
+
+<p>C/C++</p>
+
+<hr />
+
+<h2>Known portability issues</h2>
+
+None.
+
+<hr />
+
+<h2>Version and Licensing</h2>
+
+<p>Application Version: 1.0 </p>
+<p>License: GPL 3</p>
+
+<hr />
+
+<h2>References</h2>
+
+<ul>
+<li><a href=
+"https://github.com/UoB-HPC/TeaLeaf">https://github.com/UoB-HPC/TeaLeaf</a>
+</li>
+
+</ul>
+<ul>
+<li>  McIntosh-Smith, S., Martineau, M., Deakin, T., Pawelczak, G., Gaudin, W., Garrett, 
+P., Liu, W., Smedley-Stevenson, R. and Beckingsale, D., 2017, September. TeaLeaf: 
+A Mini-Application to Enable Design-Space Explorations for Iterative Sparse Linear 
+Solvers. In Cluster Computing (CLUSTER), 2017 IEEE International Conference on 
+(pp. 842-849). IEEE.
+<a href="http://ieeexplore.ieee.org/abstract/document/8049027">http://ieeexplore.ieee.org/abstract/document/8049027/
+</a>
+</li>
+
+</ul>
+
+
+<hr />
+
+<p>Last updated: $Date$</p>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!DOCTYPE flagsdescription SYSTEM
+       "http://www.spec.org/dtd/cpuflags2.dtd">
+
+<!-- This file defines flags in 628.pot3d_s
+
+  Copyright 2015 Standard Performance Evaluation Corporation
+
+  $Revision: 5674 $
+  $Date: 2017-05-05 17:29:02 -0400 (Fri, 05 May 2017) $
+-->
+<flagsdescription>
+
+<filename>628.pot3d_s.flags</filename>
+
+<title>628.pot3d_s Flags</title>
+
+<header>
+<![CDATA[
+<p>These are flags that appear in the benchmark sources, categorized as to
+   whether they are portability candidates, mandatory, or forbidden.</p>
+]]>
+</header>
+
+<flag name="DSPEC_NO_REORDER" class="portability">
+Disable reordering of the Cartisian topology.  Used to work around runtime error that may appear on some systems at some rank counts.
+</flag>
+
+<flag name="DSPEC_H5_FORTRAN_C_LONG_DOUBLE_IS_UNIQUE" class="portability">
+Define to 1 the Fortran C_DOBULE intrinsic is different than the C_LONG_DOUBLE instrinsic. 
+</flag>
+
+<flag name="DSPEC_H5_HAVE_FLOAT128" class="portability">
+Enable support for quad (128-bit) floating point precision for compilers that support it. 
+</flag>
+<flag name="DSPEC_H5_HAVE_Fortran_INTEGER_SIZEOF_16" class="portability">
+Enable support for Fortran Integer kind 16 for compilers that support it. 
+</flag>
+<flag name="DSPEC_H5_HAVE_ISO_FORTRAN_ENV" class="portability">
+Disable support for Fortran ISO_FORTRAN_ENV instrinsic module for compilers that do not support it. 
+</flag>
+<flag name="DSPEC_H5_PAC_C_MAX_REAL_PRECISION" class="portability">
+Modify the maximum decmial precision in C.  Default is 21.
+</flag>
+<flag name="DSPEC_H5_S" class="portability">
+</flag>
+<flag name="DSPEC_H5_SIZEOF_DOUBLE" class="portability">
+Define the size of (in bits) of a double type.  Default is 8.
+</flag>
+<flag name="DSPEC_H5_SIZEOF_LONG_DOUBLE" class="portability">
+Define the size of (in bits) of a long double type.  Default is 16.
+</flag>
+<flag name="DSPEC_NO_H5_FORTRAN_HAVE_C_LONG_DOUBLE" class="portability">
+Disable support for Fortran C_LONG_DOUBLE instrinsic for compilers that do not support it. 
+</flag>
+<flag name="DSPEC_NO_H5_FORTRAN_HAVE_C_SIZEOF" class="portability">
+Disable support for Fortran C_SIZEOF instrinsic for compilers that do not support it. 
+</flag>
+<flag name="DSPEC_NO_H5_FORTRAN_HAVE_SIZEOF" class="portability">
+Disable support for Fortran SIZEOF intrisic for compilers that do not support it. 
+</flag>
+<flag name="DSPEC_NO_H5_FORTRAN_HAVE_STORAGE_SIZE" class="portability">
+Disable support for Fortran STORAGE_SIZE intrisic for compilers that do not support it. 
+</flag>
+<flag name="DSPEC_NO_H5_HAVE_PARALLEL" class="portability">
+Disable parallel file support in HDF5.  
+</flag>
+<flag name="DSPEC_READ_SIZE" class="portability">
+</flag>
+
+
+
+</flagsdescription>
+

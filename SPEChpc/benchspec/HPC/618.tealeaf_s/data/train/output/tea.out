@@ -1,0 +1,129 @@
+Solution Parameters:
+	dt_init = 0.004000
+	end_time = 100.000000
+	end_step = 20
+	grid_x_min = 0.000000
+	grid_y_min = 0.000000
+	grid_x_max = 10.000000
+	grid_y_max = 10.000000
+	grid_x_cells = 512
+	grid_y_cells = 512
+	presteps = 20
+	ppcg_inner_steps = 350
+	eps_lim = 0.000100
+	max_iters = 5000
+	eps = 0.000000
+	halo_depth = 2
+	check_result = 1
+	coefficient = 1
+	num_chunks_per_rank = 1
+	summary_frequency = 10
+	
+state 0
+	density = 1.000000000000E+02
+	energy= 1.000000000000E-04
+	
+state 1
+	density = 1.000000000000E-01
+	energy= 2.500000000000E+01
+	x_min = 1.953125000000E-04
+	y_min = 1.000195312500E+00
+	x_max = 9.998046875000E-01
+	y_max = 1.999804687500E+00
+	radius = 0.000000000000E+00
+	geometry = 0
+	
+state 2
+	density = 1.000000000000E-01
+	energy= 1.000000000000E-01
+	x_min = 1.000195312500E+00
+	y_min = 1.000195312500E+00
+	x_max = 5.999804687500E+00
+	y_max = 1.999804687500E+00
+	radius = 0.000000000000E+00
+	geometry = 0
+	
+state 3
+	density = 1.000000000000E-01
+	energy= 1.000000000000E-01
+	x_min = 5.000195312500E+00
+	y_min = 1.000195312500E+00
+	x_max = 5.999804687500E+00
+	y_max = 7.999804687500E+00
+	radius = 0.000000000000E+00
+	geometry = 0
+	
+state 4
+	density = 1.000000000000E-01
+	energy= 1.000000000000E-01
+	x_min = 5.000195312500E+00
+	y_min = 7.000195312500E+00
+	x_max = 9.999804687500E+00
+	y_max = 7.999804687500E+00
+	radius = 0.000000000000E+00
+	geometry = 0
+
+Timestep 1
+Error: 			8.687767e-16
+
+Timestep 2
+Error: 			8.913079e-16
+
+Timestep 3
+Error: 			9.506885e-16
+
+Timestep 4
+Error: 			9.818984e-16
+
+Timestep 5
+Error: 			9.841586e-16
+
+Timestep 6
+Error: 			8.175244e-16
+
+Timestep 7
+Error: 			9.194684e-16
+
+Timestep 8
+Error: 			9.053864e-16
+
+Timestep 9
+Error: 			9.749966e-16
+
+Timestep 10
+Error: 			8.394059e-16
+
+Timestep 11
+Error: 			8.329470e-16
+
+Timestep 12
+Error: 			9.275985e-16
+
+Timestep 13
+Error: 			9.311490e-16
+
+Timestep 14
+Error: 			8.550947e-16
+
+Timestep 15
+Error: 			8.906028e-16
+
+Timestep 16
+Error: 			9.164954e-16
+
+Timestep 17
+Error: 			8.256417e-16
+
+Timestep 18
+Error: 			9.699298e-16
+
+Timestep 19
+Error: 			9.139953e-16
+
+Timestep 20
+Error: 			8.107985e-16
+
+Checking results...
+Expected 1.034697091898282e+02
+Actual   1.034697091897570e+02
+This run [32mPASSED[0m (Difference is within 0.00000000%)

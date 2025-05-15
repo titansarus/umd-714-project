@@ -1,0 +1,97 @@
+energy_totals[0]: 1002700800.000000
+energy_totals[1]: 4010803200.000000
+energy_totals[2]: 1002700800.000000
+energy_totals[3]: 4010803200.000000
+energy_totals[4]: 1002700800.000000
+energy_totals[5]: 4010803200.000000
+energy_totals[6]: 1002700800.000000
+energy_totals[7]: 4010803200.000000
+energy_totals[8]: 1002700800.000000
+energy_totals[9]: 4010803200.000000
+energy_totals[10]: 1002700800.000000
+energy_totals[11]: 4010803200.000000
+energy_totals[12]: 1002700800.000000
+energy_totals[13]: 4010803200.000000
+energy_totals[14]: 1002700800.000000
+energy_totals[15]: 4010803200.000000
+energy_totals[16]: 1002700800.000000
+energy_totals[17]: 4010803200.000000
+energy_totals[18]: 1002700800.000000
+energy_totals[19]: 4010803200.000000
+energy_totals[20]: 1002700800.000000
+energy_totals[21]: 4010803200.000000
+energy_totals[22]: 1002700800.000000
+energy_totals[23]: 4010803200.000000
+energy_totals[24]: 1002700800.000000
+energy_totals[25]: 4010803200.000000
+energy_totals[26]: 1002700800.000000
+energy_totals[27]: 4010803200.000000
+energy_totals[28]: 1002700800.000000
+energy_totals[29]: 4010803200.000000
+energy_totals[30]: 1002700800.000000
+energy_totals[31]: 4010803200.000000
+
+========================================
+AGGREGATED MPI TIMING REPORT (ALL RANKS)
+========================================
+Number of MPI Ranks: 4
+Total Execution Time: 8.673690 seconds
+Total MPI Time (all ranks): 1.633726 seconds
+Average MPI Time per rank: 0.408432 seconds (4.71% of execution time)
+
+MPI Call Summary (Aggregated Across All Ranks):
+Function             |  Total Calls | Total Time (s) |   Avg Time (s) |   Min Time (s) |   Max Time (s) | % of MPI
+--------------------------------------------------------------------------------------------------------
+MPI_Recv             |          136 |       0.909756 |    0.006689381 |    0.000001062 |    0.126507081 | 55.6859%
+MPI_Barrier          |            8 |       0.371557 |    0.046444642 |    0.000058300 |    0.089554285 | 22.7429%
+MPI_Allreduce        |          140 |       0.193996 |    0.001385688 |    0.000001984 |    0.070207166 | 11.8745%
+MPI_Send             |          136 |       0.158417 |    0.001164832 |    0.000000481 |    0.042739021 |  9.6967%
+
+NOTE: Total time represents the sum across all ranks.
+      Average time is per individual call.
+      Min/Max times are across all calls on all ranks.
+Elapsed Time: 9.516s
+    CPU Time: 36.010s
+        Effective Time: 35.080s
+            Idle: 0.060s
+            Poor: 35.020s
+            Ok: 0s
+            Ideal: 0s
+            Over: 0s
+        Spin Time: 0.930s
+            MPI Busy Wait Time: 0.740s
+            Other: 0.190s
+        Overhead Time: 0s
+            Other: 0s
+    Total Thread Count: 8
+    Paused Time: 0s
+
+Top Hotspots
+Function             Module                         CPU Time
+-------------------  -----------------------------  --------
+Sweeper_sweep_cell   sweep_base.gnu_open_mpi_debug   22.869s
+const_ref_vslocal    sweep_base.gnu_open_mpi_debug    5.114s
+Quantities_solve     sweep_base.gnu_open_mpi_debug    2.850s
+ucp_worker_progress  libucp.so.0                      0.470s
+PMPI_Recv            libmpi.so.12                     0.450s
+[Others]             N/A                              4.257s
+Collection and Platform Info
+    Application Command Line: ../run_base_ref_gnu_mpi.0011/sweep_base.gnu_open_mpi_debug "--niterations" "1" "--ncell_x" "64" "--ncell_y" "32" "--ncell_z" "32" "--ne" "32" "--na" "16" "--nblock_z" "4" "--nthread_e" "1" 
+    Operating System: 4.18.0-553.27.1.el8_10.x86_64 Red Hat Enterprise Linux release 8.10 (Ootpa)
+    Computer Name: login-3.zaratan.umd.edu
+    Result Size: 7.2 MB 
+    Collection start time: 20:00:03 14/05/2025 UTC
+    Collection stop time: 20:00:14 14/05/2025 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Unknown
+        Frequency: 2.246 GHz 
+        Logical CPU Count: 128
+        Cache Allocation Technology
+            Level 2 capability: not detected
+            Level 3 capability: available
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.

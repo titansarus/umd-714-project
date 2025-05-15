@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<!DOCTYPE flagsdescription SYSTEM
+       "http://www.spec.org/dtd/cpuflags2.dtd">
+
+<!-- This file defines portability flags that may be used when compiling
+     634.hpgmgfv_s
+
+  Copyright 2019 Standard Performance Evaluation Corporation
+-->
+<flagsdescription>
+
+<filename>634.hpgmgfv_s.flags</filename>
+
+<title>634.hpgmgfv_s Approved Portability Flags</title>
+
+<header>
+<![CDATA[
+<p>This is the complete set of approved portability flags for 634.hpgmgfv_s.</p>
+]]>
+</header>
+
+<flag name="DUSE_BICGSTAB" class="mandatory">
+Use BiCGStab as a bottom (coarse grid) solver.
+</flag>
+
+<flag name="DUSE_SUBCOMM" class="mandatory">
+Build a subcommunicator for each level in the MG v-cycle to minimize the scope of MPI_AllReduce().
+</flag>
+
+<flag name="DUSE_FCYCLES" class="mandatory">
+Use the Full Multigrid (FMG) solve.
+</flag>
+
+<flag name="DUSE_GSRB" class="mandatory">
+Use the GSRB smoother.
+</flag>
+
+<flag name="DBLOCKCOPY_TILE_I" class="mandatory">
+Decompose i-dimension of block into tiles of size 32.
+</flag>
+
+<flag name="DBLOCKCOPY_TILE_J" class="mandatory">
+Decompose j-dimension of block into tiles of size 4.
+</flag>
+
+<flag name="DBLOCKCOPY_TILE_K" class="mandatory">
+Decompose k-dimension of block into tiles of size 16.
+</flag>
+
+<flag name="DBOUNDARY_TILE_I" class="mandatory">
+Decompose i-dimension of boundary condition block into tiles of size 64.
+</flag>
+
+<flag name="DBOUNDARY_TILE_J" class="mandatory">
+Decompose j-dimension of boundary condition block into tiles of size 16.
+</flag>
+
+<flag name="DBOUNDARY_TILE_K" class="mandatory">
+Decompose k-dimension of boundary condition block into tiles of size 64.
+</flag>
+
+<flag name="DUSE_MPI" class="mandatory">
+Compiles the distributed (MPI) version.
+</flag>
+
+<!-- '-DSPEC' is handled by "DSPEC" in the existing flags-mandatory.xml file -->
+
+<!-- '-DSPEC_OPENACC' is handled by "DSPEC_OPENACC" in the existing flags-mandatory.xml file -->
+
+<!-- '-DSPEC_OPENMP' is handled by "DSPEC_OPENMP" in the existing flags-mandatory.xml file -->
+
+<!-- '-DSPEC_OPENMP_TARGET' is handled by "DSPEC_OPENMP_TARGET" in the existing flags-mandatory.xml file -->
+
+<!-- '-DSPEC_CUDA' is handled by "DSPEC_CUDA" in the existing flags-mandatory.xml file -->
+
+<flag name="DFIX_PGI_STRUCT_ASSIGNMENT_BUG" class="portability">
+Workaround multiple PGI OpenACC compiler bugs. Still needed as of PGI-20.4.
+</flag>
+
+<flag name="DFIX_PGI_ACC_UPDATE" class="portability">
+Workaround multiple PGI OpenACC compiler bugs. Needed for PGI-19.10 and earlier.
+</flag>
+
+<flag name="DSPEC_MANAGED_MEMORY" class="portability">
+Assume data is allocated in managed memory in OpenMP target offload and OpenACC code versions. This greatly simplifies the data management code that is executed. Currently needed for OpenMP target offload using IBM XL and Cray CCE compilers.
+</flag>
+
+<flag name="DSPEC_CUDA_API" class="forbidden">
+Use cudaMallocManaged to allocate data. This flag only makes sense when used in combination with -DSPEC_MANAGED_MEMORY.
+</flag>
+
+<flag name="DVECTOR_MALLOC_BULK" class="optimization">
+Replace multiple memory allocations with a single large memory allocation. It also enables bulk data transfers between CPU and GPU.
+</flag>
+
+<flag name="DUSE_MPI_THREAD_MULTIPLE" class="optimization">
+Use MPI_THREAD_MULTIPLE to enable multiple OpenMP threads to send/recv messages at the same time.
+</flag>
+
+<flag name="DHOST_LEVEL_SIZE_THRESHOLD" class="optimization">
+Specifies the minimum number of grid points required for a level to be executed on the GPU.
+</flag>
+
+<flag name="DSPMD_MODE" class="forbidden">
+Manually SPMDizes code to obtain better OpenMP target offload performance with LLVM/Clang.
+</flag>
+
+<flag name="DMINIMIZE_PRESENT_TABLE" class="forbidden">
+Manually attaches device pointers to obtain better OpenMP target offload performance with LLVM/Clang.
+</flag>
+
+<flag name="DPASS_NULL_TO_ATTACH" class="forbidden">
+Pass NULL pointers to OpenMP target offload [:0] syntax to reveal terrible performance with LLVM/Clang.
+</flag>
+
+<flag name="DUSE_CG" class="forbidden">
+Use CG as a bottom (coarse grid) solver.
+</flag>
+
+<flag name="DUSE_CABICGSTAB" class="forbidden">
+Use CABiCGStab as a bottom (coarse grid) solver (makes more sense with U-Cycles).
+</flag>
+
+<flag name="DUSE_VCYCLES" class="forbidden">
+Use true distributed V-Cycles in the multigrid solver.
+</flag>
+
+<flag name="DUSE_UCYCLES" class="forbidden">
+Use truncated V-Cycles (U-Cycles) in the multigrid solver.
+</flag>
+
+<flag name="DUSE_CHEBY" class="forbidden">
+Use a Chebyshev Polynomial smoother (degree is specified with CHEBYSHEV_DEGREE).
+</flag>
+
+<flag name="DUSE_JACOBI" class="forbidden">
+use a weighted Jacobi smoother with a weight of 2/3.
+</flag>
+
+<flag name="DUSE_L1JACOBI" class="forbidden">
+Use a L1 Jacobi smoother (each row's weight is the L1 norm of that row).
+</flag>
+
+<flag name="DUSE_SYMGS" class="forbidden">
+Use symmetric GS smoother.
+</flag>
+
+<flag name="DGSRB_FP" class="forbidden">
+Alternative version of the Gauss Seidel Red Black smoother.
+</flag>
+
+<flag name="DGSRB_STRIDE2" class="forbidden">
+Alternative version of the Gauss Seidel Red Black smoother.
+</flag>
+
+<flag name="DGSRB_OOP" class="forbidden">
+Alternative version of the Gauss Seidel Red Black smoother.
+</flag>
+
+<flag name="DGSRB_BRANCH" class="forbidden">
+Alternative version of the Gauss Seidel Red Black smoother.
+</flag>
+
+<flag name="DSTENCIL_FUSE_BC" class="forbidden">
+Fuse boundary conditions with the operator.
+</flag>
+
+<flag name="DBOX_ALIGN_JSTRIDE" class="forbidden">
+J-stride is a multiple of BOX_ALIGN_JSTRIDE... useful for SIMD in j+/-1
+</flag>
+
+<flag name="DBOX_ALIGN_KSTRIDE" class="forbidden">
+K-stride is a multiple of BOX_ALIGN_KSTRIDE ... useful for SIMD in k+/-1
+</flag>
+
+<flag name="DBOX_ALIGN_VOLUME" class="forbidden">
+Box volumes are a multiple of BOX_ALIGN_VOLUME ... useful for SIMD on different vectors
+</flag>
+
+<flag name="DMAX_COARSE_DIM" class="forbidden">
+Constrains the maximum coarse dimension.
+</flag>
+
+<flag name="DBLOCK_SPATIAL_SORT" class="forbidden">
+Sort blocks by box,k,j,i.
+</flag>
+
+<flag name="DUSE_NAIVE_INTERP" class="forbidden">
+Use naive interpolation.
+</flag>
+
+<flag name="DSYNC_DEVICE_AFTER_WAITALL" class="forbidden">
+Synchronize device after MPI_Waitall
+</flag>
+
+<flag name="DVERBOSE" class="forbidden">
+Print detailed performance data.
+</flag>
+
+<flag name="DDO_TRACE" class="forbidden">
+Print the names of each offloaded function as they are executed.
+</flag>
+
+<flag name="DUSE_CUDA_FALLBACK" class="forbidden">
+Enable combined use of OpenACC+CUDA or OpenMP target offload+CUDA when a compiler is unable to correctly compile and execute all functions containing OpenACC or OpenMP target offload.
+</flag>
+
+<flag name="DOPENMP_TARGET_NOOPT" class="forbidden">
+Assume that the code is compiled with no compiler optimization. This flag only makes sense in combination with -DUSE_CUDA_FALLBACK.
+</flag>
+
+<flag name="DCUDA_UM_ALLOC" class="forbidden">
+Use cudaMallocManaged to allocate data. Do not use this option, instead use -DSPEC_MANAGED_MEMORY and -DSPEC_CUDA_API.
+</flag>
+
+<flag name="DCUDA_UM_ZERO_COPY" class="forbidden">
+Use cudaMallocHost to allocate some data.
+</flag>
+
+<flag name="DMPI_ALLOC_PINNED" class="forbidden">
+Allocate MPI buffers in non-migratable memory.
+</flag>
+
+<flag name="DMPI_ALLOC_ZERO_COPY" class="forbidden">
+Allocate MPI buffers in memory accessible from host and device.
+</flag>
+
+<flag name="DUSE_SMOOTH_UNOPTIMIZED" class="forbidden">
+Use a simpler but unoptimized version of the Smooth solver.
+</flag>
+
+<flag name="DUSE_HPM" class="forbidden">
+Use IBM HPM profiler to profile HPGMG.
+</flag>
+
+<flag name="DUSE_PROFILE" class="forbidden">
+Use CUDA profiling API to profile HPGMG on NVIDIA GPUs.
+</flag>
+
+<flag name="DPROFILE_SOLVE_ONLY" class="forbidden">
+Use CUDA profiling API to profile the solve region of HPGMG only on NVIDIA GPUs.
+</flag>
+
+<flag name="DUSE_NVTX" class="forbidden">
+Use CUDA and NVTX profiling API for finer-grained profiling on NVIDIA GPUs.
+</flag>
+
+<flag name="DUSE_SHM" class="forbidden">
+Use GPU shared memory.
+</flag>
+
+<flag name="DUSE_TEX" class="forbidden">
+Use read-only/texture cache for memory access.
+</flag>
+
+<flag name="DTEX" class="forbidden">
+Use read-only/texture cache for memory access.
+</flag>
+
+<flag name="DUSE_REG" class="forbidden">
+Use register optimizations.
+</flag>
+
+<flag name="DUSE_ERROR" class="forbidden">
+Enforce device synchronization and error checking for CUDA calls (recommended for debugging).
+</flag>
+
+<flag name="DUSE_PERIODIC_BC" class="forbidden">
+Use periodic boundary conditions.
+</flag>
+
+<flag name="DUSE_HELMHOLTZ" class="forbidden">
+Use Helmholtz test problem.
+</flag>
+
+<flag name="DMAX_SOLVES" class="forbidden">
+Controls maximum number of solves after warm-up.
+</flag>
+
+<flag name="DCALIBRATE_TIMER" class="forbidden">
+Calibrates the timer to determine seconds per cycle.
+</flag>
+
+<flag name="DUNLIMIT_FMG_VCYCLES" class="forbidden">
+Limit the number of FMG Vcycles.
+</flag>
+
+</flagsdescription>

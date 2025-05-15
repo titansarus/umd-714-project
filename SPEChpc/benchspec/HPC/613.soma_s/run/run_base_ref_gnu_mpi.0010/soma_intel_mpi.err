@@ -1,0 +1,33 @@
+*** An error occurred in MPI_Init
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[compute-b8-49.zaratan.umd.edu:2349475] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[compute-b8-50.zaratan.umd.edu:3332627] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[compute-b5-5.zaratan.umd.edu:64318] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[compute-a8-58.zaratan.umd.edu:07073] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+slurmstepd: error:  mpi/pmix_v3: _errhandler: compute-b8-49 [2]: pmixp_client_v2.c:212: Error handler invoked: status = -25, source = [slurm.pmix.11860577.0:2]
+slurmstepd: error: *** STEP 11860577.0 ON compute-a8-58 CANCELLED AT 2025-05-13T14:33:21 ***
+srun: error: compute-a8-58: task 0: Killed
+srun: error: compute-b8-49: task 2: Killed
+srun: error: compute-b8-50: task 3: Killed
+srun: error: compute-b5-5: task 1: Killed
+srun: Force Terminated StepId=11860577.0
+[mpiexec@compute-a8-58.zaratan.umd.edu] wait_proxies_to_terminate (../../../../../src/pm/i_hydra/mpiexec/intel/i_mpiexec.c:554): downstream from host compute-a8-58 exited with status 137
+[mpiexec@compute-a8-58.zaratan.umd.edu] main (../../../../../src/pm/i_hydra/mpiexec/mpiexec.c:2165): assert (pg->intel.exitcodes != NULL) failed
+[mpiexec@compute-a8-58.zaratan.umd.edu] HYD_sock_write (../../../../../src/pm/i_hydra/libhydra/sock/hydra_sock_intel.c:362): write error (Bad file descriptor)
+[mpiexec@compute-a8-58.zaratan.umd.edu] HYD_sock_write (../../../../../src/pm/i_hydra/libhydra/sock/hydra_sock_intel.c:362): write error (Bad file descriptor)
+[mpiexec@compute-a8-58.zaratan.umd.edu] HYD_sock_write (../../../../../src/pm/i_hydra/libhydra/sock/hydra_sock_intel.c:362): write error (Bad file descriptor)
+[mpiexec@compute-a8-58.zaratan.umd.edu] HYD_sock_write (../../../../../src/pm/i_hydra/libhydra/sock/hydra_sock_intel.c:362): write error (Bad file descriptor)

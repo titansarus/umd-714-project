@@ -1,0 +1,3866 @@
+===========================================================================
+Available Timer events
+===========================================================================
+Name		Description
+---------------------------------------------------------------------------
+REALTIME	Real clock time used by the thread in microseconds.
+		Based on the CLOCK_REALTIME timer with the SIGEV_THREAD_ID
+		extension.  Includes time blocked in the kernel, and may
+		break the invocation of some syscalls that are sensitive to EINTR.
+
+CPUTIME  	CPU clock time used by the thread in microseconds.  Based
+		on the CLOCK_THREAD_CPUTIME_ID timer with the SIGEV_THREAD_ID
+		extension.
+
+Note: only one of the above timer events may be used in a run.
+
+===========================================================================
+Available events for monitoring CUDA on NVIDIA GPUs
+===========================================================================
+Name		Description
+---------------------------------------------------------------------------
+gpu=nvidia	Comprehensive operation-level monitoring of CUDA on NVIDIA GPUs.
+		Collect timing information on GPU kernel invocations,
+		memory copies (implicit and explicit), driver and runtime
+		activity, and overhead.
+
+gpu=nvidia,pc	Comprehensive monitoring on an NVIDIA GPU as described above
+		with the addition of PC sampling. PC sampling attributes
+		STALL reasons to individual GPU instructions. PC sampling also
+		records aggregate statistics about the TOTAL number of samples measured,
+		the number of samples EXPECTED, and the number of samples DROPPED.
+		GPU utilization for a kernel may be computed as (TOTAL+DROPPED)/EXPECTED.
+
+===========================================================================
+Available memory leak detection events
+===========================================================================
+Name		Description
+---------------------------------------------------------------------------
+MEMLEAK		The number of bytes allocated and freed per dynamic context
+
+===========================================================================
+Available IO events
+===========================================================================
+Name		Description
+---------------------------------------------------------------------------
+IO		The number of bytes read and written per dynamic context
+
+===========================================================================
+Customized perf-event based events
+===========================================================================
+Name		Description
+---------------------------------------------------------------------------
+BLOCKTIME       Approximation of a thread's blocking time in the Linux kernel.
+                This event is only available on Linux kernel 4.3 or newer.
+
+
+===========================================================================
+Available Linux perf events
+===========================================================================
+(*) Denotes the counter may not be profilable.
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_CPU_CYCLES
+                PERF_COUNT_HW_CPU_CYCLES
+
+---------------------------------------------------------------------------
+perf::CYCLES    PERF_COUNT_HW_CPU_CYCLES
+
+---------------------------------------------------------------------------
+perf::CPU-CYCLES
+                PERF_COUNT_HW_CPU_CYCLES
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_INSTRUCTIONS
+                PERF_COUNT_HW_INSTRUCTIONS
+
+---------------------------------------------------------------------------
+perf::INSTRUCTIONS
+                PERF_COUNT_HW_INSTRUCTIONS
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_CACHE_REFERENCES
+                PERF_COUNT_HW_CACHE_REFERENCES
+
+---------------------------------------------------------------------------
+perf::CACHE-REFERENCES
+                PERF_COUNT_HW_CACHE_REFERENCES
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_CACHE_MISSES
+                PERF_COUNT_HW_CACHE_MISSES
+
+---------------------------------------------------------------------------
+perf::CACHE-MISSES
+                PERF_COUNT_HW_CACHE_MISSES
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_BRANCH_INSTRUCTIONS
+                PERF_COUNT_HW_BRANCH_INSTRUCTIONS
+
+---------------------------------------------------------------------------
+perf::BRANCH-INSTRUCTIONS
+                PERF_COUNT_HW_BRANCH_INSTRUCTIONS
+
+---------------------------------------------------------------------------
+perf::BRANCHES  PERF_COUNT_HW_BRANCH_INSTRUCTIONS
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_BRANCH_MISSES
+                PERF_COUNT_HW_BRANCH_MISSES
+
+---------------------------------------------------------------------------
+perf::BRANCH-MISSES
+                PERF_COUNT_HW_BRANCH_MISSES
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_BUS_CYCLES
+                PERF_COUNT_HW_BUS_CYCLES (*)
+
+---------------------------------------------------------------------------
+perf::BUS-CYCLES
+                PERF_COUNT_HW_BUS_CYCLES (*)
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_STALLED_CYCLES_FRONTEND
+                PERF_COUNT_HW_STALLED_CYCLES_FRONTEND
+
+---------------------------------------------------------------------------
+perf::STALLED-CYCLES-FRONTEND
+                PERF_COUNT_HW_STALLED_CYCLES_FRONTEND
+
+---------------------------------------------------------------------------
+perf::IDLE-CYCLES-FRONTEND
+                PERF_COUNT_HW_STALLED_CYCLES_FRONTEND
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_STALLED_CYCLES_BACKEND
+                PERF_COUNT_HW_STALLED_CYCLES_BACKEND
+
+---------------------------------------------------------------------------
+perf::STALLED-CYCLES-BACKEND
+                PERF_COUNT_HW_STALLED_CYCLES_BACKEND
+
+---------------------------------------------------------------------------
+perf::IDLE-CYCLES-BACKEND
+                PERF_COUNT_HW_STALLED_CYCLES_BACKEND
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_REF_CPU_CYCLES
+                PERF_COUNT_HW_REF_CPU_CYCLES (*)
+
+---------------------------------------------------------------------------
+perf::REF-CYCLES
+                PERF_COUNT_HW_REF_CPU_CYCLES (*)
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_SW_CPU_CLOCK
+                PERF_COUNT_SW_CPU_CLOCK
+
+---------------------------------------------------------------------------
+perf::CPU-CLOCK PERF_COUNT_SW_CPU_CLOCK
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_SW_TASK_CLOCK
+                PERF_COUNT_SW_TASK_CLOCK
+
+---------------------------------------------------------------------------
+perf::TASK-CLOCK
+                PERF_COUNT_SW_TASK_CLOCK
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_SW_PAGE_FAULTS
+                PERF_COUNT_SW_PAGE_FAULTS
+
+---------------------------------------------------------------------------
+perf::PAGE-FAULTS
+                PERF_COUNT_SW_PAGE_FAULTS
+
+---------------------------------------------------------------------------
+perf::FAULTS    PERF_COUNT_SW_PAGE_FAULTS
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_SW_CONTEXT_SWITCHES
+                PERF_COUNT_SW_CONTEXT_SWITCHES
+
+---------------------------------------------------------------------------
+perf::CONTEXT-SWITCHES
+                PERF_COUNT_SW_CONTEXT_SWITCHES
+
+---------------------------------------------------------------------------
+perf::CS        PERF_COUNT_SW_CONTEXT_SWITCHES
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_SW_CPU_MIGRATIONS
+                PERF_COUNT_SW_CPU_MIGRATIONS
+
+---------------------------------------------------------------------------
+perf::CPU-MIGRATIONS
+                PERF_COUNT_SW_CPU_MIGRATIONS
+
+---------------------------------------------------------------------------
+perf::MIGRATIONS
+                PERF_COUNT_SW_CPU_MIGRATIONS
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_SW_PAGE_FAULTS_MIN
+                PERF_COUNT_SW_PAGE_FAULTS_MIN
+
+---------------------------------------------------------------------------
+perf::MINOR-FAULTS
+                PERF_COUNT_SW_PAGE_FAULTS_MIN
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_SW_PAGE_FAULTS_MAJ
+                PERF_COUNT_SW_PAGE_FAULTS_MAJ
+
+---------------------------------------------------------------------------
+perf::MAJOR-FAULTS
+                PERF_COUNT_SW_PAGE_FAULTS_MAJ
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_CACHE_L1D
+                L1 data cache
+
+perf::PERF_COUNT_HW_CACHE_L1D:READ
+                read access
+
+perf::PERF_COUNT_HW_CACHE_L1D:WRITE
+                write access (*)
+
+perf::PERF_COUNT_HW_CACHE_L1D:PREFETCH
+                prefetch access (*)
+
+perf::PERF_COUNT_HW_CACHE_L1D:ACCESS
+                hit access
+
+perf::PERF_COUNT_HW_CACHE_L1D:MISS
+                miss access
+
+---------------------------------------------------------------------------
+perf::L1-DCACHE-LOADS
+                L1 cache load accesses
+
+---------------------------------------------------------------------------
+perf::L1-DCACHE-LOAD-MISSES
+                L1 cache load misses
+
+---------------------------------------------------------------------------
+perf::L1-DCACHE-STORES
+                L1 cache store accesses (*)
+
+---------------------------------------------------------------------------
+perf::L1-DCACHE-STORE-MISSES
+                L1 cache store misses (*)
+
+---------------------------------------------------------------------------
+perf::L1-DCACHE-PREFETCHES
+                L1 cache prefetch accesses
+
+---------------------------------------------------------------------------
+perf::L1-DCACHE-PREFETCH-MISSES
+                L1 cache prefetch misses (*)
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_CACHE_L1I
+                L1 instruction cache
+
+perf::PERF_COUNT_HW_CACHE_L1I:READ
+                read access
+
+perf::PERF_COUNT_HW_CACHE_L1I:PREFETCH
+                prefetch access (*)
+
+perf::PERF_COUNT_HW_CACHE_L1I:ACCESS
+                hit access
+
+perf::PERF_COUNT_HW_CACHE_L1I:MISS
+                miss access
+
+---------------------------------------------------------------------------
+perf::L1-ICACHE-LOADS
+                L1I cache load accesses
+
+---------------------------------------------------------------------------
+perf::L1-ICACHE-LOAD-MISSES
+                L1I cache load misses
+
+---------------------------------------------------------------------------
+perf::L1-ICACHE-PREFETCHES
+                L1I cache prefetch accesses (*)
+
+---------------------------------------------------------------------------
+perf::L1-ICACHE-PREFETCH-MISSES
+                L1I cache prefetch misses (*)
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_CACHE_LL
+                Last level cache (*)
+
+perf::PERF_COUNT_HW_CACHE_LL:READ
+                read access (*)
+
+perf::PERF_COUNT_HW_CACHE_LL:WRITE
+                write access (*)
+
+perf::PERF_COUNT_HW_CACHE_LL:PREFETCH
+                prefetch access (*)
+
+perf::PERF_COUNT_HW_CACHE_LL:ACCESS
+                hit access (*)
+
+perf::PERF_COUNT_HW_CACHE_LL:MISS
+                miss access (*)
+
+---------------------------------------------------------------------------
+perf::LLC-LOADS Last level cache load accesses (*)
+
+---------------------------------------------------------------------------
+perf::LLC-LOAD-MISSES
+                Last level cache load misses (*)
+
+---------------------------------------------------------------------------
+perf::LLC-STORES
+                Last level cache store accesses (*)
+
+---------------------------------------------------------------------------
+perf::LLC-STORE-MISSES
+                Last level cache store misses (*)
+
+---------------------------------------------------------------------------
+perf::LLC-PREFETCHES
+                Last level cache prefetch accesses (*)
+
+---------------------------------------------------------------------------
+perf::LLC-PREFETCH-MISSES
+                Last level cache prefetch misses (*)
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_CACHE_DTLB
+                Data Translation Lookaside Buffer
+
+perf::PERF_COUNT_HW_CACHE_DTLB:READ
+                read access
+
+perf::PERF_COUNT_HW_CACHE_DTLB:WRITE
+                write access (*)
+
+perf::PERF_COUNT_HW_CACHE_DTLB:PREFETCH
+                prefetch access (*)
+
+perf::PERF_COUNT_HW_CACHE_DTLB:ACCESS
+                hit access
+
+perf::PERF_COUNT_HW_CACHE_DTLB:MISS
+                miss access
+
+---------------------------------------------------------------------------
+perf::DTLB-LOADS
+                Data TLB load accesses
+
+---------------------------------------------------------------------------
+perf::DTLB-LOAD-MISSES
+                Data TLB load misses
+
+---------------------------------------------------------------------------
+perf::DTLB-STORES
+                Data TLB store accesses (*)
+
+---------------------------------------------------------------------------
+perf::DTLB-STORE-MISSES
+                Data TLB store misses (*)
+
+---------------------------------------------------------------------------
+perf::DTLB-PREFETCHES
+                Data TLB prefetch accesses (*)
+
+---------------------------------------------------------------------------
+perf::DTLB-PREFETCH-MISSES
+                Data TLB prefetch misses (*)
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_CACHE_ITLB
+                Instruction Translation Lookaside Buffer
+
+perf::PERF_COUNT_HW_CACHE_ITLB:READ
+                read access
+
+perf::PERF_COUNT_HW_CACHE_ITLB:ACCESS
+                hit access
+
+perf::PERF_COUNT_HW_CACHE_ITLB:MISS
+                miss access
+
+---------------------------------------------------------------------------
+perf::ITLB-LOADS
+                Instruction TLB load accesses
+
+---------------------------------------------------------------------------
+perf::ITLB-LOAD-MISSES
+                Instruction TLB load misses
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_CACHE_BPU
+                Branch Prediction Unit
+
+perf::PERF_COUNT_HW_CACHE_BPU:READ
+                read access
+
+perf::PERF_COUNT_HW_CACHE_BPU:ACCESS
+                hit access
+
+perf::PERF_COUNT_HW_CACHE_BPU:MISS
+                miss access
+
+---------------------------------------------------------------------------
+perf::BRANCH-LOADS
+                Branch  load accesses
+
+---------------------------------------------------------------------------
+perf::BRANCH-LOAD-MISSES
+                Branch  load misses
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_CACHE_NODE
+                Node memory access (*)
+
+perf::PERF_COUNT_HW_CACHE_NODE:READ
+                read access (*)
+
+perf::PERF_COUNT_HW_CACHE_NODE:WRITE
+                write access (*)
+
+perf::PERF_COUNT_HW_CACHE_NODE:PREFETCH
+                prefetch access (*)
+
+perf::PERF_COUNT_HW_CACHE_NODE:ACCESS
+                hit access (*)
+
+perf::PERF_COUNT_HW_CACHE_NODE:MISS
+                miss access (*)
+
+---------------------------------------------------------------------------
+perf::NODE-LOADS
+                Node  load accesses (*)
+
+---------------------------------------------------------------------------
+perf::NODE-LOAD-MISSES
+                Node  load misses (*)
+
+---------------------------------------------------------------------------
+perf::NODE-STORES
+                Node  store accesses (*)
+
+---------------------------------------------------------------------------
+perf::NODE-STORE-MISSES
+                Node  store misses (*)
+
+---------------------------------------------------------------------------
+perf::NODE-PREFETCHES
+                Node  prefetch accesses (*)
+
+---------------------------------------------------------------------------
+perf::NODE-PREFETCH-MISSES
+                Node  prefetch misses (*)
+
+---------------------------------------------------------------------------
+perf_raw::r0000 perf_events raw event syntax: r[0-9a-fA-F]+
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::L1_ITLB_MISS_L2_ITLB_HIT
+                Number of instruction fetches that miss in the L1 ITLB but hit in
+                the L2 ITLB.
+
+amd64_fam17h_zen2::L1_ITLB_MISS_L2_ITLB_HIT:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::L1_ITLB_MISS_L2_ITLB_HIT:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::L1_ITLB_MISS_L2_ITLB_HIT:e
+                edge level
+
+amd64_fam17h_zen2::L1_ITLB_MISS_L2_ITLB_HIT:i
+                invert
+
+amd64_fam17h_zen2::L1_ITLB_MISS_L2_ITLB_HIT:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::L1_ITLB_MISS_L2_ITLB_HIT:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::L1_ITLB_MISS_L2_ITLB_HIT:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::L1_ITLB_MISS_L2_ITLB_MISS
+                Number of instruction fetches that miss in both the L1 and L2
+                TLBs. (*)
+
+amd64_fam17h_zen2::L1_ITLB_MISS_L2_ITLB_MISS:IF1G
+                Number of instruction fetches to a 1GB page
+
+amd64_fam17h_zen2::L1_ITLB_MISS_L2_ITLB_MISS:IF2M
+                Number of instruction fetches to a 2MB page
+
+amd64_fam17h_zen2::L1_ITLB_MISS_L2_ITLB_MISS:IF4K
+                Number of instruction fetches to a 4KB page
+
+amd64_fam17h_zen2::L1_ITLB_MISS_L2_ITLB_MISS:k
+                monitor at priv level 0 (*)
+
+amd64_fam17h_zen2::L1_ITLB_MISS_L2_ITLB_MISS:u
+                monitor at priv level 1, 2, 3 (*)
+
+amd64_fam17h_zen2::L1_ITLB_MISS_L2_ITLB_MISS:e
+                edge level (*)
+
+amd64_fam17h_zen2::L1_ITLB_MISS_L2_ITLB_MISS:i
+                invert (*)
+
+amd64_fam17h_zen2::L1_ITLB_MISS_L2_ITLB_MISS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::L1_ITLB_MISS_L2_ITLB_MISS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::L1_ITLB_MISS_L2_ITLB_MISS:g
+                measure in guest (*)
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::RETIRED_SSE_AVX_FLOPS
+                This is a retire-based event. The number of retired SSE/AVX
+                FLOPS. The number of events logged per cycle can vary from 0 to
+                64. This event can count above 15 and therefore requires the
+                MergeEvent. On Linux, the kernel handles this case without the
+                need to pass the merge event.
+
+amd64_fam17h_zen2::RETIRED_SSE_AVX_FLOPS:ADD_SUB_FLOPS
+                Addition/subtraction FLOPS
+
+amd64_fam17h_zen2::RETIRED_SSE_AVX_FLOPS:MULT_FLOPS
+                Multiplication FLOPS
+
+amd64_fam17h_zen2::RETIRED_SSE_AVX_FLOPS:DIV_FLOPS
+                Division FLOPS.
+
+amd64_fam17h_zen2::RETIRED_SSE_AVX_FLOPS:MAC_FLOPS
+                Double precision add/subtract flops.
+
+amd64_fam17h_zen2::RETIRED_SSE_AVX_FLOPS:ANY
+                Double precision add/subtract flops.
+
+amd64_fam17h_zen2::RETIRED_SSE_AVX_FLOPS:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::RETIRED_SSE_AVX_FLOPS:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::RETIRED_SSE_AVX_FLOPS:e
+                edge level
+
+amd64_fam17h_zen2::RETIRED_SSE_AVX_FLOPS:i
+                invert
+
+amd64_fam17h_zen2::RETIRED_SSE_AVX_FLOPS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::RETIRED_SSE_AVX_FLOPS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::RETIRED_SSE_AVX_FLOPS:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::DIV_CYCLES_BUSY_COUNT
+                Number of cycles when the divider is busy.
+
+amd64_fam17h_zen2::DIV_CYCLES_BUSY_COUNT:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::DIV_CYCLES_BUSY_COUNT:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::DIV_CYCLES_BUSY_COUNT:e
+                edge level
+
+amd64_fam17h_zen2::DIV_CYCLES_BUSY_COUNT:i
+                invert
+
+amd64_fam17h_zen2::DIV_CYCLES_BUSY_COUNT:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::DIV_CYCLES_BUSY_COUNT:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::DIV_CYCLES_BUSY_COUNT:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::DIV_OP_COUNT
+                Number of divide uops.
+
+amd64_fam17h_zen2::DIV_OP_COUNT:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::DIV_OP_COUNT:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::DIV_OP_COUNT:e
+                edge level
+
+amd64_fam17h_zen2::DIV_OP_COUNT:i
+                invert
+
+amd64_fam17h_zen2::DIV_OP_COUNT:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::DIV_OP_COUNT:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::DIV_OP_COUNT:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::RETIRED_BRANCH_INSTRUCTIONS
+                Number of branch instructions retired. This includes all types of
+                architectural control flow changes, including exceptions and
+                interrupts.
+
+amd64_fam17h_zen2::RETIRED_BRANCH_INSTRUCTIONS:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::RETIRED_BRANCH_INSTRUCTIONS:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::RETIRED_BRANCH_INSTRUCTIONS:e
+                edge level
+
+amd64_fam17h_zen2::RETIRED_BRANCH_INSTRUCTIONS:i
+                invert
+
+amd64_fam17h_zen2::RETIRED_BRANCH_INSTRUCTIONS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::RETIRED_BRANCH_INSTRUCTIONS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::RETIRED_BRANCH_INSTRUCTIONS:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::RETIRED_FAR_CONTROL_TRANSFERS
+                Number of far control transfers retired including far
+                call/jump/return, IRET, SYSCALL and SYSRET, plus exceptions and
+                interrupts. Far control transfers are not subject to branch
+                prediction.
+
+amd64_fam17h_zen2::RETIRED_FAR_CONTROL_TRANSFERS:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::RETIRED_FAR_CONTROL_TRANSFERS:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::RETIRED_FAR_CONTROL_TRANSFERS:e
+                edge level
+
+amd64_fam17h_zen2::RETIRED_FAR_CONTROL_TRANSFERS:i
+                invert
+
+amd64_fam17h_zen2::RETIRED_FAR_CONTROL_TRANSFERS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::RETIRED_FAR_CONTROL_TRANSFERS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::RETIRED_FAR_CONTROL_TRANSFERS:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::RETIRED_INDIRECT_BRANCH_INSTRUCTIONS_MISPREDICTED
+                Number of indirect branches retired there were not correctly
+                predicted. Each such mispredict incurs the same penalty as a
+                mispredicted condition branch instruction. Only EX mispredicts
+                are counted.
+
+amd64_fam17h_zen2::RETIRED_INDIRECT_BRANCH_INSTRUCTIONS_MISPREDICTED:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::RETIRED_INDIRECT_BRANCH_INSTRUCTIONS_MISPREDICTED:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::RETIRED_INDIRECT_BRANCH_INSTRUCTIONS_MISPREDICTED:e
+                edge level
+
+amd64_fam17h_zen2::RETIRED_INDIRECT_BRANCH_INSTRUCTIONS_MISPREDICTED:i
+                invert
+
+amd64_fam17h_zen2::RETIRED_INDIRECT_BRANCH_INSTRUCTIONS_MISPREDICTED:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::RETIRED_INDIRECT_BRANCH_INSTRUCTIONS_MISPREDICTED:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::RETIRED_INDIRECT_BRANCH_INSTRUCTIONS_MISPREDICTED:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::RETIRED_BRANCH_INSTRUCTIONS_MISPREDICTED
+                Number of branch instructions retired, of any type, that were not
+                correctly predicted. This includes those for which prediction is
+                not attempted (far control transfers, exceptions and interrupts).
+
+amd64_fam17h_zen2::RETIRED_BRANCH_INSTRUCTIONS_MISPREDICTED:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::RETIRED_BRANCH_INSTRUCTIONS_MISPREDICTED:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::RETIRED_BRANCH_INSTRUCTIONS_MISPREDICTED:e
+                edge level
+
+amd64_fam17h_zen2::RETIRED_BRANCH_INSTRUCTIONS_MISPREDICTED:i
+                invert
+
+amd64_fam17h_zen2::RETIRED_BRANCH_INSTRUCTIONS_MISPREDICTED:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::RETIRED_BRANCH_INSTRUCTIONS_MISPREDICTED:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::RETIRED_BRANCH_INSTRUCTIONS_MISPREDICTED:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::RETIRED_TAKEN_BRANCH_INSTRUCTIONS
+                Number of taken branches that were retired. This includes all
+                types of architectural control flow changes, including exceptions
+                and interrupts.
+
+amd64_fam17h_zen2::RETIRED_TAKEN_BRANCH_INSTRUCTIONS:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::RETIRED_TAKEN_BRANCH_INSTRUCTIONS:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::RETIRED_TAKEN_BRANCH_INSTRUCTIONS:e
+                edge level
+
+amd64_fam17h_zen2::RETIRED_TAKEN_BRANCH_INSTRUCTIONS:i
+                invert
+
+amd64_fam17h_zen2::RETIRED_TAKEN_BRANCH_INSTRUCTIONS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::RETIRED_TAKEN_BRANCH_INSTRUCTIONS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::RETIRED_TAKEN_BRANCH_INSTRUCTIONS:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::RETIRED_TAKEN_BRANCH_INSTRUCTIONS_MISPREDICTED
+                Number of retired taken branch instructions that were
+                mispredicted.
+
+amd64_fam17h_zen2::RETIRED_TAKEN_BRANCH_INSTRUCTIONS_MISPREDICTED:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::RETIRED_TAKEN_BRANCH_INSTRUCTIONS_MISPREDICTED:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::RETIRED_TAKEN_BRANCH_INSTRUCTIONS_MISPREDICTED:e
+                edge level
+
+amd64_fam17h_zen2::RETIRED_TAKEN_BRANCH_INSTRUCTIONS_MISPREDICTED:i
+                invert
+
+amd64_fam17h_zen2::RETIRED_TAKEN_BRANCH_INSTRUCTIONS_MISPREDICTED:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::RETIRED_TAKEN_BRANCH_INSTRUCTIONS_MISPREDICTED:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::RETIRED_TAKEN_BRANCH_INSTRUCTIONS_MISPREDICTED:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::RETIRED_CONDITIONAL_BRANCH_INSTRUCTIONS
+                Number of retired conditional branch instructions.
+
+amd64_fam17h_zen2::RETIRED_CONDITIONAL_BRANCH_INSTRUCTIONS:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::RETIRED_CONDITIONAL_BRANCH_INSTRUCTIONS:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::RETIRED_CONDITIONAL_BRANCH_INSTRUCTIONS:e
+                edge level
+
+amd64_fam17h_zen2::RETIRED_CONDITIONAL_BRANCH_INSTRUCTIONS:i
+                invert
+
+amd64_fam17h_zen2::RETIRED_CONDITIONAL_BRANCH_INSTRUCTIONS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::RETIRED_CONDITIONAL_BRANCH_INSTRUCTIONS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::RETIRED_CONDITIONAL_BRANCH_INSTRUCTIONS:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::RETIRED_UOPS
+                Number of uops retired. This includes all processor activity
+                (instructions, exceptions, interrupts, microcode assists, etc.).
+                The number of events logged per cycle can vary from 0 to 8.
+
+amd64_fam17h_zen2::RETIRED_UOPS:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::RETIRED_UOPS:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::RETIRED_UOPS:e
+                edge level
+
+amd64_fam17h_zen2::RETIRED_UOPS:i
+                invert
+
+amd64_fam17h_zen2::RETIRED_UOPS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::RETIRED_UOPS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::RETIRED_UOPS:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::RETIRED_FUSED_INSTRUCTIONS
+                Number of fused retired branch instructions retired per cycle.
+                The number of events logged per cycle can vary from 0 to 3.
+
+amd64_fam17h_zen2::RETIRED_FUSED_INSTRUCTIONS:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::RETIRED_FUSED_INSTRUCTIONS:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::RETIRED_FUSED_INSTRUCTIONS:e
+                edge level
+
+amd64_fam17h_zen2::RETIRED_FUSED_INSTRUCTIONS:i
+                invert
+
+amd64_fam17h_zen2::RETIRED_FUSED_INSTRUCTIONS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::RETIRED_FUSED_INSTRUCTIONS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::RETIRED_FUSED_INSTRUCTIONS:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::RETIRED_INSTRUCTIONS
+                Instructions Retired.
+
+amd64_fam17h_zen2::RETIRED_INSTRUCTIONS:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::RETIRED_INSTRUCTIONS:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::RETIRED_INSTRUCTIONS:e
+                edge level
+
+amd64_fam17h_zen2::RETIRED_INSTRUCTIONS:i
+                invert
+
+amd64_fam17h_zen2::RETIRED_INSTRUCTIONS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::RETIRED_INSTRUCTIONS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::RETIRED_INSTRUCTIONS:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::RETIRED_MMX_FP_INSTRUCTIONS
+                Number of MMX, SSE or x87 instructions retired. The UnitMask
+                allows the selection of the individual classes of instructions as
+                given in the table. Each increment represents one complete
+                instruction. Since this event includes non-numeric instructions,
+                it is not suitable for measuring MFLOPS. (*)
+
+amd64_fam17h_zen2::RETIRED_MMX_FP_INSTRUCTIONS:SSE_INSTR
+                Number of SSE instructions (SSE, SSE2, SSE3, SSE$, SSE4A, SSE41,
+                SSE42, AVX).
+
+amd64_fam17h_zen2::RETIRED_MMX_FP_INSTRUCTIONS:MMX_INSTR
+                Number of MMX instructions.
+
+amd64_fam17h_zen2::RETIRED_MMX_FP_INSTRUCTIONS:X87_INSTR
+                Number of X87 instructions.
+
+amd64_fam17h_zen2::RETIRED_MMX_FP_INSTRUCTIONS:k
+                monitor at priv level 0 (*)
+
+amd64_fam17h_zen2::RETIRED_MMX_FP_INSTRUCTIONS:u
+                monitor at priv level 1, 2, 3 (*)
+
+amd64_fam17h_zen2::RETIRED_MMX_FP_INSTRUCTIONS:e
+                edge level (*)
+
+amd64_fam17h_zen2::RETIRED_MMX_FP_INSTRUCTIONS:i
+                invert (*)
+
+amd64_fam17h_zen2::RETIRED_MMX_FP_INSTRUCTIONS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::RETIRED_MMX_FP_INSTRUCTIONS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::RETIRED_MMX_FP_INSTRUCTIONS:g
+                measure in guest (*)
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::RETIRED_NEAR_RETURNS
+                Number of near return instructions (RET or RETI) retired.
+
+amd64_fam17h_zen2::RETIRED_NEAR_RETURNS:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::RETIRED_NEAR_RETURNS:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::RETIRED_NEAR_RETURNS:e
+                edge level
+
+amd64_fam17h_zen2::RETIRED_NEAR_RETURNS:i
+                invert
+
+amd64_fam17h_zen2::RETIRED_NEAR_RETURNS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::RETIRED_NEAR_RETURNS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::RETIRED_NEAR_RETURNS:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::RETIRED_NEAR_RETURNS_MISPREDICTED
+                Number of near returns retired that were not correctly predicted
+                by the return address predictor. Each such mispredict incurs the
+                same penalty as a mispredicted conditional branch instruction.
+
+amd64_fam17h_zen2::RETIRED_NEAR_RETURNS_MISPREDICTED:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::RETIRED_NEAR_RETURNS_MISPREDICTED:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::RETIRED_NEAR_RETURNS_MISPREDICTED:e
+                edge level
+
+amd64_fam17h_zen2::RETIRED_NEAR_RETURNS_MISPREDICTED:i
+                invert
+
+amd64_fam17h_zen2::RETIRED_NEAR_RETURNS_MISPREDICTED:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::RETIRED_NEAR_RETURNS_MISPREDICTED:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::RETIRED_NEAR_RETURNS_MISPREDICTED:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::TAGGED_IBS_OPS
+                TBD (*)
+
+amd64_fam17h_zen2::TAGGED_IBS_OPS:IBS_COUNT_ROLLOVER
+                Number of times a uop could not be tagged by IBS because of a
+                previous tagged uop that has not retired.
+
+amd64_fam17h_zen2::TAGGED_IBS_OPS:IBS_TAGGED_OPS_RET
+                Number of uops tagged by IBS that retired.
+
+amd64_fam17h_zen2::TAGGED_IBS_OPS:IBS_TAGGED_OPS
+                Number of uops tagged by IBS.
+
+amd64_fam17h_zen2::TAGGED_IBS_OPS:k
+                monitor at priv level 0 (*)
+
+amd64_fam17h_zen2::TAGGED_IBS_OPS:u
+                monitor at priv level 1, 2, 3 (*)
+
+amd64_fam17h_zen2::TAGGED_IBS_OPS:e
+                edge level (*)
+
+amd64_fam17h_zen2::TAGGED_IBS_OPS:i
+                invert (*)
+
+amd64_fam17h_zen2::TAGGED_IBS_OPS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::TAGGED_IBS_OPS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::TAGGED_IBS_OPS:g
+                measure in guest (*)
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::INSTRUCTION_CACHE_REFILLS_FROM_L2
+                Number of 64-byte instruction cachelines that was fulfilled by
+                the L2 cache.
+
+amd64_fam17h_zen2::INSTRUCTION_CACHE_REFILLS_FROM_L2:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::INSTRUCTION_CACHE_REFILLS_FROM_L2:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::INSTRUCTION_CACHE_REFILLS_FROM_L2:e
+                edge level
+
+amd64_fam17h_zen2::INSTRUCTION_CACHE_REFILLS_FROM_L2:i
+                invert
+
+amd64_fam17h_zen2::INSTRUCTION_CACHE_REFILLS_FROM_L2:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::INSTRUCTION_CACHE_REFILLS_FROM_L2:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::INSTRUCTION_CACHE_REFILLS_FROM_L2:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::INSTRUCTION_CACHE_REFILLS_FROM_SYSTEM
+                Number of 64-byte instruction cachelines fulfilled from system
+                memory or another cache.
+
+amd64_fam17h_zen2::INSTRUCTION_CACHE_REFILLS_FROM_SYSTEM:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::INSTRUCTION_CACHE_REFILLS_FROM_SYSTEM:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::INSTRUCTION_CACHE_REFILLS_FROM_SYSTEM:e
+                edge level
+
+amd64_fam17h_zen2::INSTRUCTION_CACHE_REFILLS_FROM_SYSTEM:i
+                invert
+
+amd64_fam17h_zen2::INSTRUCTION_CACHE_REFILLS_FROM_SYSTEM:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::INSTRUCTION_CACHE_REFILLS_FROM_SYSTEM:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::INSTRUCTION_CACHE_REFILLS_FROM_SYSTEM:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS
+                L2 cache request outcomes. This event does not count accesses to
+                the L2 cache by the L2 prefetcher. (*)
+
+amd64_fam17h_zen2::CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS:LS_RD_BLK_C_S
+                Number of data cache shared read hitting in the L2.
+
+amd64_fam17h_zen2::CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS:LS_RD_BLK_L_HIT_X
+                Number of data cache reads hitting in the L2.
+
+amd64_fam17h_zen2::CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS:LS_RD_BLK_L_HIT_S
+                Number of data cache reads hitting a shared in line in the L2.
+
+amd64_fam17h_zen2::CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS:LS_RD_BLK_X
+                Number of data cache store or state change (to exclusive)
+                requests hitting in the L2.
+
+amd64_fam17h_zen2::CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS:LS_RD_BLK_C
+                Number of data cache fill requests missing in the L2 (all types).
+
+amd64_fam17h_zen2::CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS:IC_FILL_HIT_X
+                Number of I-cache fill requests hitting a modifiable (exclusive)
+                line in the L2.
+
+amd64_fam17h_zen2::CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS:IC_FILL_HIT_S
+                Number of I-cache fill requests hitting a clean line in the L2.
+
+amd64_fam17h_zen2::CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS:IC_FILL_MISS
+                Number of I-cache fill requests missing the L2.
+
+amd64_fam17h_zen2::CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS:k
+                monitor at priv level 0 (*)
+
+amd64_fam17h_zen2::CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS:u
+                monitor at priv level 1, 2, 3 (*)
+
+amd64_fam17h_zen2::CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS:e
+                edge level (*)
+
+amd64_fam17h_zen2::CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS:i
+                invert (*)
+
+amd64_fam17h_zen2::CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS:g
+                measure in guest (*)
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::L2_PREFETCH_HIT_L2
+                Number of L2 prefetcher hits in the L2
+
+amd64_fam17h_zen2::L2_PREFETCH_HIT_L2:ANY
+                Any L2 prefetch requests
+
+amd64_fam17h_zen2::L2_PREFETCH_HIT_L2:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::L2_PREFETCH_HIT_L2:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::L2_PREFETCH_HIT_L2:e
+                edge level
+
+amd64_fam17h_zen2::L2_PREFETCH_HIT_L2:i
+                invert
+
+amd64_fam17h_zen2::L2_PREFETCH_HIT_L2:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::L2_PREFETCH_HIT_L2:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::L2_PREFETCH_HIT_L2:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::L2_PREFETCH_HIT_L3
+                Number of L2 prefetcher hits in the L3
+
+amd64_fam17h_zen2::L2_PREFETCH_HIT_L3:ANY
+                Any L2 prefetch requests
+
+amd64_fam17h_zen2::L2_PREFETCH_HIT_L3:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::L2_PREFETCH_HIT_L3:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::L2_PREFETCH_HIT_L3:e
+                edge level
+
+amd64_fam17h_zen2::L2_PREFETCH_HIT_L3:i
+                invert
+
+amd64_fam17h_zen2::L2_PREFETCH_HIT_L3:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::L2_PREFETCH_HIT_L3:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::L2_PREFETCH_HIT_L3:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP1
+                TBD (*)
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP1:RD_BLK_L
+                Number of data cache reads (including software and hardware
+                prefetches).
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP1:RD_BLK_X
+                Number of data cache stores
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP1:LS_RD_BLK_C_S
+                Number of data cache shared reads.
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP1:CACHEABLE_IC_READ
+                Number of instruction cache reads.
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP1:CHANGE_TO_X
+                Number of requests change to writable. Check L2 for current
+                state.
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP1:PREFETCH_L2
+                TBD
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP1:L2_HW_PF
+                Number of prefetches accepted by L2 pipeline, hit or miss.
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP1:GROUP2
+                Number of miscellaneous requests covered in more details by
+                REQUESTS_TO_L2_GROUP1
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP1:k
+                monitor at priv level 0 (*)
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP1:u
+                monitor at priv level 1, 2, 3 (*)
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP1:e
+                edge level (*)
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP1:i
+                invert (*)
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP1:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP1:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP1:g
+                measure in guest (*)
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP2
+                Multi-events in that LS and IF requests can be received
+                simultaneous. (*)
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP2:GROUP1
+                Number of miscellaneous requests covered in more details by
+                REQUESTS_TO_L2_GROUP2
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP2:LS_RD_SIZED
+                Number of data cache reads sized.
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP2:LS_RD_SIZED_N_C
+                Number of data cache reads sized non-cacheable.
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP2:IC_RD_SIZED
+                Number of instruction cache reads sized.
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP2:IC_RD_SIZED_N_C
+                Number of instruction cache reads sized non-cacheable.
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP2:SMC_INVAL
+                Number of self-modifying code invalidates.
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP2:BUS_LOCKS_ORIGINATOR
+                Number of bus locks.
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP2:BUS_LOCKS_RESPONSES
+                Number of bus lock responses.
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP2:k
+                monitor at priv level 0 (*)
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP2:u
+                monitor at priv level 1, 2, 3 (*)
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP2:e
+                edge level (*)
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP2:i
+                invert (*)
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP2:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP2:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::REQUESTS_TO_L2_GROUP2:g
+                measure in guest (*)
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::BAD_STATUS_2
+                TBD
+
+amd64_fam17h_zen2::BAD_STATUS_2:STLI_OTHER
+                Store-to-load conflicts. A load was unable to complete due to a
+                non-forwardable conflict with an older store.
+
+amd64_fam17h_zen2::BAD_STATUS_2:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::BAD_STATUS_2:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::BAD_STATUS_2:e
+                edge level
+
+amd64_fam17h_zen2::BAD_STATUS_2:i
+                invert
+
+amd64_fam17h_zen2::BAD_STATUS_2:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::BAD_STATUS_2:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::BAD_STATUS_2:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::LS_DISPATCH
+                Counts the number of operations dispatched to the LS unit. Unit
+                Masks ADDed. (*)
+
+amd64_fam17h_zen2::LS_DISPATCH:LD_ST_DISPATCH
+                Load/Store single uops dispatched (compare-and-exchange).
+
+amd64_fam17h_zen2::LS_DISPATCH:STORE_DISPATCH
+                Store uops dispatched.
+
+amd64_fam17h_zen2::LS_DISPATCH:LD_DISPATCH
+                Load uops dispatched.
+
+amd64_fam17h_zen2::LS_DISPATCH:k
+                monitor at priv level 0 (*)
+
+amd64_fam17h_zen2::LS_DISPATCH:u
+                monitor at priv level 1, 2, 3 (*)
+
+amd64_fam17h_zen2::LS_DISPATCH:e
+                edge level (*)
+
+amd64_fam17h_zen2::LS_DISPATCH:i
+                invert (*)
+
+amd64_fam17h_zen2::LS_DISPATCH:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::LS_DISPATCH:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::LS_DISPATCH:g
+                measure in guest (*)
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::INEFFECTIVE_SOFTWARE_PREFETCH
+                Number of software prefetches that did not fetch data outside of
+                the processor core. (*)
+
+amd64_fam17h_zen2::INEFFECTIVE_SOFTWARE_PREFETCH:MAB_MCH_CNT
+                Software prefetch instructions saw a match on an already
+                allocated miss request buffer.
+
+amd64_fam17h_zen2::INEFFECTIVE_SOFTWARE_PREFETCH:DATA_PIPE_SW_PF_DC_HIT
+                Software Prefetch instruction saw a DC hit
+
+amd64_fam17h_zen2::INEFFECTIVE_SOFTWARE_PREFETCH:k
+                monitor at priv level 0 (*)
+
+amd64_fam17h_zen2::INEFFECTIVE_SOFTWARE_PREFETCH:u
+                monitor at priv level 1, 2, 3 (*)
+
+amd64_fam17h_zen2::INEFFECTIVE_SOFTWARE_PREFETCH:e
+                edge level (*)
+
+amd64_fam17h_zen2::INEFFECTIVE_SOFTWARE_PREFETCH:i
+                invert (*)
+
+amd64_fam17h_zen2::INEFFECTIVE_SOFTWARE_PREFETCH:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::INEFFECTIVE_SOFTWARE_PREFETCH:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::INEFFECTIVE_SOFTWARE_PREFETCH:g
+                measure in guest (*)
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::SOFTWARE_PREFETCH_DATA_CACHE_FILLS
+                Number of software prefetches fills by data source (*)
+
+amd64_fam17h_zen2::SOFTWARE_PREFETCH_DATA_CACHE_FILLS:MABRESP_LCL_L2
+                Fill from local L2.
+
+amd64_fam17h_zen2::SOFTWARE_PREFETCH_DATA_CACHE_FILLS:LS_MABRESP_LCL_CACHE
+                Fill from another cache (home node local).
+
+amd64_fam17h_zen2::SOFTWARE_PREFETCH_DATA_CACHE_FILLS:LS_MABRESP_LCL_DRAM
+                Fill from DRAM (home node local).
+
+amd64_fam17h_zen2::SOFTWARE_PREFETCH_DATA_CACHE_FILLS:LS_MABRESP_LCL_RMT_CACHE
+                Fill from another cache (home node remote).
+
+amd64_fam17h_zen2::SOFTWARE_PREFETCH_DATA_CACHE_FILLS:LS_MABRESP_LCL_RMT_DRAM
+                Fill from DRAM (home node remote).
+
+amd64_fam17h_zen2::SOFTWARE_PREFETCH_DATA_CACHE_FILLS:k
+                monitor at priv level 0 (*)
+
+amd64_fam17h_zen2::SOFTWARE_PREFETCH_DATA_CACHE_FILLS:u
+                monitor at priv level 1, 2, 3 (*)
+
+amd64_fam17h_zen2::SOFTWARE_PREFETCH_DATA_CACHE_FILLS:e
+                edge level (*)
+
+amd64_fam17h_zen2::SOFTWARE_PREFETCH_DATA_CACHE_FILLS:i
+                invert (*)
+
+amd64_fam17h_zen2::SOFTWARE_PREFETCH_DATA_CACHE_FILLS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::SOFTWARE_PREFETCH_DATA_CACHE_FILLS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::SOFTWARE_PREFETCH_DATA_CACHE_FILLS:g
+                measure in guest (*)
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::HARDWARE_PREFETCH_DATA_CACHE_FILLS
+                Number of hardware prefetches fills by data source (*)
+
+amd64_fam17h_zen2::HARDWARE_PREFETCH_DATA_CACHE_FILLS:MABRESP_LCL_L2
+                Fill from local L2.
+
+amd64_fam17h_zen2::HARDWARE_PREFETCH_DATA_CACHE_FILLS:LS_MABRESP_LCL_CACHE
+                Fill from another cache (home node local).
+
+amd64_fam17h_zen2::HARDWARE_PREFETCH_DATA_CACHE_FILLS:LS_MABRESP_LCL_DRAM
+                Fill from DRAM (home node local).
+
+amd64_fam17h_zen2::HARDWARE_PREFETCH_DATA_CACHE_FILLS:LS_MABRESP_LCL_RMT_CACHE
+                Fill from another cache (home node remote).
+
+amd64_fam17h_zen2::HARDWARE_PREFETCH_DATA_CACHE_FILLS:LS_MABRESP_LCL_RMT_DRAM
+                Fill from DRAM (home node remote).
+
+amd64_fam17h_zen2::HARDWARE_PREFETCH_DATA_CACHE_FILLS:k
+                monitor at priv level 0 (*)
+
+amd64_fam17h_zen2::HARDWARE_PREFETCH_DATA_CACHE_FILLS:u
+                monitor at priv level 1, 2, 3 (*)
+
+amd64_fam17h_zen2::HARDWARE_PREFETCH_DATA_CACHE_FILLS:e
+                edge level (*)
+
+amd64_fam17h_zen2::HARDWARE_PREFETCH_DATA_CACHE_FILLS:i
+                invert (*)
+
+amd64_fam17h_zen2::HARDWARE_PREFETCH_DATA_CACHE_FILLS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::HARDWARE_PREFETCH_DATA_CACHE_FILLS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::HARDWARE_PREFETCH_DATA_CACHE_FILLS:g
+                measure in guest (*)
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::L1_DTLB_MISS
+                L1 Data TLB misses. (*)
+
+amd64_fam17h_zen2::L1_DTLB_MISS:TLB_RELOAD_1G_L2_MISS
+                Data TLB reload to a 1GB page that missed in the L2 TLB
+
+amd64_fam17h_zen2::L1_DTLB_MISS:TLB_RELOAD_2M_L2_MISS
+                Data TLB reload to a 2MB page that missed in the L2 TLB
+
+amd64_fam17h_zen2::L1_DTLB_MISS:TLB_RELOAD_COALESCED_PAGE_MISS
+                Data TLB reload to coalesced pages that missed
+
+amd64_fam17h_zen2::L1_DTLB_MISS:TLB_RELOAD_4K_L2_MISS
+                Data TLB reload to a 4KB page that missed in the L2 TLB
+
+amd64_fam17h_zen2::L1_DTLB_MISS:TLB_RELOAD_1G_L2_HIT
+                Data TLB reload to a 1GB page that hit in the L2 TLB
+
+amd64_fam17h_zen2::L1_DTLB_MISS:TLB_RELOAD_2M_L2_HIT
+                Data TLB reload to a 2MB page that hit in the L2 TLB
+
+amd64_fam17h_zen2::L1_DTLB_MISS:TLB_RELOAD_COALESCED_PAGE_HIT
+                Data TLB reload to coalesced pages that hit
+
+amd64_fam17h_zen2::L1_DTLB_MISS:TLB_RELOAD_4K_L2_HIT
+                Data TLB reload to a 4KB page thta hit in the L2 TLB
+
+amd64_fam17h_zen2::L1_DTLB_MISS:k
+                monitor at priv level 0 (*)
+
+amd64_fam17h_zen2::L1_DTLB_MISS:u
+                monitor at priv level 1, 2, 3 (*)
+
+amd64_fam17h_zen2::L1_DTLB_MISS:e
+                edge level (*)
+
+amd64_fam17h_zen2::L1_DTLB_MISS:i
+                invert (*)
+
+amd64_fam17h_zen2::L1_DTLB_MISS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::L1_DTLB_MISS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::L1_DTLB_MISS:g
+                measure in guest (*)
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::RETIRED_LOCK_INSTRUCTIONS
+                Counts the number of retired locked instructions
+
+amd64_fam17h_zen2::RETIRED_LOCK_INSTRUCTIONS:CACHEABLE_LOCKS
+                Lock in cacheable memory region.
+
+amd64_fam17h_zen2::RETIRED_LOCK_INSTRUCTIONS:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::RETIRED_LOCK_INSTRUCTIONS:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::RETIRED_LOCK_INSTRUCTIONS:e
+                edge level
+
+amd64_fam17h_zen2::RETIRED_LOCK_INSTRUCTIONS:i
+                invert
+
+amd64_fam17h_zen2::RETIRED_LOCK_INSTRUCTIONS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::RETIRED_LOCK_INSTRUCTIONS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::RETIRED_LOCK_INSTRUCTIONS:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::RETIRED_CLFLUSH_INSTRUCTIONS
+                Counts the number of retired non-speculative clflush instructions
+
+amd64_fam17h_zen2::RETIRED_CLFLUSH_INSTRUCTIONS:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::RETIRED_CLFLUSH_INSTRUCTIONS:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::RETIRED_CLFLUSH_INSTRUCTIONS:e
+                edge level
+
+amd64_fam17h_zen2::RETIRED_CLFLUSH_INSTRUCTIONS:i
+                invert
+
+amd64_fam17h_zen2::RETIRED_CLFLUSH_INSTRUCTIONS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::RETIRED_CLFLUSH_INSTRUCTIONS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::RETIRED_CLFLUSH_INSTRUCTIONS:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::RETIRED_CPUID_INSTRUCTIONS
+                Counts the number of retired cpuid instructions
+
+amd64_fam17h_zen2::RETIRED_CPUID_INSTRUCTIONS:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::RETIRED_CPUID_INSTRUCTIONS:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::RETIRED_CPUID_INSTRUCTIONS:e
+                edge level
+
+amd64_fam17h_zen2::RETIRED_CPUID_INSTRUCTIONS:i
+                invert
+
+amd64_fam17h_zen2::RETIRED_CPUID_INSTRUCTIONS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::RETIRED_CPUID_INSTRUCTIONS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::RETIRED_CPUID_INSTRUCTIONS:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::SMI_RECEIVED
+                Counts the number system management interrupts (SMI) received
+
+amd64_fam17h_zen2::SMI_RECEIVED:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::SMI_RECEIVED:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::SMI_RECEIVED:e
+                edge level
+
+amd64_fam17h_zen2::SMI_RECEIVED:i
+                invert
+
+amd64_fam17h_zen2::SMI_RECEIVED:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::SMI_RECEIVED:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::SMI_RECEIVED:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::INTERRUPT_TAKEN
+                Counts the number of interrupts taken
+
+amd64_fam17h_zen2::INTERRUPT_TAKEN:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::INTERRUPT_TAKEN:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::INTERRUPT_TAKEN:e
+                edge level
+
+amd64_fam17h_zen2::INTERRUPT_TAKEN:i
+                invert
+
+amd64_fam17h_zen2::INTERRUPT_TAKEN:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::INTERRUPT_TAKEN:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::INTERRUPT_TAKEN:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::MAB_ALLOCATION_BY_PIPE
+                TBD (*)
+
+amd64_fam17h_zen2::MAB_ALLOCATION_BY_PIPE:TLB_PIPE_EARLY
+                TBD
+
+amd64_fam17h_zen2::MAB_ALLOCATION_BY_PIPE:HW_PF
+                hw_pf
+
+amd64_fam17h_zen2::MAB_ALLOCATION_BY_PIPE:TLB_PIPE_LATE
+                TBD
+
+amd64_fam17h_zen2::MAB_ALLOCATION_BY_PIPE:ST_PIPE
+                TBD
+
+amd64_fam17h_zen2::MAB_ALLOCATION_BY_PIPE:DATA_PIPE
+                TBD
+
+amd64_fam17h_zen2::MAB_ALLOCATION_BY_PIPE:k
+                monitor at priv level 0 (*)
+
+amd64_fam17h_zen2::MAB_ALLOCATION_BY_PIPE:u
+                monitor at priv level 1, 2, 3 (*)
+
+amd64_fam17h_zen2::MAB_ALLOCATION_BY_PIPE:e
+                edge level (*)
+
+amd64_fam17h_zen2::MAB_ALLOCATION_BY_PIPE:i
+                invert (*)
+
+amd64_fam17h_zen2::MAB_ALLOCATION_BY_PIPE:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::MAB_ALLOCATION_BY_PIPE:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::MAB_ALLOCATION_BY_PIPE:g
+                measure in guest (*)
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::MISALIGNED_LOADS
+                Misaligned loads retired
+
+amd64_fam17h_zen2::MISALIGNED_LOADS:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::MISALIGNED_LOADS:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::MISALIGNED_LOADS:e
+                edge level
+
+amd64_fam17h_zen2::MISALIGNED_LOADS:i
+                invert
+
+amd64_fam17h_zen2::MISALIGNED_LOADS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::MISALIGNED_LOADS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::MISALIGNED_LOADS:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::CYCLES_NOT_IN_HALT
+                Number of core cycles not in halted state
+
+amd64_fam17h_zen2::CYCLES_NOT_IN_HALT:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::CYCLES_NOT_IN_HALT:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::CYCLES_NOT_IN_HALT:e
+                edge level
+
+amd64_fam17h_zen2::CYCLES_NOT_IN_HALT:i
+                invert
+
+amd64_fam17h_zen2::CYCLES_NOT_IN_HALT:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::CYCLES_NOT_IN_HALT:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::CYCLES_NOT_IN_HALT:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::TLB_FLUSHES
+                Number of TLB flushes
+
+amd64_fam17h_zen2::TLB_FLUSHES:ANY
+                ANY TLB flush.
+
+amd64_fam17h_zen2::TLB_FLUSHES:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::TLB_FLUSHES:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::TLB_FLUSHES:e
+                edge level
+
+amd64_fam17h_zen2::TLB_FLUSHES:i
+                invert
+
+amd64_fam17h_zen2::TLB_FLUSHES:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::TLB_FLUSHES:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::TLB_FLUSHES:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::PREFETCH_INSTRUCTIONS_DISPATCHED
+                Software Prefetch Instructions Dispatched. This is a speculative
+                event
+
+amd64_fam17h_zen2::PREFETCH_INSTRUCTIONS_DISPATCHED:ANY
+                Any prefetch
+
+amd64_fam17h_zen2::PREFETCH_INSTRUCTIONS_DISPATCHED:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::PREFETCH_INSTRUCTIONS_DISPATCHED:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::PREFETCH_INSTRUCTIONS_DISPATCHED:e
+                edge level
+
+amd64_fam17h_zen2::PREFETCH_INSTRUCTIONS_DISPATCHED:i
+                invert
+
+amd64_fam17h_zen2::PREFETCH_INSTRUCTIONS_DISPATCHED:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::PREFETCH_INSTRUCTIONS_DISPATCHED:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::PREFETCH_INSTRUCTIONS_DISPATCHED:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::STORE_TO_LOAD_FORWARD
+                Number of STore Lad Forward hits.
+
+amd64_fam17h_zen2::STORE_TO_LOAD_FORWARD:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::STORE_TO_LOAD_FORWARD:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::STORE_TO_LOAD_FORWARD:e
+                edge level
+
+amd64_fam17h_zen2::STORE_TO_LOAD_FORWARD:i
+                invert
+
+amd64_fam17h_zen2::STORE_TO_LOAD_FORWARD:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::STORE_TO_LOAD_FORWARD:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::STORE_TO_LOAD_FORWARD:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::STORE_COMMIT_CANCELS_2
+                Number of store commit cancellations
+
+amd64_fam17h_zen2::STORE_COMMIT_CANCELS_2:WCB_FULL
+                Non cacheable store and the non-cacheable commit buffer is full.
+
+amd64_fam17h_zen2::STORE_COMMIT_CANCELS_2:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::STORE_COMMIT_CANCELS_2:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::STORE_COMMIT_CANCELS_2:e
+                edge level
+
+amd64_fam17h_zen2::STORE_COMMIT_CANCELS_2:i
+                invert
+
+amd64_fam17h_zen2::STORE_COMMIT_CANCELS_2:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::STORE_COMMIT_CANCELS_2:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::STORE_COMMIT_CANCELS_2:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::L1_BTB_CORRECTION
+                Number of L1 branch prediction overrides of existing prediction.
+                This is a speculative event.
+
+amd64_fam17h_zen2::L1_BTB_CORRECTION:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::L1_BTB_CORRECTION:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::L1_BTB_CORRECTION:e
+                edge level
+
+amd64_fam17h_zen2::L1_BTB_CORRECTION:i
+                invert
+
+amd64_fam17h_zen2::L1_BTB_CORRECTION:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::L1_BTB_CORRECTION:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::L1_BTB_CORRECTION:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::L2_BTB_CORRECTION
+                Number of L2 branch prediction overrides of existing prediction.
+                This is a speculative event.
+
+amd64_fam17h_zen2::L2_BTB_CORRECTION:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::L2_BTB_CORRECTION:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::L2_BTB_CORRECTION:e
+                edge level
+
+amd64_fam17h_zen2::L2_BTB_CORRECTION:i
+                invert
+
+amd64_fam17h_zen2::L2_BTB_CORRECTION:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::L2_BTB_CORRECTION:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::L2_BTB_CORRECTION:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::DYNAMIC_INDIRECT_PREDICTIONS
+                Number of indirect branch prediction for potential multi-target
+                branch. This is a speculative event.
+
+amd64_fam17h_zen2::DYNAMIC_INDIRECT_PREDICTIONS:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::DYNAMIC_INDIRECT_PREDICTIONS:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::DYNAMIC_INDIRECT_PREDICTIONS:e
+                edge level
+
+amd64_fam17h_zen2::DYNAMIC_INDIRECT_PREDICTIONS:i
+                invert
+
+amd64_fam17h_zen2::DYNAMIC_INDIRECT_PREDICTIONS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::DYNAMIC_INDIRECT_PREDICTIONS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::DYNAMIC_INDIRECT_PREDICTIONS:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::DECODER_OVERRIDE_BRANCH_PRED
+                Numbner of decoder overrides of existing brnach prediction. This
+                is a speculative event.
+
+amd64_fam17h_zen2::DECODER_OVERRIDE_BRANCH_PRED:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::DECODER_OVERRIDE_BRANCH_PRED:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::DECODER_OVERRIDE_BRANCH_PRED:e
+                edge level
+
+amd64_fam17h_zen2::DECODER_OVERRIDE_BRANCH_PRED:i
+                invert
+
+amd64_fam17h_zen2::DECODER_OVERRIDE_BRANCH_PRED:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::DECODER_OVERRIDE_BRANCH_PRED:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::DECODER_OVERRIDE_BRANCH_PRED:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::ITLB_FETCH_HIT
+                Instruction fetches that hit in the L1 ITLB (*)
+
+amd64_fam17h_zen2::ITLB_FETCH_HIT:IF1G
+                L1 instruction fetch that hit a 1GB page.
+
+amd64_fam17h_zen2::ITLB_FETCH_HIT:IF2M
+                L1 instruction fetch that hit a 2MB page.
+
+amd64_fam17h_zen2::ITLB_FETCH_HIT:IF4K
+                L1 instruction fetch that hit a 4KB page.
+
+amd64_fam17h_zen2::ITLB_FETCH_HIT:k
+                monitor at priv level 0 (*)
+
+amd64_fam17h_zen2::ITLB_FETCH_HIT:u
+                monitor at priv level 1, 2, 3 (*)
+
+amd64_fam17h_zen2::ITLB_FETCH_HIT:e
+                edge level (*)
+
+amd64_fam17h_zen2::ITLB_FETCH_HIT:i
+                invert (*)
+
+amd64_fam17h_zen2::ITLB_FETCH_HIT:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::ITLB_FETCH_HIT:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::ITLB_FETCH_HIT:g
+                measure in guest (*)
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::UOPS_QUEUE_EMPTY
+                Cycles where the uops queue is empty
+
+amd64_fam17h_zen2::UOPS_QUEUE_EMPTY:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::UOPS_QUEUE_EMPTY:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::UOPS_QUEUE_EMPTY:e
+                edge level
+
+amd64_fam17h_zen2::UOPS_QUEUE_EMPTY:i
+                invert
+
+amd64_fam17h_zen2::UOPS_QUEUE_EMPTY:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::UOPS_QUEUE_EMPTY:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::UOPS_QUEUE_EMPTY:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::UOPS_DISPATCHED_FROM_DECODER
+                Number of uops dispatched from either the Decoder, OpCache or
+                both (*)
+
+amd64_fam17h_zen2::UOPS_DISPATCHED_FROM_DECODER:DECODER_DISPATCHED
+                Number of uops dispatched from the Decoder
+
+amd64_fam17h_zen2::UOPS_DISPATCHED_FROM_DECODER:OPCACHE_DISPATCHED
+                Number of uops dispatched from the OpCache
+
+amd64_fam17h_zen2::UOPS_DISPATCHED_FROM_DECODER:k
+                monitor at priv level 0 (*)
+
+amd64_fam17h_zen2::UOPS_DISPATCHED_FROM_DECODER:u
+                monitor at priv level 1, 2, 3 (*)
+
+amd64_fam17h_zen2::UOPS_DISPATCHED_FROM_DECODER:e
+                edge level (*)
+
+amd64_fam17h_zen2::UOPS_DISPATCHED_FROM_DECODER:i
+                invert (*)
+
+amd64_fam17h_zen2::UOPS_DISPATCHED_FROM_DECODER:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::UOPS_DISPATCHED_FROM_DECODER:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::UOPS_DISPATCHED_FROM_DECODER:g
+                measure in guest (*)
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_1
+                Number of cycles where a dispatch group is valid but does not get
+                dispatched due to a Token Stall (*)
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_1:INT_PHY_REG_FILE_RSRC_STALL
+                Number of cycles stalled due to integer physical register file
+                resource stalls. Applies to all uops that have integer
+                destination register.
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_1:LOAD_QUEUE_RSRC_STALL
+                Number of cycles stalled due to load queue resource stalls.
+                Applies to all uops with load semantics.
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_1:STORE_QUEUE_RSRC_STALL
+                Number of cycles stalled due to store queue resource stalls.
+                Applies to all uops with store semantics.
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_1:INT_SCHEDULER_MISC_RSRC_STALL
+                Number of cycles stalled due to integer scheduler miscellaneous
+                resource stalls.
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_1:TAKEN_BRANCH_BUFFER_RSRC_STALL
+                Number of cycles stalled due to taken branch buffer resource
+                stalls.
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_1:FP_REG_FILE_RSRC_STALL
+                Number of cycles stalled due to floating-point register file
+                resource stalls.
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_1:FP_SCHEDULER_FILE_RSRC_STALL
+                Number of cycles stalled due to floating-point scheduler resource
+                stalls.
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_1:FP_MISC_FILE_RSRC_STALL
+                Number of cycles stalled due to floating-point miscellaneous
+                resource unavailable.
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_1:k
+                monitor at priv level 0 (*)
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_1:u
+                monitor at priv level 1, 2, 3 (*)
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_1:e
+                edge level (*)
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_1:i
+                invert (*)
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_1:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_1:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_1:g
+                measure in guest (*)
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_0
+                Number of cycles where a dispatch group is valid but does not get
+                dispatched due to a Token Stall
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_0:ALU_TOKEN_STALL
+                Number of cycles ALU tokens total unavailable.
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_0:k
+                monitor at priv level 0
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_0:u
+                monitor at priv level 1, 2, 3
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_0:e
+                edge level
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_0:i
+                invert
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_0:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_0:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::DISPATCH_RESOURCE_STALL_CYCLES_0:g
+                measure in guest
+
+---------------------------------------------------------------------------
+amd64_fam17h_zen2::RETIRED_SERIALIZING_OPS
+                The number of serializing Ops retired. (*)
+
+amd64_fam17h_zen2::RETIRED_SERIALIZING_OPS:X87_CTRL_RET
+                X87 control word mispredict traps due to mispredction in RC or
+                PC, or changes in mask bits.
+
+amd64_fam17h_zen2::RETIRED_SERIALIZING_OPS:X87_BOT_RET
+                X87 bottom-executing uops retired.
+
+amd64_fam17h_zen2::RETIRED_SERIALIZING_OPS:SSE_CTRL_RET
+                SSE control word mispreduct traps due to mispredctions in RC, FTZ
+                or DAZ or changes in mask bits.
+
+amd64_fam17h_zen2::RETIRED_SERIALIZING_OPS:SSE_BOT_RET
+                SSE bottom-executing uops retired.
+
+amd64_fam17h_zen2::RETIRED_SERIALIZING_OPS:k
+                monitor at priv level 0 (*)
+
+amd64_fam17h_zen2::RETIRED_SERIALIZING_OPS:u
+                monitor at priv level 1, 2, 3 (*)
+
+amd64_fam17h_zen2::RETIRED_SERIALIZING_OPS:e
+                edge level (*)
+
+amd64_fam17h_zen2::RETIRED_SERIALIZING_OPS:i
+                invert (*)
+
+amd64_fam17h_zen2::RETIRED_SERIALIZING_OPS:c
+                counter-mask in range [0-255] (*)
+
+amd64_fam17h_zen2::RETIRED_SERIALIZING_OPS:h
+                monitor in hypervisor (*)
+
+amd64_fam17h_zen2::RETIRED_SERIALIZING_OPS:g
+                measure in guest (*)
+
+
+===========================================================================
+Available PAPI preset events in component perf_event
+
+Name	    Profilable	Description
+===========================================================================
+PAPI_TLB_DM	Yes	Data translation lookaside buffer misses
+PAPI_TLB_IM	No	Instruction translation lookaside buffer misses
+PAPI_BR_TKN	Yes	Conditional branch instructions taken
+PAPI_BR_MSP	Yes	Conditional branch instructions mispredicted
+PAPI_TOT_INS	Yes	Instructions completed
+PAPI_BR_INS	Yes	Branch instructions
+PAPI_TOT_CYC	Yes	Total cycles
+---------------------------------------------------------------------------
+Total PAPI events: 7, able to profile: 6
+
+
+===========================================================================
+Native events in component perf_event
+
+Name  Description
+===========================================================================
+perf::PERF_COUNT_HW_CPU_CYCLES
+                PERF_COUNT_HW_CPU_CYCLES
+
+---------------------------------------------------------------------------
+perf::CYCLES    PERF_COUNT_HW_CPU_CYCLES
+
+---------------------------------------------------------------------------
+perf::CPU-CYCLES
+                PERF_COUNT_HW_CPU_CYCLES
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_INSTRUCTIONS
+                PERF_COUNT_HW_INSTRUCTIONS
+
+---------------------------------------------------------------------------
+perf::INSTRUCTIONS
+                PERF_COUNT_HW_INSTRUCTIONS
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_CACHE_REFERENCES
+                PERF_COUNT_HW_CACHE_REFERENCES
+
+---------------------------------------------------------------------------
+perf::CACHE-REFERENCES
+                PERF_COUNT_HW_CACHE_REFERENCES
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_CACHE_MISSES
+                PERF_COUNT_HW_CACHE_MISSES
+
+---------------------------------------------------------------------------
+perf::CACHE-MISSES
+                PERF_COUNT_HW_CACHE_MISSES
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_BRANCH_INSTRUCTIONS
+                PERF_COUNT_HW_BRANCH_INSTRUCTIONS
+
+---------------------------------------------------------------------------
+perf::BRANCH-INSTRUCTIONS
+                PERF_COUNT_HW_BRANCH_INSTRUCTIONS
+
+---------------------------------------------------------------------------
+perf::BRANCHES  PERF_COUNT_HW_BRANCH_INSTRUCTIONS
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_BRANCH_MISSES
+                PERF_COUNT_HW_BRANCH_MISSES
+
+---------------------------------------------------------------------------
+perf::BRANCH-MISSES
+                PERF_COUNT_HW_BRANCH_MISSES
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_BUS_CYCLES
+                PERF_COUNT_HW_BUS_CYCLES
+
+---------------------------------------------------------------------------
+perf::BUS-CYCLES
+                PERF_COUNT_HW_BUS_CYCLES
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_STALLED_CYCLES_FRONTEND
+                PERF_COUNT_HW_STALLED_CYCLES_FRONTEND
+
+---------------------------------------------------------------------------
+perf::STALLED-CYCLES-FRONTEND
+                PERF_COUNT_HW_STALLED_CYCLES_FRONTEND
+
+---------------------------------------------------------------------------
+perf::IDLE-CYCLES-FRONTEND
+                PERF_COUNT_HW_STALLED_CYCLES_FRONTEND
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_STALLED_CYCLES_BACKEND
+                PERF_COUNT_HW_STALLED_CYCLES_BACKEND
+
+---------------------------------------------------------------------------
+perf::STALLED-CYCLES-BACKEND
+                PERF_COUNT_HW_STALLED_CYCLES_BACKEND
+
+---------------------------------------------------------------------------
+perf::IDLE-CYCLES-BACKEND
+                PERF_COUNT_HW_STALLED_CYCLES_BACKEND
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_REF_CPU_CYCLES
+                PERF_COUNT_HW_REF_CPU_CYCLES
+
+---------------------------------------------------------------------------
+perf::REF-CYCLES
+                PERF_COUNT_HW_REF_CPU_CYCLES
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_SW_CPU_CLOCK
+                PERF_COUNT_SW_CPU_CLOCK
+
+---------------------------------------------------------------------------
+perf::CPU-CLOCK PERF_COUNT_SW_CPU_CLOCK
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_SW_TASK_CLOCK
+                PERF_COUNT_SW_TASK_CLOCK
+
+---------------------------------------------------------------------------
+perf::TASK-CLOCK
+                PERF_COUNT_SW_TASK_CLOCK
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_SW_PAGE_FAULTS
+                PERF_COUNT_SW_PAGE_FAULTS
+
+---------------------------------------------------------------------------
+perf::PAGE-FAULTS
+                PERF_COUNT_SW_PAGE_FAULTS
+
+---------------------------------------------------------------------------
+perf::FAULTS    PERF_COUNT_SW_PAGE_FAULTS
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_SW_CONTEXT_SWITCHES
+                PERF_COUNT_SW_CONTEXT_SWITCHES
+
+---------------------------------------------------------------------------
+perf::CONTEXT-SWITCHES
+                PERF_COUNT_SW_CONTEXT_SWITCHES
+
+---------------------------------------------------------------------------
+perf::CS        PERF_COUNT_SW_CONTEXT_SWITCHES
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_SW_CPU_MIGRATIONS
+                PERF_COUNT_SW_CPU_MIGRATIONS
+
+---------------------------------------------------------------------------
+perf::CPU-MIGRATIONS
+                PERF_COUNT_SW_CPU_MIGRATIONS
+
+---------------------------------------------------------------------------
+perf::MIGRATIONS
+                PERF_COUNT_SW_CPU_MIGRATIONS
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_SW_PAGE_FAULTS_MIN
+                PERF_COUNT_SW_PAGE_FAULTS_MIN
+
+---------------------------------------------------------------------------
+perf::MINOR-FAULTS
+                PERF_COUNT_SW_PAGE_FAULTS_MIN
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_SW_PAGE_FAULTS_MAJ
+                PERF_COUNT_SW_PAGE_FAULTS_MAJ
+
+---------------------------------------------------------------------------
+perf::MAJOR-FAULTS
+                PERF_COUNT_SW_PAGE_FAULTS_MAJ
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_CACHE_L1D
+                L1 data cache
+
+---------------------------------------------------------------------------
+perf::L1-DCACHE-LOADS
+                L1 cache load accesses
+
+---------------------------------------------------------------------------
+perf::L1-DCACHE-LOAD-MISSES
+                L1 cache load misses
+
+---------------------------------------------------------------------------
+perf::L1-DCACHE-STORES
+                L1 cache store accesses
+
+---------------------------------------------------------------------------
+perf::L1-DCACHE-STORE-MISSES
+                L1 cache store misses
+
+---------------------------------------------------------------------------
+perf::L1-DCACHE-PREFETCHES
+                L1 cache prefetch accesses
+
+---------------------------------------------------------------------------
+perf::L1-DCACHE-PREFETCH-MISSES
+                L1 cache prefetch misses
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_CACHE_L1I
+                L1 instruction cache
+
+---------------------------------------------------------------------------
+perf::L1-ICACHE-LOADS
+                L1I cache load accesses
+
+---------------------------------------------------------------------------
+perf::L1-ICACHE-LOAD-MISSES
+                L1I cache load misses
+
+---------------------------------------------------------------------------
+perf::L1-ICACHE-PREFETCHES
+                L1I cache prefetch accesses
+
+---------------------------------------------------------------------------
+perf::L1-ICACHE-PREFETCH-MISSES
+                L1I cache prefetch misses
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_CACHE_LL
+                Last level cache
+
+---------------------------------------------------------------------------
+perf::LLC-LOADS Last level cache load accesses
+
+---------------------------------------------------------------------------
+perf::LLC-LOAD-MISSES
+                Last level cache load misses
+
+---------------------------------------------------------------------------
+perf::LLC-STORES
+                Last level cache store accesses
+
+---------------------------------------------------------------------------
+perf::LLC-STORE-MISSES
+                Last level cache store misses
+
+---------------------------------------------------------------------------
+perf::LLC-PREFETCHES
+                Last level cache prefetch accesses
+
+---------------------------------------------------------------------------
+perf::LLC-PREFETCH-MISSES
+                Last level cache prefetch misses
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_CACHE_DTLB
+                Data Translation Lookaside Buffer
+
+---------------------------------------------------------------------------
+perf::DTLB-LOADS
+                Data TLB load accesses
+
+---------------------------------------------------------------------------
+perf::DTLB-LOAD-MISSES
+                Data TLB load misses
+
+---------------------------------------------------------------------------
+perf::DTLB-STORES
+                Data TLB store accesses
+
+---------------------------------------------------------------------------
+perf::DTLB-STORE-MISSES
+                Data TLB store misses
+
+---------------------------------------------------------------------------
+perf::DTLB-PREFETCHES
+                Data TLB prefetch accesses
+
+---------------------------------------------------------------------------
+perf::DTLB-PREFETCH-MISSES
+                Data TLB prefetch misses
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_CACHE_ITLB
+                Instruction Translation Lookaside Buffer
+
+---------------------------------------------------------------------------
+perf::ITLB-LOADS
+                Instruction TLB load accesses
+
+---------------------------------------------------------------------------
+perf::ITLB-LOAD-MISSES
+                Instruction TLB load misses
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_CACHE_BPU
+                Branch Prediction Unit
+
+---------------------------------------------------------------------------
+perf::BRANCH-LOADS
+                Branch  load accesses
+
+---------------------------------------------------------------------------
+perf::BRANCH-LOAD-MISSES
+                Branch  load misses
+
+---------------------------------------------------------------------------
+perf::PERF_COUNT_HW_CACHE_NODE
+                Node memory access
+
+---------------------------------------------------------------------------
+perf::NODE-LOADS
+                Node  load accesses
+
+---------------------------------------------------------------------------
+perf::NODE-LOAD-MISSES
+                Node  load misses
+
+---------------------------------------------------------------------------
+perf::NODE-STORES
+                Node  store accesses
+
+---------------------------------------------------------------------------
+perf::NODE-STORE-MISSES
+                Node  store misses
+
+---------------------------------------------------------------------------
+perf::NODE-PREFETCHES
+                Node  prefetch accesses
+
+---------------------------------------------------------------------------
+perf::NODE-PREFETCH-MISSES
+                Node  prefetch misses
+
+---------------------------------------------------------------------------
+perf_raw::r0000 perf_events raw event syntax: r[0-9a-fA-F]+
+
+---------------------------------------------------------------------------
+L1_ITLB_MISS_L2_ITLB_HIT
+                Number of instruction fetches that miss in the L1 ITLB but hit in
+                the L2 ITLB.
+
+---------------------------------------------------------------------------
+L1_ITLB_MISS_L2_ITLB_MISS
+                Number of instruction fetches that miss in both the L1 and L2
+                TLBs.
+
+---------------------------------------------------------------------------
+RETIRED_SSE_AVX_FLOPS
+                This is a retire-based event. The number of retired SSE/AVX
+                FLOPS. The number of events logged per cycle can vary from 0 to
+                64. This event can count above 15 and therefore requires the
+                MergeEvent. On Linux, the kernel handles this case without the
+                need to pass the merge event.
+
+---------------------------------------------------------------------------
+DIV_CYCLES_BUSY_COUNT
+                Number of cycles when the divider is busy.
+
+---------------------------------------------------------------------------
+DIV_OP_COUNT    Number of divide uops.
+
+---------------------------------------------------------------------------
+RETIRED_BRANCH_INSTRUCTIONS
+                Number of branch instructions retired. This includes all types of
+                architectural control flow changes, including exceptions and
+                interrupts.
+
+---------------------------------------------------------------------------
+RETIRED_FAR_CONTROL_TRANSFERS
+                Number of far control transfers retired including far
+                call/jump/return, IRET, SYSCALL and SYSRET, plus exceptions and
+                interrupts. Far control transfers are not subject to branch
+                prediction.
+
+---------------------------------------------------------------------------
+RETIRED_INDIRECT_BRANCH_INSTRUCTIONS_MISPREDICTED
+                Number of indirect branches retired there were not correctly
+                predicted. Each such mispredict incurs the same penalty as a
+                mispredicted condition branch instruction. Only EX mispredicts
+                are counted.
+
+---------------------------------------------------------------------------
+RETIRED_BRANCH_INSTRUCTIONS_MISPREDICTED
+                Number of branch instructions retired, of any type, that were not
+                correctly predicted. This includes those for which prediction is
+                not attempted (far control transfers, exceptions and interrupts).
+
+---------------------------------------------------------------------------
+RETIRED_TAKEN_BRANCH_INSTRUCTIONS
+                Number of taken branches that were retired. This includes all
+                types of architectural control flow changes, including exceptions
+                and interrupts.
+
+---------------------------------------------------------------------------
+RETIRED_TAKEN_BRANCH_INSTRUCTIONS_MISPREDICTED
+                Number of retired taken branch instructions that were
+                mispredicted.
+
+---------------------------------------------------------------------------
+RETIRED_CONDITIONAL_BRANCH_INSTRUCTIONS
+                Number of retired conditional branch instructions.
+
+---------------------------------------------------------------------------
+RETIRED_UOPS    Number of uops retired. This includes all processor activity
+                (instructions, exceptions, interrupts, microcode assists, etc.).
+                The number of events logged per cycle can vary from 0 to 8.
+
+---------------------------------------------------------------------------
+RETIRED_FUSED_INSTRUCTIONS
+                Number of fused retired branch instructions retired per cycle.
+                The number of events logged per cycle can vary from 0 to 3.
+
+---------------------------------------------------------------------------
+RETIRED_INSTRUCTIONS
+                Instructions Retired.
+
+---------------------------------------------------------------------------
+RETIRED_MMX_FP_INSTRUCTIONS
+                Number of MMX, SSE or x87 instructions retired. The UnitMask
+                allows the selection of the individual classes of instructions as
+                given in the table. Each increment represents one complete
+                instruction. Since this event includes non-numeric instructions,
+                it is not suitable for measuring MFLOPS.
+
+---------------------------------------------------------------------------
+RETIRED_NEAR_RETURNS
+                Number of near return instructions (RET or RETI) retired.
+
+---------------------------------------------------------------------------
+RETIRED_NEAR_RETURNS_MISPREDICTED
+                Number of near returns retired that were not correctly predicted
+                by the return address predictor. Each such mispredict incurs the
+                same penalty as a mispredicted conditional branch instruction.
+
+---------------------------------------------------------------------------
+TAGGED_IBS_OPS  TBD
+
+---------------------------------------------------------------------------
+INSTRUCTION_CACHE_REFILLS_FROM_L2
+                Number of 64-byte instruction cachelines that was fulfilled by
+                the L2 cache.
+
+---------------------------------------------------------------------------
+INSTRUCTION_CACHE_REFILLS_FROM_SYSTEM
+                Number of 64-byte instruction cachelines fulfilled from system
+                memory or another cache.
+
+---------------------------------------------------------------------------
+CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS
+                L2 cache request outcomes. This event does not count accesses to
+                the L2 cache by the L2 prefetcher.
+
+---------------------------------------------------------------------------
+L2_PREFETCH_HIT_L2
+                Number of L2 prefetcher hits in the L2
+
+---------------------------------------------------------------------------
+L2_PREFETCH_HIT_L3
+                Number of L2 prefetcher hits in the L3
+
+---------------------------------------------------------------------------
+REQUESTS_TO_L2_GROUP1
+                TBD
+
+---------------------------------------------------------------------------
+REQUESTS_TO_L2_GROUP2
+                Multi-events in that LS and IF requests can be received
+                simultaneous.
+
+---------------------------------------------------------------------------
+BAD_STATUS_2    TBD
+
+---------------------------------------------------------------------------
+LS_DISPATCH     Counts the number of operations dispatched to the LS unit. Unit
+                Masks ADDed.
+
+---------------------------------------------------------------------------
+INEFFECTIVE_SOFTWARE_PREFETCH
+                Number of software prefetches that did not fetch data outside of
+                the processor core.
+
+---------------------------------------------------------------------------
+SOFTWARE_PREFETCH_DATA_CACHE_FILLS
+                Number of software prefetches fills by data source
+
+---------------------------------------------------------------------------
+HARDWARE_PREFETCH_DATA_CACHE_FILLS
+                Number of hardware prefetches fills by data source
+
+---------------------------------------------------------------------------
+L1_DTLB_MISS    L1 Data TLB misses.
+
+---------------------------------------------------------------------------
+RETIRED_LOCK_INSTRUCTIONS
+                Counts the number of retired locked instructions
+
+---------------------------------------------------------------------------
+RETIRED_CLFLUSH_INSTRUCTIONS
+                Counts the number of retired non-speculative clflush instructions
+
+---------------------------------------------------------------------------
+RETIRED_CPUID_INSTRUCTIONS
+                Counts the number of retired cpuid instructions
+
+---------------------------------------------------------------------------
+SMI_RECEIVED    Counts the number system management interrupts (SMI) received
+
+---------------------------------------------------------------------------
+INTERRUPT_TAKEN Counts the number of interrupts taken
+
+---------------------------------------------------------------------------
+MAB_ALLOCATION_BY_PIPE
+                TBD
+
+---------------------------------------------------------------------------
+MISALIGNED_LOADS
+                Misaligned loads retired
+
+---------------------------------------------------------------------------
+CYCLES_NOT_IN_HALT
+                Number of core cycles not in halted state
+
+---------------------------------------------------------------------------
+TLB_FLUSHES     Number of TLB flushes
+
+---------------------------------------------------------------------------
+PREFETCH_INSTRUCTIONS_DISPATCHED
+                Software Prefetch Instructions Dispatched. This is a speculative
+                event
+
+---------------------------------------------------------------------------
+STORE_TO_LOAD_FORWARD
+                Number of STore Lad Forward hits.
+
+---------------------------------------------------------------------------
+STORE_COMMIT_CANCELS_2
+                Number of store commit cancellations
+
+---------------------------------------------------------------------------
+L1_BTB_CORRECTION
+                Number of L1 branch prediction overrides of existing prediction.
+                This is a speculative event.
+
+---------------------------------------------------------------------------
+L2_BTB_CORRECTION
+                Number of L2 branch prediction overrides of existing prediction.
+                This is a speculative event.
+
+---------------------------------------------------------------------------
+DYNAMIC_INDIRECT_PREDICTIONS
+                Number of indirect branch prediction for potential multi-target
+                branch. This is a speculative event.
+
+---------------------------------------------------------------------------
+DECODER_OVERRIDE_BRANCH_PRED
+                Numbner of decoder overrides of existing brnach prediction. This
+                is a speculative event.
+
+---------------------------------------------------------------------------
+ITLB_FETCH_HIT  Instruction fetches that hit in the L1 ITLB
+
+---------------------------------------------------------------------------
+UOPS_QUEUE_EMPTY
+                Cycles where the uops queue is empty
+
+---------------------------------------------------------------------------
+UOPS_DISPATCHED_FROM_DECODER
+                Number of uops dispatched from either the Decoder, OpCache or
+                both
+
+---------------------------------------------------------------------------
+DISPATCH_RESOURCE_STALL_CYCLES_1
+                Number of cycles where a dispatch group is valid but does not get
+                dispatched due to a Token Stall
+
+---------------------------------------------------------------------------
+DISPATCH_RESOURCE_STALL_CYCLES_0
+                Number of cycles where a dispatch group is valid but does not get
+                dispatched due to a Token Stall
+
+---------------------------------------------------------------------------
+RETIRED_SERIALIZING_OPS
+                The number of serializing Ops retired.
+
+---------------------------------------------------------------------------
+Total native events for component perf_event: 135
+
+
+===========================================================================
+Native events in component infiniband
+
+Name  Description
+===========================================================================
+infiniband:::mlx5_bond_0_1_ext:rp_cnp_ignored
+                Rp cnp ignored (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:resp_local_length_error
+                Resp local length error (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:np_ecn_marked_roce_packets
+                Np ecn marked roce packets (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:req_remote_invalid_request
+                Req remote invalid request (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:local_ack_timeout_err
+                Local ack timeout err (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:lifespan
+                Maximum sampling period of the counters in milliseconds (64-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:req_cqe_error
+                Req cqe error (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:rnr_nak_retry_err
+                Rnr nak retry err (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:np_cnp_sent
+                Np cnp sent (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:rx_dct_connect
+                Rx dct connect (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:rp_cnp_handled
+                Rp cnp handled (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:implied_nak_seq_err
+                Implied nak seq err (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:req_transport_retries_exceeded
+                Req transport retries exceeded (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:req_cqe_flush_error
+                Req cqe flush error (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:packet_seq_err
+                Packet seq err (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:duplicate_request
+                Duplicate request (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:req_rnr_retries_exceeded
+                Req rnr retries exceeded (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:out_of_buffer
+                Number of drops which occurred due to lack of Work Queue Entry
+                for the associated Queue Pairs (64-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:resp_cqe_error
+                Resp cqe error (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:resp_cqe_flush_error
+                Resp cqe flush error (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:out_of_sequence
+                Number of out of sequence packets received (64-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:rx_read_requests
+                Number of received READ requests for the associated Queue Pairs
+                (64-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:rx_atomic_requests
+                Number of received ATOMIC requests for the associated Queue Pairs
+                (64-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:req_remote_access_errors
+                Req remote access errors (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:rx_write_requests
+                Number of received WRITE requests for the associated Queue Pairs
+                (64-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1_ext:resp_remote_access_errors
+                Resp remote access errors (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:unicast_rcv_packets
+                Total number of unicast packets, including unicast packets
+                containing errors (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:port_xmit_data
+                Total number of data octets, divided by 4 (lanes), transmitted on
+                all Virtual Lanes. Multiply this by 4 to get bytes (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:port_xmit_constraint_errors
+                Total number of packets not transmitted from the switch physical
+                port (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:VL15_dropped
+                Number of incoming VL15 packets (can include management packets)
+                dropped due to resource limitations of the port (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:port_rcv_errors
+                Total number of packets containing an error that were received on
+                the port (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:port_xmit_wait
+                Number of ticks during which port had data to transmit but no
+                data was sent during the entire tick (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:link_error_recovery
+                Total number of times the Port Training state machine has
+                successfully completed the link error recovery process (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:multicast_rcv_packets
+                Total number of multicast packets, including multicast packets
+                containing errors (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:multicast_xmit_packets
+                Total number of multicast packets transmitted on all VLs from
+                port, including multicast packets containing errors (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:port_rcv_remote_physical_errors
+                Total number of packets marked with EBP (End of Bad Packet)
+                delimiter received on the port (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:port_rcv_packets
+                Total number of packets received on all Virtual Lanes from this
+                port, including packets containing errors (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:unicast_xmit_packets
+                Total number of unicast packets transmitted on all VLs from port,
+                including unicast packets containing errors (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:excessive_buffer_overrun_errors
+                Excessive buffer overrun errors (overflowing, auto-resetting
+                counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:port_rcv_data
+                Total number of data octets, divided by 4 (lanes), received on
+                all Virtual Lanes. Multiply this by 4 to get bytes (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:port_rcv_constraint_errors
+                Total number of packets received on the switch physical port that
+                are discarded (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:link_downed
+                Total number of times the Port Training state machine has failed
+                link error recovery process and downed the link (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:local_link_integrity_errors
+                Number of times the count of local physical errors exceeded
+                threshold (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:port_xmit_discards
+                Total number of outbound packets discarded by the port because it
+                is down or congested (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:port_rcv_switch_relay_errors
+                Total number of packets received on port that were discarded
+                because they could not be forwarded by switch relay (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:port_xmit_packets
+                Total number of packets transmitted on all Virtual Lanes from
+                this port, including packets containing errors (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_bond_0_1:symbol_error
+                Total number of minor link errors detected on one or more
+                physical lanes (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:roce_slow_restart_cnps
+                Roce slow restart cnps (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:roce_adp_retrans_to
+                Roce adp retrans to (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:rx_icrc_encapsulated
+                Rx icrc encapsulated (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:resp_local_length_error
+                Resp local length error (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:roce_slow_restart_trans
+                Roce slow restart trans (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:req_remote_invalid_request
+                Req remote invalid request (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:local_ack_timeout_err
+                Local ack timeout err (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:lifespan
+                Maximum sampling period of the counters in milliseconds (64-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:req_cqe_error
+                Req cqe error (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:rnr_nak_retry_err
+                Rnr nak retry err (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:rx_dct_connect
+                Rx dct connect (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:implied_nak_seq_err
+                Implied nak seq err (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:roce_slow_restart
+                Roce slow restart (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:req_transport_retries_exceeded
+                Req transport retries exceeded (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:req_cqe_flush_error
+                Req cqe flush error (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:packet_seq_err
+                Packet seq err (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:duplicate_request
+                Duplicate request (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:req_rnr_retries_exceeded
+                Req rnr retries exceeded (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:roce_adp_retrans
+                Roce adp retrans (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:out_of_buffer
+                Number of drops which occurred due to lack of Work Queue Entry
+                for the associated Queue Pairs (64-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:resp_cqe_error
+                Resp cqe error (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:resp_cqe_flush_error
+                Resp cqe flush error (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:out_of_sequence
+                Number of out of sequence packets received (64-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:rx_read_requests
+                Number of received READ requests for the associated Queue Pairs
+                (64-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:rx_atomic_requests
+                Number of received ATOMIC requests for the associated Queue Pairs
+                (64-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:req_remote_access_errors
+                Req remote access errors (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:rx_write_requests
+                Number of received WRITE requests for the associated Queue Pairs
+                (64-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1_ext:resp_remote_access_errors
+                Resp remote access errors (free-running 64bit counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:unicast_rcv_packets
+                Total number of unicast packets, including unicast packets
+                containing errors (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:port_xmit_data
+                Total number of data octets, divided by 4 (lanes), transmitted on
+                all Virtual Lanes. Multiply this by 4 to get bytes (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:port_xmit_constraint_errors
+                Total number of packets not transmitted from the switch physical
+                port (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:VL15_dropped
+                Number of incoming VL15 packets (can include management packets)
+                dropped due to resource limitations of the port (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:port_rcv_errors
+                Total number of packets containing an error that were received on
+                the port (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:port_xmit_wait
+                Number of ticks during which port had data to transmit but no
+                data was sent during the entire tick (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:link_error_recovery
+                Total number of times the Port Training state machine has
+                successfully completed the link error recovery process (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:multicast_rcv_packets
+                Total number of multicast packets, including multicast packets
+                containing errors (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:multicast_xmit_packets
+                Total number of multicast packets transmitted on all VLs from
+                port, including multicast packets containing errors (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:port_rcv_remote_physical_errors
+                Total number of packets marked with EBP (End of Bad Packet)
+                delimiter received on the port (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:port_rcv_packets
+                Total number of packets received on all Virtual Lanes from this
+                port, including packets containing errors (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:unicast_xmit_packets
+                Total number of unicast packets transmitted on all VLs from port,
+                including unicast packets containing errors (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:excessive_buffer_overrun_errors
+                Excessive buffer overrun errors (overflowing, auto-resetting
+                counter).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:port_rcv_data
+                Total number of data octets, divided by 4 (lanes), received on
+                all Virtual Lanes. Multiply this by 4 to get bytes (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:port_rcv_constraint_errors
+                Total number of packets received on the switch physical port that
+                are discarded (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:link_downed
+                Total number of times the Port Training state machine has failed
+                link error recovery process and downed the link (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:local_link_integrity_errors
+                Number of times the count of local physical errors exceeded
+                threshold (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:port_xmit_discards
+                Total number of outbound packets discarded by the port because it
+                is down or congested (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:port_rcv_switch_relay_errors
+                Total number of packets received on port that were discarded
+                because they could not be forwarded by switch relay (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:port_xmit_packets
+                Total number of packets transmitted on all Virtual Lanes from
+                this port, including packets containing errors (32-bit).
+
+---------------------------------------------------------------------------
+infiniband:::mlx5_2_1:symbol_error
+                Total number of minor link errors detected on one or more
+                physical lanes (32-bit).
+
+---------------------------------------------------------------------------
+Total native events for component infiniband: 96
+
+
+===========================================================================
+Native events in component lmsensors
+
+Name  Description
+===========================================================================
+lmsensors:::bnxt_en-pci-6300.temp1.temp1_input
+                bnxt_en-pci-6300.temp1.temp1_input
+
+---------------------------------------------------------------------------
+lmsensors:::k10temp-pci-00cb.Tctl.temp1_input
+                k10temp-pci-00cb.Tctl.temp1_input
+
+---------------------------------------------------------------------------
+lmsensors:::k10temp-pci-00cb.Tccd1.temp3_input
+                k10temp-pci-00cb.Tccd1.temp3_input
+
+---------------------------------------------------------------------------
+lmsensors:::k10temp-pci-00cb.Tccd2.temp4_input
+                k10temp-pci-00cb.Tccd2.temp4_input
+
+---------------------------------------------------------------------------
+lmsensors:::k10temp-pci-00cb.Tccd3.temp5_input
+                k10temp-pci-00cb.Tccd3.temp5_input
+
+---------------------------------------------------------------------------
+lmsensors:::k10temp-pci-00cb.Tccd4.temp6_input
+                k10temp-pci-00cb.Tccd4.temp6_input
+
+---------------------------------------------------------------------------
+lmsensors:::k10temp-pci-00cb.Tccd5.temp7_input
+                k10temp-pci-00cb.Tccd5.temp7_input
+
+---------------------------------------------------------------------------
+lmsensors:::k10temp-pci-00cb.Tccd6.temp8_input
+                k10temp-pci-00cb.Tccd6.temp8_input
+
+---------------------------------------------------------------------------
+lmsensors:::k10temp-pci-00cb.Tccd7.temp9_input
+                k10temp-pci-00cb.Tccd7.temp9_input
+
+---------------------------------------------------------------------------
+lmsensors:::k10temp-pci-00cb.Tccd8.temp10_input
+                k10temp-pci-00cb.Tccd8.temp10_input
+
+---------------------------------------------------------------------------
+lmsensors:::mlx5-pci-a100.asic.temp1_input
+                mlx5-pci-a100.asic.temp1_input
+
+---------------------------------------------------------------------------
+lmsensors:::mlx5-pci-a100.asic.temp1_crit
+                mlx5-pci-a100.asic.temp1_crit
+
+---------------------------------------------------------------------------
+lmsensors:::mlx5-pci-a100.asic.temp1_highest
+                mlx5-pci-a100.asic.temp1_highest
+
+---------------------------------------------------------------------------
+lmsensors:::bnxt_en-pci-6301.temp1.temp1_input
+                bnxt_en-pci-6301.temp1.temp1_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy1.energy1_input
+                amd_energy-isa-0000.energy1.energy1_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy2.energy2_input
+                amd_energy-isa-0000.energy2.energy2_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy3.energy3_input
+                amd_energy-isa-0000.energy3.energy3_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy4.energy4_input
+                amd_energy-isa-0000.energy4.energy4_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy5.energy5_input
+                amd_energy-isa-0000.energy5.energy5_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy6.energy6_input
+                amd_energy-isa-0000.energy6.energy6_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy7.energy7_input
+                amd_energy-isa-0000.energy7.energy7_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy8.energy8_input
+                amd_energy-isa-0000.energy8.energy8_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy9.energy9_input
+                amd_energy-isa-0000.energy9.energy9_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy10.energy10_input
+                amd_energy-isa-0000.energy10.energy10_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy11.energy11_input
+                amd_energy-isa-0000.energy11.energy11_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy12.energy12_input
+                amd_energy-isa-0000.energy12.energy12_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy13.energy13_input
+                amd_energy-isa-0000.energy13.energy13_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy14.energy14_input
+                amd_energy-isa-0000.energy14.energy14_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy15.energy15_input
+                amd_energy-isa-0000.energy15.energy15_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy16.energy16_input
+                amd_energy-isa-0000.energy16.energy16_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy17.energy17_input
+                amd_energy-isa-0000.energy17.energy17_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy18.energy18_input
+                amd_energy-isa-0000.energy18.energy18_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy19.energy19_input
+                amd_energy-isa-0000.energy19.energy19_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy20.energy20_input
+                amd_energy-isa-0000.energy20.energy20_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy21.energy21_input
+                amd_energy-isa-0000.energy21.energy21_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy22.energy22_input
+                amd_energy-isa-0000.energy22.energy22_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy23.energy23_input
+                amd_energy-isa-0000.energy23.energy23_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy24.energy24_input
+                amd_energy-isa-0000.energy24.energy24_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy25.energy25_input
+                amd_energy-isa-0000.energy25.energy25_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy26.energy26_input
+                amd_energy-isa-0000.energy26.energy26_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy27.energy27_input
+                amd_energy-isa-0000.energy27.energy27_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy28.energy28_input
+                amd_energy-isa-0000.energy28.energy28_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy29.energy29_input
+                amd_energy-isa-0000.energy29.energy29_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy30.energy30_input
+                amd_energy-isa-0000.energy30.energy30_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy31.energy31_input
+                amd_energy-isa-0000.energy31.energy31_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy32.energy32_input
+                amd_energy-isa-0000.energy32.energy32_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy33.energy33_input
+                amd_energy-isa-0000.energy33.energy33_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy34.energy34_input
+                amd_energy-isa-0000.energy34.energy34_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy35.energy35_input
+                amd_energy-isa-0000.energy35.energy35_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy36.energy36_input
+                amd_energy-isa-0000.energy36.energy36_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy37.energy37_input
+                amd_energy-isa-0000.energy37.energy37_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy38.energy38_input
+                amd_energy-isa-0000.energy38.energy38_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy39.energy39_input
+                amd_energy-isa-0000.energy39.energy39_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy40.energy40_input
+                amd_energy-isa-0000.energy40.energy40_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy41.energy41_input
+                amd_energy-isa-0000.energy41.energy41_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy42.energy42_input
+                amd_energy-isa-0000.energy42.energy42_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy43.energy43_input
+                amd_energy-isa-0000.energy43.energy43_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy44.energy44_input
+                amd_energy-isa-0000.energy44.energy44_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy45.energy45_input
+                amd_energy-isa-0000.energy45.energy45_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy46.energy46_input
+                amd_energy-isa-0000.energy46.energy46_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy47.energy47_input
+                amd_energy-isa-0000.energy47.energy47_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy48.energy48_input
+                amd_energy-isa-0000.energy48.energy48_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy49.energy49_input
+                amd_energy-isa-0000.energy49.energy49_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy50.energy50_input
+                amd_energy-isa-0000.energy50.energy50_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy51.energy51_input
+                amd_energy-isa-0000.energy51.energy51_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy52.energy52_input
+                amd_energy-isa-0000.energy52.energy52_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy53.energy53_input
+                amd_energy-isa-0000.energy53.energy53_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy54.energy54_input
+                amd_energy-isa-0000.energy54.energy54_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy55.energy55_input
+                amd_energy-isa-0000.energy55.energy55_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy56.energy56_input
+                amd_energy-isa-0000.energy56.energy56_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy57.energy57_input
+                amd_energy-isa-0000.energy57.energy57_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy58.energy58_input
+                amd_energy-isa-0000.energy58.energy58_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy59.energy59_input
+                amd_energy-isa-0000.energy59.energy59_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy60.energy60_input
+                amd_energy-isa-0000.energy60.energy60_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy61.energy61_input
+                amd_energy-isa-0000.energy61.energy61_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy62.energy62_input
+                amd_energy-isa-0000.energy62.energy62_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy63.energy63_input
+                amd_energy-isa-0000.energy63.energy63_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy64.energy64_input
+                amd_energy-isa-0000.energy64.energy64_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy65.energy65_input
+                amd_energy-isa-0000.energy65.energy65_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy66.energy66_input
+                amd_energy-isa-0000.energy66.energy66_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy67.energy67_input
+                amd_energy-isa-0000.energy67.energy67_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy68.energy68_input
+                amd_energy-isa-0000.energy68.energy68_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy69.energy69_input
+                amd_energy-isa-0000.energy69.energy69_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy70.energy70_input
+                amd_energy-isa-0000.energy70.energy70_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy71.energy71_input
+                amd_energy-isa-0000.energy71.energy71_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy72.energy72_input
+                amd_energy-isa-0000.energy72.energy72_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy73.energy73_input
+                amd_energy-isa-0000.energy73.energy73_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy74.energy74_input
+                amd_energy-isa-0000.energy74.energy74_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy75.energy75_input
+                amd_energy-isa-0000.energy75.energy75_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy76.energy76_input
+                amd_energy-isa-0000.energy76.energy76_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy77.energy77_input
+                amd_energy-isa-0000.energy77.energy77_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy78.energy78_input
+                amd_energy-isa-0000.energy78.energy78_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy79.energy79_input
+                amd_energy-isa-0000.energy79.energy79_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy80.energy80_input
+                amd_energy-isa-0000.energy80.energy80_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy81.energy81_input
+                amd_energy-isa-0000.energy81.energy81_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy82.energy82_input
+                amd_energy-isa-0000.energy82.energy82_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy83.energy83_input
+                amd_energy-isa-0000.energy83.energy83_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy84.energy84_input
+                amd_energy-isa-0000.energy84.energy84_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy85.energy85_input
+                amd_energy-isa-0000.energy85.energy85_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy86.energy86_input
+                amd_energy-isa-0000.energy86.energy86_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy87.energy87_input
+                amd_energy-isa-0000.energy87.energy87_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy88.energy88_input
+                amd_energy-isa-0000.energy88.energy88_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy89.energy89_input
+                amd_energy-isa-0000.energy89.energy89_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy90.energy90_input
+                amd_energy-isa-0000.energy90.energy90_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy91.energy91_input
+                amd_energy-isa-0000.energy91.energy91_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy92.energy92_input
+                amd_energy-isa-0000.energy92.energy92_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy93.energy93_input
+                amd_energy-isa-0000.energy93.energy93_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy94.energy94_input
+                amd_energy-isa-0000.energy94.energy94_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy95.energy95_input
+                amd_energy-isa-0000.energy95.energy95_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy96.energy96_input
+                amd_energy-isa-0000.energy96.energy96_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy97.energy97_input
+                amd_energy-isa-0000.energy97.energy97_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy98.energy98_input
+                amd_energy-isa-0000.energy98.energy98_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy99.energy99_input
+                amd_energy-isa-0000.energy99.energy99_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy100.energy100_input
+                amd_energy-isa-0000.energy100.energy100_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy101.energy101_input
+                amd_energy-isa-0000.energy101.energy101_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy102.energy102_input
+                amd_energy-isa-0000.energy102.energy102_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy103.energy103_input
+                amd_energy-isa-0000.energy103.energy103_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy104.energy104_input
+                amd_energy-isa-0000.energy104.energy104_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy105.energy105_input
+                amd_energy-isa-0000.energy105.energy105_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy106.energy106_input
+                amd_energy-isa-0000.energy106.energy106_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy107.energy107_input
+                amd_energy-isa-0000.energy107.energy107_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy108.energy108_input
+                amd_energy-isa-0000.energy108.energy108_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy109.energy109_input
+                amd_energy-isa-0000.energy109.energy109_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy110.energy110_input
+                amd_energy-isa-0000.energy110.energy110_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy111.energy111_input
+                amd_energy-isa-0000.energy111.energy111_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy112.energy112_input
+                amd_energy-isa-0000.energy112.energy112_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy113.energy113_input
+                amd_energy-isa-0000.energy113.energy113_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy114.energy114_input
+                amd_energy-isa-0000.energy114.energy114_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy115.energy115_input
+                amd_energy-isa-0000.energy115.energy115_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy116.energy116_input
+                amd_energy-isa-0000.energy116.energy116_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy117.energy117_input
+                amd_energy-isa-0000.energy117.energy117_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy118.energy118_input
+                amd_energy-isa-0000.energy118.energy118_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy119.energy119_input
+                amd_energy-isa-0000.energy119.energy119_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy120.energy120_input
+                amd_energy-isa-0000.energy120.energy120_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy121.energy121_input
+                amd_energy-isa-0000.energy121.energy121_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy122.energy122_input
+                amd_energy-isa-0000.energy122.energy122_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy123.energy123_input
+                amd_energy-isa-0000.energy123.energy123_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy124.energy124_input
+                amd_energy-isa-0000.energy124.energy124_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy125.energy125_input
+                amd_energy-isa-0000.energy125.energy125_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy126.energy126_input
+                amd_energy-isa-0000.energy126.energy126_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy127.energy127_input
+                amd_energy-isa-0000.energy127.energy127_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy128.energy128_input
+                amd_energy-isa-0000.energy128.energy128_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy129.energy129_input
+                amd_energy-isa-0000.energy129.energy129_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy130.energy130_input
+                amd_energy-isa-0000.energy130.energy130_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy131.energy131_input
+                amd_energy-isa-0000.energy131.energy131_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy132.energy132_input
+                amd_energy-isa-0000.energy132.energy132_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy133.energy133_input
+                amd_energy-isa-0000.energy133.energy133_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy134.energy134_input
+                amd_energy-isa-0000.energy134.energy134_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy135.energy135_input
+                amd_energy-isa-0000.energy135.energy135_input
+
+---------------------------------------------------------------------------
+lmsensors:::amd_energy-isa-0000.energy136.energy136_input
+                amd_energy-isa-0000.energy136.energy136_input
+
+---------------------------------------------------------------------------
+lmsensors:::k10temp-pci-00c3.Tctl.temp1_input
+                k10temp-pci-00c3.Tctl.temp1_input
+
+---------------------------------------------------------------------------
+lmsensors:::k10temp-pci-00c3.Tccd1.temp3_input
+                k10temp-pci-00c3.Tccd1.temp3_input
+
+---------------------------------------------------------------------------
+lmsensors:::k10temp-pci-00c3.Tccd2.temp4_input
+                k10temp-pci-00c3.Tccd2.temp4_input
+
+---------------------------------------------------------------------------
+lmsensors:::k10temp-pci-00c3.Tccd3.temp5_input
+                k10temp-pci-00c3.Tccd3.temp5_input
+
+---------------------------------------------------------------------------
+lmsensors:::k10temp-pci-00c3.Tccd4.temp6_input
+                k10temp-pci-00c3.Tccd4.temp6_input
+
+---------------------------------------------------------------------------
+lmsensors:::k10temp-pci-00c3.Tccd5.temp7_input
+                k10temp-pci-00c3.Tccd5.temp7_input
+
+---------------------------------------------------------------------------
+lmsensors:::k10temp-pci-00c3.Tccd6.temp8_input
+                k10temp-pci-00c3.Tccd6.temp8_input
+
+---------------------------------------------------------------------------
+lmsensors:::k10temp-pci-00c3.Tccd7.temp9_input
+                k10temp-pci-00c3.Tccd7.temp9_input
+
+---------------------------------------------------------------------------
+lmsensors:::k10temp-pci-00c3.Tccd8.temp10_input
+                k10temp-pci-00c3.Tccd8.temp10_input
+
+---------------------------------------------------------------------------
+Total native events for component lmsensors: 159
+
+
+===========================================================================
+Native events in component sde
+
+Name  Description
+===========================================================================
+Total native events for component sde: 0
+
+
+Total events reported: 397
+
+
+===========================================================================
+Available directed blame shifting preset events
+===========================================================================
+Name		Description
+---------------------------------------------------------------------------
+PTHREAD_WAIT	Shift the blame for waiting for a lock to the lock holder.
+		Only suitable for threaded programs.
+
+===========================================================================
+Available return-count events
+===========================================================================
+Name		Description
+---------------------------------------------------------------------------
+RETCNT		Each time a procedure returns, the return count for that
+		procedure is incremented
+(experimental feature, x86 only)
+
+===========================================================================
+Available Global Arrays events
+===========================================================================
+Name		Description
+---------------------------------------------------------------------------
+GA		Collect Global Arrays metrics by sampling GA operations;
+		configurable sample period (default 293 ops/sample)
+

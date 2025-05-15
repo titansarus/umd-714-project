@@ -1,0 +1,7 @@
+
+ CC_VERSION_OPTION:
+
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+icc (ICC) 2021.4.0 20210910
+Copyright (C) 1985-2021 Intel Corporation.  All rights reserved.
+

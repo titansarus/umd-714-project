@@ -1,0 +1,2 @@
+build_base_gnu_mpi.0000 dir=/home/jumeike/scratch.cmsc714/final-project/benchspec/HPC/621.miniswp_s/build/build_base_gnu_mpi.0000 label=gnu_mpi lock=0 tune=base type=build username=jumeike
+__END__

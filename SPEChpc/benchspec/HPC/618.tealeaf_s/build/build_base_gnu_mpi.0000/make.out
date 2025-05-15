@@ -1,0 +1,76 @@
+mpiicc -c -o 2d/profiler.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/profiler.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o specmpitime/specmpitime.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 specmpitime/specmpitime.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/settings.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/settings.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/c_kernels/ppcg.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/c_kernels/ppcg.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/chunk.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/chunk.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/c_kernels/store_energy.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/c_kernels/store_energy.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/drivers/jacobi_driver.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/drivers/jacobi_driver.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/drivers/kernel_initialise_driver.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/drivers/kernel_initialise_driver.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/c_kernels/field_summary.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/c_kernels/field_summary.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/c_kernels/solver_methods.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/c_kernels/solver_methods.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/c_kernels/set_chunk_data.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/c_kernels/set_chunk_data.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/comms.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/comms.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/initialise.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/initialise.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/drivers/set_chunk_state_driver.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/drivers/set_chunk_state_driver.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/c_kernels/cheby.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/c_kernels/cheby.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/drivers/solve_finished_driver.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/drivers/solve_finished_driver.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/drivers/store_energy_driver.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/drivers/store_energy_driver.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/c_kernels/jacobi.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/c_kernels/jacobi.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/c_kernels/pack_halos.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/c_kernels/pack_halos.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/c_kernels/set_chunk_state.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/c_kernels/set_chunk_state.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/drivers/halo_update_driver.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/drivers/halo_update_driver.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/shared.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/shared.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/drivers/field_summary_driver.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/drivers/field_summary_driver.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/c_kernels/cg.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/c_kernels/cg.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/drivers/cg_driver.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/drivers/cg_driver.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/main.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/main.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/c_kernels/kernel_interface.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/c_kernels/kernel_interface.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/diffuse.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/diffuse.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/c_kernels/diffuse_overload.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/c_kernels/diffuse_overload.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/drivers/set_chunk_data_driver.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/drivers/set_chunk_data_driver.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/drivers/remote_halo_driver.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/drivers/remote_halo_driver.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/drivers/ppcg_driver.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/drivers/ppcg_driver.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/drivers/cheby_driver.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/drivers/cheby_driver.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/drivers/eigenvalue_driver.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/drivers/eigenvalue_driver.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/c_kernels/kernel_initialise.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/c_kernels/kernel_initialise.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/c_kernels/local_halos.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/c_kernels/local_halos.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o 2d/parse_config.o -DSPEC -DNDEBUG  -I2d/drivers/ -I2d/c_kernels -Ispecmpitime  -Ofast -march=native -lm                 2d/parse_config.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc       -Ofast -march=native -lm         2d/chunk.o 2d/comms.o 2d/diffuse.o 2d/initialise.o 2d/main.o 2d/parse_config.o 2d/profiler.o 2d/settings.o 2d/shared.o 2d/drivers/cg_driver.o 2d/drivers/cheby_driver.o 2d/drivers/eigenvalue_driver.o 2d/drivers/field_summary_driver.o 2d/drivers/halo_update_driver.o 2d/drivers/jacobi_driver.o 2d/drivers/kernel_initialise_driver.o 2d/drivers/ppcg_driver.o 2d/drivers/remote_halo_driver.o 2d/drivers/set_chunk_data_driver.o 2d/drivers/set_chunk_state_driver.o 2d/drivers/solve_finished_driver.o 2d/drivers/store_energy_driver.o 2d/c_kernels/cg.o 2d/c_kernels/cheby.o 2d/c_kernels/field_summary.o 2d/c_kernels/jacobi.o 2d/c_kernels/kernel_initialise.o 2d/c_kernels/kernel_interface.o 2d/c_kernels/local_halos.o 2d/c_kernels/pack_halos.o 2d/c_kernels/ppcg.o 2d/c_kernels/set_chunk_data.o 2d/c_kernels/set_chunk_state.o 2d/c_kernels/solver_methods.o 2d/c_kernels/store_energy.o 2d/c_kernels/diffuse_overload.o specmpitime/specmpitime.o                      -o tealeaf  
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance

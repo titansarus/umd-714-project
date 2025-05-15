@@ -1,0 +1,7 @@
+
+ FC_VERSION_OPTION:
+
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+ifort (IFORT) 2021.4.0 20210910
+Copyright (C) 1985-2021 Intel Corporation.  All rights reserved.
+

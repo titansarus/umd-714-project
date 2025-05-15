@@ -1,0 +1,108 @@
+SOMA benchmark version based on tag 0.5.0 gitlab.com/InnocentBug/SOMA
+
+SOMA  Copyright (C) 2016-2017 Ludwig Schneider, Ulrich Welling, Marcel
+Langenberg, Fabien Leonforte, Juan Orozco and more. This program comes with
+ABSOLUTELY NO WARRANTY; see GNU Lesser General Public Licence v3 for details.
+This is free software, and you are welcome to redistribute it under certain
+conditions; see GNU Lesser General Public Licence v3 for details. 
+
+ WARNING this is a crippled version of SOMA it is not to be used for ANY
+scientific purpose save some very specialied benchmark tests. You may want to
+use the original SOMA version, which can be found at
+https://gitlab.com/InnocentBug/SOMA in the maint or master branch, or any
+tagged version.
+
+All 256 ranks use fixed seed 42.
+timesteps="400"
+rng-seed="42"
+npoly="25000000"
+gen-state-file
+system is system info not available with C std 201710.
+GIT version of SOMA is benchmark version based on tag 0.5.0 gitlab.com/InnocentBug/SOMA compiled on May 14 2025 16:09:15.
+MPI version: Intel(R) MPI Library 2021.6 for Linux* OS
+ 3.1
+INFO: At t= 0 particle_type test test passed
+INFO: At t= 0 area51 violation test passed
+INFO: At t= 0 area51 exact test passed
+Running for 14 [s] | TPS 0.628242 | steps-to-go: 395 | ETA: Wed May 14 17:37:59 2025
+Running for 24 [s] | TPS 0.422606 | steps-to-go: 391 | ETA: Wed May 14 17:43:06 2025
+Running for 36 [s] | TPS 0.409799 | steps-to-go: 386 | ETA: Wed May 14 17:43:34 2025
+Running for 46 [s] | TPS 0.408814 | steps-to-go: 382 | ETA: Wed May 14 17:43:37 2025
+Running for 58 [s] | TPS 0.408834 | steps-to-go: 377 | ETA: Wed May 14 17:43:37 2025
+Running for 68 [s] | TPS 0.40898 | steps-to-go: 373 | ETA: Wed May 14 17:43:37 2025
+Running for 80 [s] | TPS 0.409 | steps-to-go: 368 | ETA: Wed May 14 17:43:36 2025
+Running for 90 [s] | TPS 0.408828 | steps-to-go: 364 | ETA: Wed May 14 17:43:37 2025
+Running for 102 [s] | TPS 0.408903 | steps-to-go: 359 | ETA: Wed May 14 17:43:36 2025
+Running for 112 [s] | TPS 0.409298 | steps-to-go: 355 | ETA: Wed May 14 17:43:36 2025
+Running for 124 [s] | TPS 0.409085 | steps-to-go: 350 | ETA: Wed May 14 17:43:36 2025
+Running for 134 [s] | TPS 0.409094 | steps-to-go: 346 | ETA: Wed May 14 17:43:36 2025
+Running for 146 [s] | TPS 0.409154 | steps-to-go: 341 | ETA: Wed May 14 17:43:36 2025
+Running for 156 [s] | TPS 0.408866 | steps-to-go: 337 | ETA: Wed May 14 17:43:37 2025
+Running for 168 [s] | TPS 0.408979 | steps-to-go: 332 | ETA: Wed May 14 17:43:36 2025
+Running for 178 [s] | TPS 0.409251 | steps-to-go: 328 | ETA: Wed May 14 17:43:36 2025
+Running for 190 [s] | TPS 0.408755 | steps-to-go: 323 | ETA: Wed May 14 17:43:37 2025
+Running for 200 [s] | TPS 0.408987 | steps-to-go: 319 | ETA: Wed May 14 17:43:36 2025
+Running for 212 [s] | TPS 0.409088 | steps-to-go: 314 | ETA: Wed May 14 17:43:36 2025
+Running for 222 [s] | TPS 0.409127 | steps-to-go: 310 | ETA: Wed May 14 17:43:36 2025
+Running for 234 [s] | TPS 0.409015 | steps-to-go: 305 | ETA: Wed May 14 17:43:36 2025
+Running for 244 [s] | TPS 0.409199 | steps-to-go: 301 | ETA: Wed May 14 17:43:36 2025
+Running for 256 [s] | TPS 0.408815 | steps-to-go: 296 | ETA: Wed May 14 17:43:37 2025
+Running for 266 [s] | TPS 0.408847 | steps-to-go: 292 | ETA: Wed May 14 17:43:37 2025
+Running for 278 [s] | TPS 0.408761 | steps-to-go: 287 | ETA: Wed May 14 17:43:37 2025
+Running for 288 [s] | TPS 0.408884 | steps-to-go: 283 | ETA: Wed May 14 17:43:37 2025
+Running for 300 [s] | TPS 0.409101 | steps-to-go: 278 | ETA: Wed May 14 17:43:36 2025
+Running for 310 [s] | TPS 0.408915 | steps-to-go: 274 | ETA: Wed May 14 17:43:37 2025
+Running for 322 [s] | TPS 0.409409 | steps-to-go: 269 | ETA: Wed May 14 17:43:36 2025
+Running for 332 [s] | TPS 0.40875 | steps-to-go: 265 | ETA: Wed May 14 17:43:37 2025
+Running for 342 [s] | TPS 0.408926 | steps-to-go: 261 | ETA: Wed May 14 17:43:37 2025
+Running for 354 [s] | TPS 0.408812 | steps-to-go: 256 | ETA: Wed May 14 17:43:37 2025
+Running for 364 [s] | TPS 0.408586 | steps-to-go: 252 | ETA: Wed May 14 17:43:37 2025
+Running for 376 [s] | TPS 0.4088 | steps-to-go: 247 | ETA: Wed May 14 17:43:37 2025
+Running for 386 [s] | TPS 0.408682 | steps-to-go: 243 | ETA: Wed May 14 17:43:37 2025
+Running for 398 [s] | TPS 0.408503 | steps-to-go: 238 | ETA: Wed May 14 17:43:37 2025
+Running for 408 [s] | TPS 0.408257 | steps-to-go: 234 | ETA: Wed May 14 17:43:38 2025
+Running for 420 [s] | TPS 0.408843 | steps-to-go: 229 | ETA: Wed May 14 17:43:37 2025
+Running for 430 [s] | TPS 0.408491 | steps-to-go: 225 | ETA: Wed May 14 17:43:37 2025
+Running for 442 [s] | TPS 0.408586 | steps-to-go: 220 | ETA: Wed May 14 17:43:37 2025
+Running for 452 [s] | TPS 0.408876 | steps-to-go: 216 | ETA: Wed May 14 17:43:37 2025
+Running for 464 [s] | TPS 0.408595 | steps-to-go: 211 | ETA: Wed May 14 17:43:37 2025
+Running for 474 [s] | TPS 0.40881 | steps-to-go: 207 | ETA: Wed May 14 17:43:37 2025
+Running for 486 [s] | TPS 0.408643 | steps-to-go: 202 | ETA: Wed May 14 17:43:37 2025
+Running for 496 [s] | TPS 0.40848 | steps-to-go: 198 | ETA: Wed May 14 17:43:37 2025
+Running for 508 [s] | TPS 0.40853 | steps-to-go: 193 | ETA: Wed May 14 17:43:37 2025
+Running for 518 [s] | TPS 0.408393 | steps-to-go: 189 | ETA: Wed May 14 17:43:37 2025
+Running for 530 [s] | TPS 0.408357 | steps-to-go: 184 | ETA: Wed May 14 17:43:37 2025
+Running for 540 [s] | TPS 0.408924 | steps-to-go: 180 | ETA: Wed May 14 17:43:37 2025
+Running for 550 [s] | TPS 0.408296 | steps-to-go: 176 | ETA: Wed May 14 17:43:38 2025
+Running for 562 [s] | TPS 0.408768 | steps-to-go: 171 | ETA: Wed May 14 17:43:37 2025
+Running for 572 [s] | TPS 0.408659 | steps-to-go: 167 | ETA: Wed May 14 17:43:37 2025
+Running for 584 [s] | TPS 0.408323 | steps-to-go: 162 | ETA: Wed May 14 17:43:37 2025
+Running for 594 [s] | TPS 0.408723 | steps-to-go: 158 | ETA: Wed May 14 17:43:37 2025
+Running for 606 [s] | TPS 0.408364 | steps-to-go: 153 | ETA: Wed May 14 17:43:37 2025
+Running for 616 [s] | TPS 0.408092 | steps-to-go: 149 | ETA: Wed May 14 17:43:38 2025
+Running for 628 [s] | TPS 0.408504 | steps-to-go: 144 | ETA: Wed May 14 17:43:37 2025
+Running for 638 [s] | TPS 0.408441 | steps-to-go: 140 | ETA: Wed May 14 17:43:37 2025
+Running for 650 [s] | TPS 0.408459 | steps-to-go: 135 | ETA: Wed May 14 17:43:37 2025
+Running for 660 [s] | TPS 0.408195 | steps-to-go: 131 | ETA: Wed May 14 17:43:37 2025
+Running for 672 [s] | TPS 0.408629 | steps-to-go: 126 | ETA: Wed May 14 17:43:37 2025
+Running for 682 [s] | TPS 0.408333 | steps-to-go: 122 | ETA: Wed May 14 17:43:37 2025
+Running for 692 [s] | TPS 0.40859 | steps-to-go: 118 | ETA: Wed May 14 17:43:37 2025
+Running for 704 [s] | TPS 0.408797 | steps-to-go: 113 | ETA: Wed May 14 17:43:37 2025
+Running for 714 [s] | TPS 0.408902 | steps-to-go: 109 | ETA: Wed May 14 17:43:37 2025
+Running for 726 [s] | TPS 0.408126 | steps-to-go: 104 | ETA: Wed May 14 17:43:37 2025
+Running for 736 [s] | TPS 0.408295 | steps-to-go: 100 | ETA: Wed May 14 17:43:37 2025
+Running for 748 [s] | TPS 0.408243 | steps-to-go: 95 | ETA: Wed May 14 17:43:37 2025
+Running for 758 [s] | TPS 0.408291 | steps-to-go: 91 | ETA: Wed May 14 17:43:37 2025
+Running for 770 [s] | TPS 0.408154 | steps-to-go: 86 | ETA: Wed May 14 17:43:37 2025
+Running for 780 [s] | TPS 0.408354 | steps-to-go: 82 | ETA: Wed May 14 17:43:37 2025
+Running for 792 [s] | TPS 0.408517 | steps-to-go: 77 | ETA: Wed May 14 17:43:37 2025
+Running for 802 [s] | TPS 0.408338 | steps-to-go: 73 | ETA: Wed May 14 17:43:37 2025
+Running for 814 [s] | TPS 0.408398 | steps-to-go: 68 | ETA: Wed May 14 17:43:37 2025
+Running for 824 [s] | TPS 0.408801 | steps-to-go: 64 | ETA: Wed May 14 17:43:37 2025
+Running for 834 [s] | TPS 0.408391 | steps-to-go: 60 | ETA: Wed May 14 17:43:37 2025
+Running for 846 [s] | TPS 0.408818 | steps-to-go: 55 | ETA: Wed May 14 17:43:37 2025
+Running for 856 [s] | TPS 0.408497 | steps-to-go: 51 | ETA: Wed May 14 17:43:37 2025
+Running for 868 [s] | TPS 0.408672 | steps-to-go: 46 | ETA: Wed May 14 17:43:37 2025
+Running for 878 [s] | TPS 0.408763 | steps-to-go: 42 | ETA: Wed May 14 17:43:37 2025
+Running for 890 [s] | TPS 0.408496 | steps-to-go: 37 | ETA: Wed May 14 17:43:37 2025
+Running for 900 [s] | TPS 0.408765 | steps-to-go: 33 | ETA: Wed May 14 17:43:37 2025

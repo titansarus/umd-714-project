@@ -1,0 +1,239 @@
+SOMA benchmark version based on tag 0.5.0 gitlab.com/InnocentBug/SOMA
+
+SOMA  Copyright (C) 2016-2017 Ludwig Schneider, Ulrich Welling, Marcel
+Langenberg, Fabien Leonforte, Juan Orozco and more. This program comes with
+ABSOLUTELY NO WARRANTY; see GNU Lesser General Public Licence v3 for details.
+This is free software, and you are welcome to redistribute it under certain
+conditions; see GNU Lesser General Public Licence v3 for details. 
+
+ WARNING this is a crippled version of SOMA it is not to be used for ANY
+scientific purpose save some very specialied benchmark tests. You may want to
+use the original SOMA version, which can be found at
+https://gitlab.com/InnocentBug/SOMA in the maint or master branch, or any
+tagged version.
+
+All 1 ranks use fixed seed 6.
+timesteps="4"
+rng-seed="6"
+npoly="2500"
+gen-state-file
+system is system info not available with C std 201710.
+GIT version of SOMA is benchmark version based on tag 0.5.0 gitlab.com/InnocentBug/SOMA compiled on May 13 2025 15:22:54.
+MPI version: Open MPI v4.1.5, package: Open MPI d2spackswinst@dev-2.zaratan.umd.edu Distribution, ident: 4.1.5, repo rev: v4.1.5, Feb 23, 2023 3.1
+INFO: At t= 0 particle_type test test passed
+INFO: At t= 0 area51 violation test passed
+INFO: At t= 0 area51 exact test passed
+INFO: At t= 4 area51 violation test passed
+INFO: At t= 4 area51 exact test passed
+State file generated
+Rank: 0 	 polymers 2500
+
+========================================
+AGGREGATED MPI TIMING REPORT (ALL RANKS)
+========================================
+Number of MPI Ranks: 1
+Total Execution Time: 0.199968 seconds
+Total MPI Time (all ranks): 0.000019 seconds
+Average MPI Time per rank: 0.000019 seconds (0.01% of execution time)
+
+MPI Call Summary (Aggregated Across All Ranks):
+Function             |  Total Calls | Total Time (s) |   Avg Time (s) |   Min Time (s) |   Max Time (s) | % of MPI
+--------------------------------------------------------------------------------------------------------
+MPI_Allgather        |            1 |       0.000013 |    0.000012884 |    0.000012884 |    0.000012884 | 68.8837%
+MPI_Allreduce        |            9 |       0.000002 |    0.000000260 |    0.000000040 |    0.000001532 | 12.5321%
+MPI_Reduce           |            1 |       0.000002 |    0.000002134 |    0.000002134 |    0.000002134 | 11.4093%
+MPI_Barrier          |            1 |       0.000001 |    0.000001342 |    0.000001342 |    0.000001342 |  7.1749%
+
+NOTE: Total time represents the sum across all ranks.
+      Average time is per individual call.
+      Min/Max times are across all calls on all ranks.
+SOMA benchmark version based on tag 0.5.0 gitlab.com/InnocentBug/SOMA
+
+SOMA  Copyright (C) 2016-2017 Ludwig Schneider, Ulrich Welling, Marcel
+Langenberg, Fabien Leonforte, Juan Orozco and more. This program comes with
+ABSOLUTELY NO WARRANTY; see GNU Lesser General Public Licence v3 for details.
+This is free software, and you are welcome to redistribute it under certain
+conditions; see GNU Lesser General Public Licence v3 for details. 
+
+ WARNING this is a crippled version of SOMA it is not to be used for ANY
+scientific purpose save some very specialied benchmark tests. You may want to
+use the original SOMA version, which can be found at
+https://gitlab.com/InnocentBug/SOMA in the maint or master branch, or any
+tagged version.
+
+All 1 ranks use fixed seed 6.
+timesteps="4"
+rng-seed="6"
+npoly="2500"
+gen-state-file
+system is system info not available with C std 201710.
+GIT version of SOMA is benchmark version based on tag 0.5.0 gitlab.com/InnocentBug/SOMA compiled on May 13 2025 15:22:54.
+MPI version: Open MPI v4.1.5, package: Open MPI d2spackswinst@dev-2.zaratan.umd.edu Distribution, ident: 4.1.5, repo rev: v4.1.5, Feb 23, 2023 3.1
+INFO: At t= 0 particle_type test test passed
+INFO: At t= 0 area51 violation test passed
+INFO: At t= 0 area51 exact test passed
+INFO: At t= 4 area51 violation test passed
+INFO: At t= 4 area51 exact test passed
+State file generated
+Rank: 0 	 polymers 2500
+
+========================================
+AGGREGATED MPI TIMING REPORT (ALL RANKS)
+========================================
+Number of MPI Ranks: 1
+Total Execution Time: 0.201551 seconds
+Total MPI Time (all ranks): 0.000018 seconds
+Average MPI Time per rank: 0.000018 seconds (0.01% of execution time)
+
+MPI Call Summary (Aggregated Across All Ranks):
+Function             |  Total Calls | Total Time (s) |   Avg Time (s) |   Min Time (s) |   Max Time (s) | % of MPI
+--------------------------------------------------------------------------------------------------------
+MPI_Allgather        |            1 |       0.000012 |    0.000011771 |    0.000011771 |    0.000011771 | 65.7855%
+MPI_Reduce           |            1 |       0.000002 |    0.000002425 |    0.000002425 |    0.000002425 | 13.5528%
+MPI_Allreduce        |            9 |       0.000002 |    0.000000253 |    0.000000040 |    0.000001302 | 12.7145%
+MPI_Barrier          |            1 |       0.000001 |    0.000001422 |    0.000001422 |    0.000001422 |  7.9472%
+
+NOTE: Total time represents the sum across all ranks.
+      Average time is per individual call.
+      Min/Max times are across all calls on all ranks.
+SOMA benchmark version based on tag 0.5.0 gitlab.com/InnocentBug/SOMA
+
+SOMA  Copyright (C) 2016-2017 Ludwig Schneider, Ulrich Welling, Marcel
+Langenberg, Fabien Leonforte, Juan Orozco and more. This program comes with
+ABSOLUTELY NO WARRANTY; see GNU Lesser General Public Licence v3 for details.
+This is free software, and you are welcome to redistribute it under certain
+conditions; see GNU Lesser General Public Licence v3 for details. 
+
+ WARNING this is a crippled version of SOMA it is not to be used for ANY
+scientific purpose save some very specialied benchmark tests. You may want to
+use the original SOMA version, which can be found at
+https://gitlab.com/InnocentBug/SOMA in the maint or master branch, or any
+tagged version.
+
+All 1 ranks use fixed seed 6.
+timesteps="4"
+rng-seed="6"
+npoly="2500"
+gen-state-file
+system is system info not available with C std 201710.
+GIT version of SOMA is benchmark version based on tag 0.5.0 gitlab.com/InnocentBug/SOMA compiled on May 13 2025 15:22:54.
+MPI version: Open MPI v4.1.5, package: Open MPI d2spackswinst@dev-2.zaratan.umd.edu Distribution, ident: 4.1.5, repo rev: v4.1.5, Feb 23, 2023 3.1
+INFO: At t= 0 particle_type test test passed
+INFO: At t= 0 area51 violation test passed
+INFO: At t= 0 area51 exact test passed
+INFO: At t= 4 area51 violation test passed
+INFO: At t= 4 area51 exact test passed
+State file generated
+Rank: 0 	 polymers 2500
+
+========================================
+AGGREGATED MPI TIMING REPORT (ALL RANKS)
+========================================
+Number of MPI Ranks: 1
+Total Execution Time: 0.196353 seconds
+Total MPI Time (all ranks): 0.000020 seconds
+Average MPI Time per rank: 0.000020 seconds (0.01% of execution time)
+
+MPI Call Summary (Aggregated Across All Ranks):
+Function             |  Total Calls | Total Time (s) |   Avg Time (s) |   Min Time (s) |   Max Time (s) | % of MPI
+--------------------------------------------------------------------------------------------------------
+MPI_Allgather        |            1 |       0.000013 |    0.000012884 |    0.000012884 |    0.000012884 | 64.6592%
+MPI_Reduce           |            1 |       0.000003 |    0.000003347 |    0.000003347 |    0.000003347 | 16.7971%
+MPI_Allreduce        |            9 |       0.000002 |    0.000000239 |    0.000000040 |    0.000001322 | 10.8050%
+MPI_Barrier          |            1 |       0.000002 |    0.000001542 |    0.000001542 |    0.000001542 |  7.7386%
+
+NOTE: Total time represents the sum across all ranks.
+      Average time is per individual call.
+      Min/Max times are across all calls on all ranks.
+SOMA benchmark version based on tag 0.5.0 gitlab.com/InnocentBug/SOMA
+
+SOMA  Copyright (C) 2016-2017 Ludwig Schneider, Ulrich Welling, Marcel
+Langenberg, Fabien Leonforte, Juan Orozco and more. This program comes with
+ABSOLUTELY NO WARRANTY; see GNU Lesser General Public Licence v3 for details.
+This is free software, and you are welcome to redistribute it under certain
+conditions; see GNU Lesser General Public Licence v3 for details. 
+
+ WARNING this is a crippled version of SOMA it is not to be used for ANY
+scientific purpose save some very specialied benchmark tests. You may want to
+use the original SOMA version, which can be found at
+https://gitlab.com/InnocentBug/SOMA in the maint or master branch, or any
+tagged version.
+
+All 1 ranks use fixed seed 6.
+timesteps="4"
+rng-seed="6"
+npoly="2500"
+gen-state-file
+system is system info not available with C std 201710.
+GIT version of SOMA is benchmark version based on tag 0.5.0 gitlab.com/InnocentBug/SOMA compiled on May 13 2025 15:22:54.
+MPI version: Open MPI v4.1.5, package: Open MPI d2spackswinst@dev-2.zaratan.umd.edu Distribution, ident: 4.1.5, repo rev: v4.1.5, Feb 23, 2023 3.1
+INFO: At t= 0 particle_type test test passed
+INFO: At t= 0 area51 violation test passed
+INFO: At t= 0 area51 exact test passed
+INFO: At t= 4 area51 violation test passed
+INFO: At t= 4 area51 exact test passed
+State file generated
+Rank: 0 	 polymers 2500
+
+========================================
+AGGREGATED MPI TIMING REPORT (ALL RANKS)
+========================================
+Number of MPI Ranks: 1
+Total Execution Time: 0.197923 seconds
+Total MPI Time (all ranks): 0.000020 seconds
+Average MPI Time per rank: 0.000020 seconds (0.01% of execution time)
+
+MPI Call Summary (Aggregated Across All Ranks):
+Function             |  Total Calls | Total Time (s) |   Avg Time (s) |   Min Time (s) |   Max Time (s) | % of MPI
+--------------------------------------------------------------------------------------------------------
+MPI_Allgather        |            1 |       0.000012 |    0.000011963 |    0.000011963 |    0.000011963 | 59.7941%
+MPI_Reduce           |            1 |       0.000003 |    0.000003407 |    0.000003407 |    0.000003407 | 17.0290%
+MPI_Allreduce        |            9 |       0.000003 |    0.000000362 |    0.000000040 |    0.000001673 | 16.2643%
+MPI_Barrier          |            1 |       0.000001 |    0.000001383 |    0.000001383 |    0.000001383 |  6.9126%
+
+NOTE: Total time represents the sum across all ranks.
+      Average time is per individual call.
+      Min/Max times are across all calls on all ranks.
+Elapsed Time: 1.648s
+    CPU Time: 3.570s
+        Effective Time: 3.431s
+            Idle: 0.050s
+            Poor: 3.381s
+            Ok: 0s
+            Ideal: 0s
+            Over: 0s
+        Spin Time: 0.139s
+        Overhead Time: 0s
+    Total Thread Count: 36
+    Paused Time: 0s
+
+Top Hotspots
+Function                              Module           CPU Time
+------------------------------------  ---------------  --------
+openat                                libc.so.6          0.496s
+dlopen                                libdl.so.2         0.369s
+read                                  libc.so.6          0.220s
+ucp_worker_create                     libucp.so.0        0.190s
+OS_BARESYSCALL_DoCallAsmIntel64Linux  libc-dynamic.so    0.152s
+[Others]                              N/A                2.144s
+Collection and Platform Info
+    Application Command Line: ../run_base_ref_gnu_mpi.0010/soma_base.gnu_mpi "-r" "6" "-t" "4" "--npoly=2500" "--gen-state-file" 
+    Operating System: 4.18.0-553.27.1.el8_10.x86_64 Red Hat Enterprise Linux release 8.10 (Ootpa)
+    MPI Process Rank: 3
+    Computer Name: login-2.zaratan.umd.edu
+    Result Size: 6.5 MB 
+    Collection start time: 18:44:11 14/05/2025 UTC
+    Collection stop time: 18:44:14 14/05/2025 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Unknown
+        Frequency: 2.445 GHz 
+        Logical CPU Count: 128
+        Cache Allocation Technology
+            Level 2 capability: not detected
+            Level 3 capability: available
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.

@@ -1,0 +1,272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>621.miniswp_s: SPEChpc 2021 Benchmark Description</title>
+</head>
+<body>
+<div style="text-align: center">
+<h1>621.miniswp_s<br />
+SPEChpc&trade; 2021 Benchmark Description</h1>
+</div>
+
+<h2>Benchmark Name</h2>
+
+<p>621.miniswp_s (Minisweep)</p>
+
+<hr />
+
+<h2>Benchmark Author</h2>
+
+<p>Submitted by Wayne Joubert</p>
+
+<p>Wayne Joubert<br />
+Scientific Computing<br />
+Oak Ridge National Laboratory<br />
+1 Bethel Valley Road
+Oak Ridge, TN 37831<br />
+Bldg: 5600, Room: A321<br /></p>
+
+<hr />
+
+<h2>Benchmark Program General Category</h2>
+
+<p>Nuclear Engineering - Radiation Transport</p>
+
+<hr />
+
+<h2>Benchmark Description</h2>
+
+<p>The Minisweep proxy application is part of the Profugus radiation
+transport miniapp project that reproduces the computational pattern of
+the sweep kernel of the Denovo Sn radiation transport code. The sweep
+kernel is responsible for most of the computational expense (80-99%)
+of Denovo. Denovo, a production code for nuclear reactor neutronics
+modeling, is in use by a current DOE INCITE project to model the
+International Thermonuclear Experimental Reactor (ITER) fusion
+reactor. The many runs of this code required to perform reactor
+simulations at high node counts makes it an important target for
+efficient mapping to accelerated architectures.</p>
+
+<p>Denovo was one of six applications selected for early application
+readiness on Oak Ridge National Laboratory’s Titan system under the
+Center for Accelerated Application Readiness (CAAR) project and is
+part of the Exnihilo code suite which received an R&D 100 award for
+modeling the Westinghouse AP1000 reactor. Minisweep can be considered
+a successor to the well-known Sweep3D benchmark and is similar to
+other Sn wavefront codes including Kripke, SN (Discrete Ordinates)
+Application Proxy (SNAP), and PARTISN.</p>
+
+<hr />
+
+<h2>MPI Usage</h2>
+
+<p>MPI functions MPI_Isend, MPI_Irecv, along with a variety of
+variations of MPI_Bcast and MPI_Allreduce are used.  The 3-dimensional
+space being modeled is partitioned into blocks whose size are
+configured at runtime via command line arguments. The resulting blocks
+are each bound to their own MPI rank.</p>
+
+<hr />
+
+<h2>Input Description</h2>
+
+<p>Minisweep's input sizes are specified at runtime on the command
+line. It does not read in anything from an input file. Below is a list
+of command line options that can be used, as well as their
+corresponding descriptions taken from Minisweep's official
+documentation.</p>
+
+<p> Additional information (including compilation/runtime examples)
+can be found in Minisweep's github page at the link below:<br />
+<a href="https://github.com/wdj/minisweep/blob/master/doc/how_to_run.txt">https://github.com/wdj/minisweep/blob/master/doc/how_to_run.txt</a>
+</p>
+
+<pre>
+--ncell_x
+
+  The global number of gridcells along the X dimension.
+
+--ncell_y
+
+  The global number of gridcells along the Y dimension.
+
+--ncell_z
+
+  The global number of gridcells along the Z dimension.
+
+--ne
+
+  The total number of energy groups.  For realistic simulations may
+  range from 1 (small) to 44 (normal) to hundreds (not typical).
+
+--na
+
+  The number of angles for each octant direction.  For realistic simulations
+  a typical number would be up to 32 or more.
+
+  NOTE: the number of moments is specified as a compile-time value, NM.
+  Typical values are 1, 4, 16 and 36.
+
+  NOTE: for CUDA builds, the angle and moment axes are always fully threaded.
+
+--niterations
+
+  The number of sweep iterations to perform.  A setting of 1 iteration
+  is sufficient to demonstrate the performance characteristics of the
+  code.
+
+--nproc_x
+
+  Available for MPI builds. The number of MPI ranks used to decompose
+  along the X dimension.
+
+--nproc_y
+
+  Available for MPI builds. The number of MPI ranks used to decompose
+  along the Y dimension.
+
+--nblock_z
+
+  The number of sweep blocks used to tile the Z dimension.  Currently must
+  divide ncell_z exactly.  Blocks along the Z dimension are kept on
+  the same MPI rank.
+  The algorithm is a wavefront algorithm, where every block is
+  considered as a node of the wavefront grid for the wavefront calculation.
+
+  NOTE: when nthread_octant==8, setting nblock_z such that nblock_z % 2 == 0
+  can considerably increase performance.
+
+--is_using_device
+
+  Available for CUDA builds.  Set to 1 to use the GPU, 0 for
+  CPU-only (default).
+
+--is_face_comm_async
+
+  For MPI builds, 1 to use asynchronous communication (default),
+  0 for synchronous only.
+
+--nthread_octant
+
+  For OpenMP or CUDA builds, the number of threads deployed to octants.
+  The total number of threads equals the product of all thread counts
+  along problem axes.
+  Can be 1, 2, 4 or 8.
+  For OpenMP or CUDA builds, should be set to 8.  Otherwise should be
+  set to 1 (default).
+  Currently uses a semiblock tiling method for threading octants,
+  different from the production code.
+
+--nsemiblock
+
+  An experimental tuning parameter.  By default equals nthread_octant.
+
+--nthread_e
+
+  For OpenMP or CUDA builds, the number of threads deployed to energy groups
+  (default 1).
+  The total number of threads equals the product of all thread counts
+  along problem axes.
+
+--nthread_y
+
+  For OpenMP or CUDA builds, the number of threads deployed to the Y axis
+  within a sweep block (default 1).
+  The total number of threads equals the product of all thread counts
+  along problem axes.
+  For CUDA builds, can be set to a small integer between 1 and 4.
+  Not advised for OpenMP builds, as the parallelism is generally too
+  fine-grained to give good performance.
+
+--nthread_z
+
+  For OpenMP or CUDA builds, the number of threads deployed to the Z axis
+  within a sweep block (default 1).
+  The total number of threads equals the product of all thread counts
+  along problem axes.
+  Since the sweep block thickness in Z (ncell_z/nblock_z) commonly equals 1,
+  this setting should generally be set to 1.
+  Not advised for OpenMP builds, as the parallelism is generally too
+  fine-grained to give good performance.
+
+--ncell_x_per_subblock
+
+  For OpenMP or CUDA builds, a blocking factor for blocking the sweep block
+  to deploy Y/Z threading.  By default equals the number of cells along the
+  X dimension for the given MPI rank, or half this amount if the axis
+  is semiblocked due to octant threading.
+
+--ncell_y_per_subblock
+
+  For OpenMP or CUDA builds, a blocking factor for blocking the sweep block
+  to deploy Y/Z threading.  By default equals the number of cells along the
+  Y dimension for the given MPI rank, or half this amount if the axis
+  is semiblocked due to octant threading.
+
+--ncell_z_per_subblock
+
+  For OpenMP or CUDA builds, a blocking factor for blocking the sweep block
+  to deploy Y/Z threading.  By default equals the number of cells along the
+  Z dimension for the given MPI rank, or half this amount if the axis
+  is semiblocked due to octant threading.
+  Since the sweep block thickness in Z (ncell_z/nblock_z) commonly equals 1,
+  this setting should generally be set to 1.
+</pre>
+
+<hr />
+
+<h2>Output Description</h2>
+
+
+<p>Output values are summed for all octants and are stored in an
+array. Minisweep will print the contents of that array. Here is a
+partial example:</p>
+
+<pre>
+energy_totals[0]: 6016204800.000000
+energy_totals[1]: 24064819200.000000
+energy_totals[2]: 6016204800.000000
+energy_totals[3]: 24064819200.000000
+energy_totals[4]: 6016204800.000000
+energy_totals[5]: 24064819200.000000
+energy_totals[6]: 6016204800.000000
+energy_totals[7]: 24064819200.000000
+energy_totals[8]: 6016204800.000000
+energy_totals[9]: 24064819200.000000
+energy_totals[10]: 6016204800.000000
+</pre>
+
+<hr />
+
+<h2>Programming Language</h2>
+
+<p>C</p>
+
+<hr />
+
+<h2>Known portability issues</h2>
+
+Minisweep should be run with a number of ranks that are a power of 2 (or a single rank). Dimensions are configured as powers of 2, so using a power of 2 for ranks will ensure that dimensions can be evenly divided amongst ranks. Other even numbers of ranks will sometimes work, but it depends on the workload/dimension size. 
+
+<hr />
+
+<h2>Version and Licensing</h2>
+
+Version 1, distributed under the GNU General Public License.
+
+<hr />
+
+<h2>References</h2>
+
+<ul>
+<li><a href=
+"https://github.com/wdj/minisweep">https://github.com/wdj/minisweep</a>
+</li>
+</ul>
+
+<hr />
+
+<p>Last updated: July 16, 2018</p>
+</body>
+</html>

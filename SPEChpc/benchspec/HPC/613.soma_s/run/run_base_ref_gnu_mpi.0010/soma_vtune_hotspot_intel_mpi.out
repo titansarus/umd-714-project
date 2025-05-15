@@ -1,0 +1,970 @@
+SOMA benchmark version based on tag 0.5.0 gitlab.com/InnocentBug/SOMA
+
+SOMA  Copyright (C) 2016-2017 Ludwig Schneider, Ulrich Welling, Marcel
+Langenberg, Fabien Leonforte, Juan Orozco and more. This program comes with
+ABSOLUTELY NO WARRANTY; see GNU Lesser General Public Licence v3 for details.
+This is free software, and you are welcome to redistribute it under certain
+conditions; see GNU Lesser General Public Licence v3 for details. 
+
+ WARNING this is a crippled version of SOMA it is not to be used for ANY
+scientific purpose save some very specialied benchmark tests. You may want to
+use the original SOMA version, which can be found at
+https://gitlab.com/InnocentBug/SOMA in the maint or master branch, or any
+tagged version.
+
+All 256 ranks use fixed seed 42.
+timesteps="400"
+rng-seed="42"
+npoly="25000000"
+gen-state-file
+system is system info not available with C std 201112.
+GIT version of SOMA is benchmark version based on tag 0.5.0 gitlab.com/InnocentBug/SOMA compiled on May 14 2025 14:38:32.
+MPI version: Intel(R) MPI Library 2021.6 for Linux* OS
+ 3.1
+INFO: At t= 0 particle_type test test passed
+INFO: At t= 0 area51 violation test passed
+INFO: At t= 0 area51 exact test passed
+Running for 21 [s] | TPS 0.352982 | steps-to-go: 397 | ETA: Wed May 14 15:09:16 2025
+Running for 33 [s] | TPS 0.184756 | steps-to-go: 395 | ETA: Wed May 14 15:26:21 2025
+Running for 46 [s] | TPS 0.165261 | steps-to-go: 393 | ETA: Wed May 14 15:30:35 2025
+Running for 58 [s] | TPS 0.16092 | steps-to-go: 391 | ETA: Wed May 14 15:31:38 2025
+Running for 71 [s] | TPS 0.159915 | steps-to-go: 389 | ETA: Wed May 14 15:31:54 2025
+Running for 83 [s] | TPS 0.159558 | steps-to-go: 387 | ETA: Wed May 14 15:31:59 2025
+Running for 96 [s] | TPS 0.159512 | steps-to-go: 385 | ETA: Wed May 14 15:32:00 2025
+Running for 108 [s] | TPS 0.159696 | steps-to-go: 383 | ETA: Wed May 14 15:31:57 2025
+Running for 121 [s] | TPS 0.15978 | steps-to-go: 381 | ETA: Wed May 14 15:31:56 2025
+Running for 133 [s] | TPS 0.159858 | steps-to-go: 379 | ETA: Wed May 14 15:31:54 2025
+Running for 146 [s] | TPS 0.159769 | steps-to-go: 377 | ETA: Wed May 14 15:31:56 2025
+Running for 158 [s] | TPS 0.159904 | steps-to-go: 375 | ETA: Wed May 14 15:31:54 2025
+Running for 171 [s] | TPS 0.159817 | steps-to-go: 373 | ETA: Wed May 14 15:31:55 2025
+Running for 183 [s] | TPS 0.159743 | steps-to-go: 371 | ETA: Wed May 14 15:31:56 2025
+Running for 196 [s] | TPS 0.159801 | steps-to-go: 369 | ETA: Wed May 14 15:31:56 2025
+Running for 208 [s] | TPS 0.159759 | steps-to-go: 367 | ETA: Wed May 14 15:31:56 2025
+Running for 221 [s] | TPS 0.159701 | steps-to-go: 365 | ETA: Wed May 14 15:31:57 2025
+Running for 233 [s] | TPS 0.159781 | steps-to-go: 363 | ETA: Wed May 14 15:31:55 2025
+Running for 246 [s] | TPS 0.15968 | steps-to-go: 361 | ETA: Wed May 14 15:31:57 2025
+Running for 258 [s] | TPS 0.159736 | steps-to-go: 359 | ETA: Wed May 14 15:31:56 2025
+Running for 271 [s] | TPS 0.159775 | steps-to-go: 357 | ETA: Wed May 14 15:31:56 2025
+Running for 284 [s] | TPS 0.159658 | steps-to-go: 355 | ETA: Wed May 14 15:31:58 2025
+Running for 296 [s] | TPS 0.159686 | steps-to-go: 353 | ETA: Wed May 14 15:31:57 2025
+Running for 309 [s] | TPS 0.159891 | steps-to-go: 351 | ETA: Wed May 14 15:31:55 2025
+Running for 321 [s] | TPS 0.159782 | steps-to-go: 349 | ETA: Wed May 14 15:31:56 2025
+Running for 334 [s] | TPS 0.159837 | steps-to-go: 347 | ETA: Wed May 14 15:31:55 2025
+Running for 346 [s] | TPS 0.159618 | steps-to-go: 345 | ETA: Wed May 14 15:31:58 2025
+Running for 359 [s] | TPS 0.159647 | steps-to-go: 343 | ETA: Wed May 14 15:31:58 2025
+Running for 371 [s] | TPS 0.159475 | steps-to-go: 341 | ETA: Wed May 14 15:32:00 2025
+Running for 384 [s] | TPS 0.15957 | steps-to-go: 339 | ETA: Wed May 14 15:31:59 2025
+Running for 396 [s] | TPS 0.159653 | steps-to-go: 337 | ETA: Wed May 14 15:31:57 2025
+Running for 409 [s] | TPS 0.159646 | steps-to-go: 335 | ETA: Wed May 14 15:31:58 2025
+Running for 421 [s] | TPS 0.159746 | steps-to-go: 333 | ETA: Wed May 14 15:31:56 2025
+Running for 434 [s] | TPS 0.159679 | steps-to-go: 331 | ETA: Wed May 14 15:31:57 2025
+Running for 446 [s] | TPS 0.159617 | steps-to-go: 329 | ETA: Wed May 14 15:31:58 2025
+Running for 459 [s] | TPS 0.159687 | steps-to-go: 327 | ETA: Wed May 14 15:31:57 2025
+Running for 471 [s] | TPS 0.159754 | steps-to-go: 325 | ETA: Wed May 14 15:31:56 2025
+Running for 484 [s] | TPS 0.15946 | steps-to-go: 323 | ETA: Wed May 14 15:32:00 2025
+Running for 496 [s] | TPS 0.159692 | steps-to-go: 321 | ETA: Wed May 14 15:31:57 2025
+Running for 509 [s] | TPS 0.159874 | steps-to-go: 319 | ETA: Wed May 14 15:31:55 2025
+Running for 522 [s] | TPS 0.159733 | steps-to-go: 317 | ETA: Wed May 14 15:31:57 2025
+Running for 534 [s] | TPS 0.159869 | steps-to-go: 315 | ETA: Wed May 14 15:31:55 2025
+Running for 547 [s] | TPS 0.159519 | steps-to-go: 313 | ETA: Wed May 14 15:32:00 2025
+Running for 559 [s] | TPS 0.159664 | steps-to-go: 311 | ETA: Wed May 14 15:31:57 2025
+Running for 572 [s] | TPS 0.159803 | steps-to-go: 309 | ETA: Wed May 14 15:31:56 2025
+Running for 584 [s] | TPS 0.159789 | steps-to-go: 307 | ETA: Wed May 14 15:31:56 2025
+Running for 597 [s] | TPS 0.159735 | steps-to-go: 305 | ETA: Wed May 14 15:31:57 2025
+Running for 609 [s] | TPS 0.15961 | steps-to-go: 303 | ETA: Wed May 14 15:31:58 2025
+Running for 622 [s] | TPS 0.159447 | steps-to-go: 301 | ETA: Wed May 14 15:32:00 2025
+Running for 634 [s] | TPS 0.159285 | steps-to-go: 299 | ETA: Wed May 14 15:32:02 2025
+Running for 647 [s] | TPS 0.159383 | steps-to-go: 297 | ETA: Wed May 14 15:32:01 2025
+Running for 659 [s] | TPS 0.159755 | steps-to-go: 295 | ETA: Wed May 14 15:31:56 2025
+Running for 672 [s] | TPS 0.159648 | steps-to-go: 293 | ETA: Wed May 14 15:31:58 2025
+Running for 684 [s] | TPS 0.159442 | steps-to-go: 291 | ETA: Wed May 14 15:32:00 2025
+Running for 697 [s] | TPS 0.159534 | steps-to-go: 289 | ETA: Wed May 14 15:31:59 2025
+Running for 709 [s] | TPS 0.159626 | steps-to-go: 287 | ETA: Wed May 14 15:31:57 2025
+Running for 722 [s] | TPS 0.159908 | steps-to-go: 285 | ETA: Wed May 14 15:31:55 2025
+Running for 734 [s] | TPS 0.159907 | steps-to-go: 283 | ETA: Wed May 14 15:31:54 2025
+Running for 747 [s] | TPS 0.159879 | steps-to-go: 281 | ETA: Wed May 14 15:31:55 2025
+Running for 760 [s] | TPS 0.159814 | steps-to-go: 279 | ETA: Wed May 14 15:31:56 2025
+Running for 772 [s] | TPS 0.159904 | steps-to-go: 277 | ETA: Wed May 14 15:31:55 2025
+Running for 785 [s] | TPS 0.159768 | steps-to-go: 275 | ETA: Wed May 14 15:31:57 2025
+Running for 797 [s] | TPS 0.159783 | steps-to-go: 273 | ETA: Wed May 14 15:31:56 2025
+Running for 810 [s] | TPS 0.159718 | steps-to-go: 271 | ETA: Wed May 14 15:31:57 2025
+Running for 822 [s] | TPS 0.159788 | steps-to-go: 269 | ETA: Wed May 14 15:31:56 2025
+Running for 835 [s] | TPS 0.159784 | steps-to-go: 267 | ETA: Wed May 14 15:31:57 2025
+Running for 847 [s] | TPS 0.159799 | steps-to-go: 265 | ETA: Wed May 14 15:31:56 2025
+Running for 860 [s] | TPS 0.159856 | steps-to-go: 263 | ETA: Wed May 14 15:31:56 2025
+Running for 872 [s] | TPS 0.159922 | steps-to-go: 261 | ETA: Wed May 14 15:31:55 2025
+Running for 885 [s] | TPS 0.159671 | steps-to-go: 259 | ETA: Wed May 14 15:31:58 2025
+Running for 897 [s] | TPS 0.159523 | steps-to-go: 257 | ETA: Wed May 14 15:31:59 2025
+Running for 910 [s] | TPS 0.159467 | steps-to-go: 255 | ETA: Wed May 14 15:32:00 2025
+Running for 922 [s] | TPS 0.15941 | steps-to-go: 253 | ETA: Wed May 14 15:32:00 2025
+Running for 935 [s] | TPS 0.159347 | steps-to-go: 251 | ETA: Wed May 14 15:32:01 2025
+Running for 947 [s] | TPS 0.159397 | steps-to-go: 249 | ETA: Wed May 14 15:32:00 2025
+Running for 960 [s] | TPS 0.159401 | steps-to-go: 247 | ETA: Wed May 14 15:32:00 2025
+Running for 973 [s] | TPS 0.159325 | steps-to-go: 245 | ETA: Wed May 14 15:32:01 2025
+Running for 985 [s] | TPS 0.159365 | steps-to-go: 243 | ETA: Wed May 14 15:32:00 2025
+Running for 998 [s] | TPS 0.159423 | steps-to-go: 241 | ETA: Wed May 14 15:32:00 2025
+Running for 1010 [s] | TPS 0.159399 | steps-to-go: 239 | ETA: Wed May 14 15:32:00 2025
+Running for 1023 [s] | TPS 0.159386 | steps-to-go: 237 | ETA: Wed May 14 15:32:00 2025
+Running for 1035 [s] | TPS 0.159313 | steps-to-go: 235 | ETA: Wed May 14 15:32:01 2025
+Running for 1048 [s] | TPS 0.159468 | steps-to-go: 233 | ETA: Wed May 14 15:32:00 2025
+Running for 1060 [s] | TPS 0.159462 | steps-to-go: 231 | ETA: Wed May 14 15:31:59 2025
+Running for 1073 [s] | TPS 0.159435 | steps-to-go: 229 | ETA: Wed May 14 15:32:00 2025
+Running for 1085 [s] | TPS 0.159476 | steps-to-go: 227 | ETA: Wed May 14 15:31:59 2025
+Running for 1098 [s] | TPS 0.159412 | steps-to-go: 225 | ETA: Wed May 14 15:32:00 2025
+Running for 1111 [s] | TPS 0.159394 | steps-to-go: 223 | ETA: Wed May 14 15:32:01 2025
+Running for 1123 [s] | TPS 0.159457 | steps-to-go: 221 | ETA: Wed May 14 15:31:59 2025
+Running for 1136 [s] | TPS 0.1595 | steps-to-go: 219 | ETA: Wed May 14 15:32:00 2025
+Running for 1148 [s] | TPS 0.159462 | steps-to-go: 217 | ETA: Wed May 14 15:31:59 2025
+Running for 1161 [s] | TPS 0.159468 | steps-to-go: 215 | ETA: Wed May 14 15:32:00 2025
+Running for 1173 [s] | TPS 0.159473 | steps-to-go: 213 | ETA: Wed May 14 15:31:59 2025
+Running for 1186 [s] | TPS 0.159402 | steps-to-go: 211 | ETA: Wed May 14 15:32:00 2025
+Running for 1198 [s] | TPS 0.159471 | steps-to-go: 209 | ETA: Wed May 14 15:31:59 2025
+Running for 1211 [s] | TPS 0.159496 | steps-to-go: 207 | ETA: Wed May 14 15:31:59 2025
+Running for 1223 [s] | TPS 0.159524 | steps-to-go: 205 | ETA: Wed May 14 15:31:59 2025
+Running for 1236 [s] | TPS 0.159516 | steps-to-go: 203 | ETA: Wed May 14 15:31:59 2025
+Running for 1248 [s] | TPS 0.159406 | steps-to-go: 201 | ETA: Wed May 14 15:31:59 2025
+Running for 1261 [s] | TPS 0.159418 | steps-to-go: 199 | ETA: Wed May 14 15:32:00 2025
+Running for 1274 [s] | TPS 0.159308 | steps-to-go: 197 | ETA: Wed May 14 15:32:01 2025
+Running for 1286 [s] | TPS 0.159501 | steps-to-go: 195 | ETA: Wed May 14 15:31:59 2025
+Running for 1299 [s] | TPS 0.159498 | steps-to-go: 193 | ETA: Wed May 14 15:32:00 2025
+Running for 1311 [s] | TPS 0.159485 | steps-to-go: 191 | ETA: Wed May 14 15:31:59 2025
+Running for 1324 [s] | TPS 0.159471 | steps-to-go: 189 | ETA: Wed May 14 15:32:00 2025
+Running for 1336 [s] | TPS 0.159535 | steps-to-go: 187 | ETA: Wed May 14 15:31:59 2025
+Running for 1349 [s] | TPS 0.159475 | steps-to-go: 185 | ETA: Wed May 14 15:32:00 2025
+Running for 1361 [s] | TPS 0.15941 | steps-to-go: 183 | ETA: Wed May 14 15:31:59 2025
+Running for 1374 [s] | TPS 0.159464 | steps-to-go: 181 | ETA: Wed May 14 15:32:00 2025
+Running for 1386 [s] | TPS 0.159457 | steps-to-go: 179 | ETA: Wed May 14 15:31:59 2025
+Running for 1399 [s] | TPS 0.159453 | steps-to-go: 177 | ETA: Wed May 14 15:32:00 2025
+Running for 1412 [s] | TPS 0.159561 | steps-to-go: 175 | ETA: Wed May 14 15:31:59 2025
+Running for 1424 [s] | TPS 0.159528 | steps-to-go: 173 | ETA: Wed May 14 15:31:59 2025
+Running for 1437 [s] | TPS 0.159412 | steps-to-go: 171 | ETA: Wed May 14 15:32:00 2025
+Running for 1449 [s] | TPS 0.159446 | steps-to-go: 169 | ETA: Wed May 14 15:31:59 2025
+Running for 1462 [s] | TPS 0.159474 | steps-to-go: 167 | ETA: Wed May 14 15:32:00 2025
+Running for 1474 [s] | TPS 0.159546 | steps-to-go: 165 | ETA: Wed May 14 15:31:59 2025
+Running for 1487 [s] | TPS 0.159516 | steps-to-go: 163 | ETA: Wed May 14 15:31:59 2025
+Running for 1499 [s] | TPS 0.159454 | steps-to-go: 161 | ETA: Wed May 14 15:31:59 2025
+Running for 1512 [s] | TPS 0.159535 | steps-to-go: 159 | ETA: Wed May 14 15:31:59 2025
+Running for 1524 [s] | TPS 0.159397 | steps-to-go: 157 | ETA: Wed May 14 15:31:59 2025
+Running for 1537 [s] | TPS 0.159396 | steps-to-go: 155 | ETA: Wed May 14 15:32:00 2025
+Running for 1549 [s] | TPS 0.159487 | steps-to-go: 153 | ETA: Wed May 14 15:31:59 2025
+Running for 1562 [s] | TPS 0.159375 | steps-to-go: 151 | ETA: Wed May 14 15:32:00 2025
+Running for 1575 [s] | TPS 0.159556 | steps-to-go: 149 | ETA: Wed May 14 15:31:59 2025
+Running for 1587 [s] | TPS 0.159512 | steps-to-go: 147 | ETA: Wed May 14 15:31:59 2025
+Running for 1600 [s] | TPS 0.159556 | steps-to-go: 145 | ETA: Wed May 14 15:31:59 2025
+Running for 1612 [s] | TPS 0.159635 | steps-to-go: 143 | ETA: Wed May 14 15:31:58 2025
+Running for 1625 [s] | TPS 0.159647 | steps-to-go: 141 | ETA: Wed May 14 15:31:59 2025
+Running for 1637 [s] | TPS 0.159489 | steps-to-go: 139 | ETA: Wed May 14 15:31:59 2025
+Running for 1650 [s] | TPS 0.159568 | steps-to-go: 137 | ETA: Wed May 14 15:31:59 2025
+Running for 1662 [s] | TPS 0.159581 | steps-to-go: 135 | ETA: Wed May 14 15:31:58 2025
+Running for 1675 [s] | TPS 0.159537 | steps-to-go: 133 | ETA: Wed May 14 15:31:59 2025
+Running for 1687 [s] | TPS 0.159719 | steps-to-go: 131 | ETA: Wed May 14 15:31:58 2025
+Running for 1700 [s] | TPS 0.159814 | steps-to-go: 129 | ETA: Wed May 14 15:31:58 2025
+Running for 1712 [s] | TPS 0.159544 | steps-to-go: 127 | ETA: Wed May 14 15:31:59 2025
+Running for 1725 [s] | TPS 0.159534 | steps-to-go: 125 | ETA: Wed May 14 15:31:59 2025
+Running for 1737 [s] | TPS 0.159628 | steps-to-go: 123 | ETA: Wed May 14 15:31:58 2025
+Running for 1750 [s] | TPS 0.159733 | steps-to-go: 121 | ETA: Wed May 14 15:31:58 2025
+Running for 1763 [s] | TPS 0.159796 | steps-to-go: 119 | ETA: Wed May 14 15:31:58 2025
+Running for 1775 [s] | TPS 0.159677 | steps-to-go: 117 | ETA: Wed May 14 15:31:58 2025
+Running for 1788 [s] | TPS 0.15971 | steps-to-go: 115 | ETA: Wed May 14 15:31:59 2025
+Running for 1800 [s] | TPS 0.159492 | steps-to-go: 113 | ETA: Wed May 14 15:31:59 2025
+Running for 1813 [s] | TPS 0.159529 | steps-to-go: 111 | ETA: Wed May 14 15:31:59 2025
+Running for 1825 [s] | TPS 0.159579 | steps-to-go: 109 | ETA: Wed May 14 15:31:59 2025
+Running for 1838 [s] | TPS 0.159401 | steps-to-go: 107 | ETA: Wed May 14 15:32:00 2025
+Running for 1850 [s] | TPS 0.159488 | steps-to-go: 105 | ETA: Wed May 14 15:31:59 2025
+Running for 1863 [s] | TPS 0.159524 | steps-to-go: 103 | ETA: Wed May 14 15:31:59 2025
+Running for 1875 [s] | TPS 0.159515 | steps-to-go: 101 | ETA: Wed May 14 15:31:59 2025
+Running for 1888 [s] | TPS 0.159453 | steps-to-go: 99 | ETA: Wed May 14 15:31:59 2025
+Running for 1900 [s] | TPS 0.159426 | steps-to-go: 97 | ETA: Wed May 14 15:31:59 2025
+Running for 1913 [s] | TPS 0.159381 | steps-to-go: 95 | ETA: Wed May 14 15:32:00 2025
+Running for 1926 [s] | TPS 0.159505 | steps-to-go: 93 | ETA: Wed May 14 15:32:00 2025
+Running for 1938 [s] | TPS 0.159543 | steps-to-go: 91 | ETA: Wed May 14 15:31:59 2025
+Running for 1951 [s] | TPS 0.159366 | steps-to-go: 89 | ETA: Wed May 14 15:32:00 2025
+Running for 1963 [s] | TPS 0.159415 | steps-to-go: 87 | ETA: Wed May 14 15:31:59 2025
+Running for 1976 [s] | TPS 0.159435 | steps-to-go: 85 | ETA: Wed May 14 15:32:00 2025
+Running for 1988 [s] | TPS 0.159412 | steps-to-go: 83 | ETA: Wed May 14 15:31:59 2025
+Running for 2001 [s] | TPS 0.159519 | steps-to-go: 81 | ETA: Wed May 14 15:31:59 2025
+Running for 2013 [s] | TPS 0.159454 | steps-to-go: 79 | ETA: Wed May 14 15:31:59 2025
+Running for 2026 [s] | TPS 0.159471 | steps-to-go: 77 | ETA: Wed May 14 15:31:59 2025
+Running for 2038 [s] | TPS 0.159466 | steps-to-go: 75 | ETA: Wed May 14 15:31:59 2025
+Running for 2051 [s] | TPS 0.159605 | steps-to-go: 73 | ETA: Wed May 14 15:31:59 2025
+Running for 2063 [s] | TPS 0.159576 | steps-to-go: 71 | ETA: Wed May 14 15:31:58 2025
+Running for 2076 [s] | TPS 0.159385 | steps-to-go: 69 | ETA: Wed May 14 15:31:59 2025
+Running for 2089 [s] | TPS 0.159428 | steps-to-go: 67 | ETA: Wed May 14 15:32:00 2025
+Running for 2101 [s] | TPS 0.159324 | steps-to-go: 65 | ETA: Wed May 14 15:31:59 2025
+Running for 2114 [s] | TPS 0.159335 | steps-to-go: 63 | ETA: Wed May 14 15:32:00 2025
+Running for 2126 [s] | TPS 0.159377 | steps-to-go: 61 | ETA: Wed May 14 15:31:59 2025
+Running for 2139 [s] | TPS 0.159401 | steps-to-go: 59 | ETA: Wed May 14 15:32:00 2025
+Running for 2151 [s] | TPS 0.159579 | steps-to-go: 57 | ETA: Wed May 14 15:31:59 2025
+Running for 2164 [s] | TPS 0.159521 | steps-to-go: 55 | ETA: Wed May 14 15:31:59 2025
+Running for 2176 [s] | TPS 0.159486 | steps-to-go: 53 | ETA: Wed May 14 15:31:59 2025
+Running for 2189 [s] | TPS 0.15948 | steps-to-go: 51 | ETA: Wed May 14 15:31:59 2025
+Running for 2201 [s] | TPS 0.159413 | steps-to-go: 49 | ETA: Wed May 14 15:31:59 2025
+Running for 2214 [s] | TPS 0.159462 | steps-to-go: 47 | ETA: Wed May 14 15:31:59 2025
+Running for 2227 [s] | TPS 0.159537 | steps-to-go: 45 | ETA: Wed May 14 15:32:00 2025
+Running for 2239 [s] | TPS 0.159587 | steps-to-go: 43 | ETA: Wed May 14 15:31:59 2025
+Running for 2252 [s] | TPS 0.159502 | steps-to-go: 41 | ETA: Wed May 14 15:32:00 2025
+Running for 2264 [s] | TPS 0.159471 | steps-to-go: 39 | ETA: Wed May 14 15:31:59 2025
+Running for 2277 [s] | TPS 0.159429 | steps-to-go: 37 | ETA: Wed May 14 15:32:00 2025
+Running for 2289 [s] | TPS 0.159443 | steps-to-go: 35 | ETA: Wed May 14 15:31:59 2025
+Running for 2302 [s] | TPS 0.159438 | steps-to-go: 33 | ETA: Wed May 14 15:31:59 2025
+Running for 2314 [s] | TPS 0.159507 | steps-to-go: 31 | ETA: Wed May 14 15:31:59 2025
+Running for 2327 [s] | TPS 0.159499 | steps-to-go: 29 | ETA: Wed May 14 15:31:59 2025
+Running for 2339 [s] | TPS 0.159568 | steps-to-go: 27 | ETA: Wed May 14 15:31:59 2025
+Running for 2352 [s] | TPS 0.159548 | steps-to-go: 25 | ETA: Wed May 14 15:31:59 2025
+Running for 2364 [s] | TPS 0.159541 | steps-to-go: 23 | ETA: Wed May 14 15:31:59 2025
+Running for 2377 [s] | TPS 0.159375 | steps-to-go: 21 | ETA: Wed May 14 15:31:59 2025
+Running for 2390 [s] | TPS 0.159457 | steps-to-go: 19 | ETA: Wed May 14 15:32:00 2025
+Running for 2402 [s] | TPS 0.159528 | steps-to-go: 17 | ETA: Wed May 14 15:31:59 2025
+Running for 2415 [s] | TPS 0.159436 | steps-to-go: 15 | ETA: Wed May 14 15:32:00 2025
+Running for 2427 [s] | TPS 0.159401 | steps-to-go: 13 | ETA: Wed May 14 15:31:59 2025
+Running for 2440 [s] | TPS 0.159451 | steps-to-go: 11 | ETA: Wed May 14 15:31:59 2025
+Running for 2452 [s] | TPS 0.159547 | steps-to-go: 9 | ETA: Wed May 14 15:31:59 2025
+Running for 2465 [s] | TPS 0.159579 | steps-to-go: 7 | ETA: Wed May 14 15:31:59 2025
+Running for 2477 [s] | TPS 0.159342 | steps-to-go: 5 | ETA: Wed May 14 15:31:59 2025
+Running for 2490 [s] | TPS 0.159447 | steps-to-go: 3 | ETA: Wed May 14 15:31:59 2025
+Running for 2502 [s] | TPS 0.159406 | steps-to-go: 1 | ETA: Wed May 14 15:31:59 2025
+INFO: At t= 400 area51 violation test passed
+INFO: At t= 400 area51 exact test passed
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+Rank: 114 	 polymers 97656
+Rank: 25 	 polymers 97657
+Rank: 115 	 polymers 97656
+Rank: 10 	 polymers 97657
+Rank: 26 	 polymers 97657
+Rank: 27 	 polymers 97657
+Rank: 137 	 polymers 97656
+Rank: 1 	 polymers 97657
+Rank: 9 	 polymers 97657
+Rank: 29 	 polymers 97657
+Rank: 222 	 polymers 97656
+Rank: 51 	 polymers 97657
+Rank: 8 	 polymers 97657
+Rank: 11 	 polymers 97657
+Rank: 204 	 polymers 97656
+Rank: 2 	 polymers 97657
+Rank: 3 	 polymers 97657
+Rank: 6 	 polymers 97657
+Rank: 220 	 polymers 97656
+Rank: 54 	 polymers 97657
+Rank: 217 	 polymers 97656
+Rank: 201 	 polymers 97656
+Rank: 223 	 polymers 97656
+Rank: 159 	 polymers 97656
+Rank: 207 	 polymers 97656
+Rank: 205 	 polymers 97656
+Rank: 206 	 polymers 97656
+Rank: 33 	 polymers 97657
+Rank: 42 	 polymers 97657
+Rank: 219 	 polymers 97656
+Rank: 146 	 polymers 97656
+Rank: 24 	 polymers 97657
+Rank: 149 	 polymers 97656
+Rank: 200 	 polymers 97656
+Rank: 84 	 polymers 97656
+Rank: 226 	 polymers 97656
+Rank: 148 	 polymers 97656
+Rank: 35 	 polymers 97657
+Rank: 154 	 polymers 97656
+Rank: 246 	 polymers 97656
+Rank: 133 	 polymers 97656
+Rank: 87 	 polymers 97656
+Rank: 209 	 polymers 97656
+Rank: 153 	 polymers 97656
+Rank: 117 	 polymers 97656
+Rank: 145 	 polymers 97656
+Rank: 99 	 polymers 97656
+Rank: 147 	 polymers 97656
+Rank: 155 	 polymers 97656
+Rank: 150 	 polymers 97656
+Rank: 151 	 polymers 97656
+Rank: 14 	 polymers 97657
+Rank: 31 	 polymers 97657
+Rank: 50 	 polymers 97657
+Rank: 141 	 polymers 97656
+Rank: 55 	 polymers 97657
+Rank: 63 	 polymers 97657
+Rank: 4 	 polymers 97657
+Rank: 138 	 polymers 97656
+Rank: 5 	 polymers 97657
+Rank: 13 	 polymers 97657
+Rank: 175 	 polymers 97656
+Rank: 30 	 polymers 97657
+Rank: 143 	 polymers 97656
+Rank: 77 	 polymers 97656
+Rank: 86 	 polymers 97656
+Rank: 7 	 polymers 97657
+Rank: 22 	 polymers 97657
+Rank: 76 	 polymers 97656
+Rank: 49 	 polymers 97657
+Rank: 78 	 polymers 97656
+Rank: 12 	 polymers 97657
+Rank: 34 	 polymers 97657
+Rank: 38 	 polymers 97657
+Rank: 40 	 polymers 97657
+Rank: 218 	 polymers 97656
+Rank: 15 	 polymers 97657
+Rank: 139 	 polymers 97656
+Rank: 203 	 polymers 97656
+Rank: 202 	 polymers 97656
+Rank: 211 	 polymers 97656
+Rank: 36 	 polymers 97657
+Rank: 37 	 polymers 97657
+Rank: 39 	 polymers 97657
+Rank: 216 	 polymers 97656
+Rank: 28 	 polymers 97657
+Rank: 41 	 polymers 97657
+Rank: 56 	 polymers 97657
+Rank: 142 	 polymers 97656
+Rank: 228 	 polymers 97656
+Rank: 247 	 polymers 97656
+Rank: 235 	 polymers 97656
+Rank: 58 	 polymers 97657
+Rank: 82 	 polymers 97656
+Rank: 173 	 polymers 97656
+Rank: 135 	 polymers 97656
+Rank: 43 	 polymers 97657
+Rank: 172 	 polymers 97656
+Rank: 174 	 polymers 97656
+Rank: 104 	 polymers 97656
+Rank: 70 	 polymers 97656
+Rank: 88 	 polymers 97656
+Rank: 221 	 polymers 97656
+Rank: 140 	 polymers 97656
+Rank: 215 	 polymers 97656
+Rank: 164 	 polymers 97656
+Rank: 208 	 polymers 97656
+Rank: 136 	 polymers 97656
+Rank: 20 	 polymers 97657
+Rank: 23 	 polymers 97657
+Rank: 72 	 polymers 97656
+Rank: 61 	 polymers 97657
+Rank: 17 	 polymers 97657
+Rank: 18 	 polymers 97657
+Rank: 19 	 polymers 97657
+Rank: 21 	 polymers 97657
+Rank: 44 	 polymers 97657
+Rank: 45 	 polymers 97657
+Rank: 46 	 polymers 97657
+Rank: 47 	 polymers 97657
+Rank: 57 	 polymers 97657
+Rank: 59 	 polymers 97657
+Rank: 197 	 polymers 97656
+Rank: 60 	 polymers 97657
+Rank: 62 	 polymers 97657
+Rank: 16 	 polymers 97657
+Rank: 244 	 polymers 97656
+Rank: 248 	 polymers 97656
+Rank: 194 	 polymers 97656
+Rank: 210 	 polymers 97656
+Rank: 213 	 polymers 97656
+Rank: 214 	 polymers 97656
+Rank: 224 	 polymers 97656
+Rank: 230 	 polymers 97656
+Rank: 81 	 polymers 97656
+Rank: 231 	 polymers 97656
+Rank: 240 	 polymers 97656
+Rank: 241 	 polymers 97656
+Rank: 242 	 polymers 97656
+Rank: 245 	 polymers 97656
+Rank: 253 	 polymers 97656
+Rank: 196 	 polymers 97656
+Rank: 107 	 polymers 97656
+Rank: 233 	 polymers 97656
+Rank: 234 	 polymers 97656
+Rank: 243 	 polymers 97656
+Rank: 193 	 polymers 97656
+Rank: 199 	 polymers 97656
+Rank: 74 	 polymers 97656
+Rank: 80 	 polymers 97656
+Rank: 227 	 polymers 97656
+Rank: 229 	 polymers 97656
+Rank: 232 	 polymers 97656
+Rank: 236 	 polymers 97656
+Rank: 192 	 polymers 97656
+Rank: 255 	 polymers 97656
+Rank: 195 	 polymers 97656
+Rank: 198 	 polymers 97656
+Rank: 83 	 polymers 97656
+Rank: 90 	 polymers 97656
+Rank: 97 	 polymers 97656
+Rank: 108 	 polymers 97656
+Rank: 85 	 polymers 97656
+Rank: 239 	 polymers 97656
+Rank: 225 	 polymers 97656
+Rank: 237 	 polymers 97656
+Rank: 212 	 polymers 97656
+Rank: 238 	 polymers 97656
+Rank: 254 	 polymers 97656
+Rank: 251 	 polymers 97656
+Rank: 79 	 polymers 97656
+Rank: 105 	 polymers 97656
+Rank: 73 	 polymers 97656
+Rank: 75 	 polymers 97656
+Rank: 65 	 polymers 97656
+Rank: 113 	 polymers 97656
+Rank: 126 	 polymers 97656
+Rank: 71 	 polymers 97656
+Rank: 98 	 polymers 97656
+Rank: 112 	 polymers 97656
+Rank: 249 	 polymers 97656
+Rank: 252 	 polymers 97656
+Rank: 250 	 polymers 97656
+Rank: 89 	 polymers 97656
+Rank: 91 	 polymers 97656
+Rank: 66 	 polymers 97656
+Rank: 67 	 polymers 97656
+Rank: 68 	 polymers 97656
+Rank: 92 	 polymers 97656
+Rank: 93 	 polymers 97656
+Rank: 94 	 polymers 97656
+Rank: 95 	 polymers 97656
+Rank: 96 	 polymers 97656
+Rank: 100 	 polymers 97656
+Rank: 101 	 polymers 97656
+Rank: 106 	 polymers 97656
+Rank: 109 	 polymers 97656
+Rank: 110 	 polymers 97656
+Rank: 111 	 polymers 97656
+Rank: 116 	 polymers 97656
+Rank: 118 	 polymers 97656
+Rank: 119 	 polymers 97656
+Rank: 64 	 polymers 97656
+Rank: 102 	 polymers 97656
+Rank: 103 	 polymers 97656
+Rank: 124 	 polymers 97656
+Rank: 125 	 polymers 97656
+Rank: 127 	 polymers 97656
+Rank: 69 	 polymers 97656
+Rank: 120 	 polymers 97656
+Rank: 122 	 polymers 97656
+Rank: 123 	 polymers 97656
+Rank: 121 	 polymers 97656
+Rank: 128 	 polymers 97656
+Rank: 129 	 polymers 97656
+Rank: 130 	 polymers 97656
+Rank: 131 	 polymers 97656
+Rank: 132 	 polymers 97656
+Rank: 134 	 polymers 97656
+Rank: 144 	 polymers 97656
+Rank: 152 	 polymers 97656
+Rank: 156 	 polymers 97656
+Rank: 157 	 polymers 97656
+Rank: 158 	 polymers 97656
+Rank: 160 	 polymers 97656
+Rank: 161 	 polymers 97656
+Rank: 162 	 polymers 97656
+Rank: 163 	 polymers 97656
+Rank: 165 	 polymers 97656
+Rank: 166 	 polymers 97656
+Rank: 167 	 polymers 97656
+Rank: 168 	 polymers 97656
+Rank: 169 	 polymers 97656
+Rank: 170 	 polymers 97656
+Rank: 171 	 polymers 97656
+Rank: 176 	 polymers 97656
+Rank: 177 	 polymers 97656
+Rank: 178 	 polymers 97656
+Rank: 179 	 polymers 97656
+Rank: 180 	 polymers 97656
+Rank: 181 	 polymers 97656
+Rank: 182 	 polymers 97656
+Rank: 183 	 polymers 97656
+Rank: 184 	 polymers 97656
+Rank: 185 	 polymers 97656
+Rank: 186 	 polymers 97656
+Rank: 187 	 polymers 97656
+Rank: 188 	 polymers 97656
+Rank: 189 	 polymers 97656
+Rank: 190 	 polymers 97656
+Rank: 191 	 polymers 97656
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+Rank: 32 	 polymers 97657
+Rank: 52 	 polymers 97657
+Rank: 48 	 polymers 97657
+Rank: 53 	 polymers 97657
+Rank: 0 	 polymers 97657
+
+========================================
+AGGREGATED MPI TIMING REPORT (ALL RANKS)
+========================================
+Number of MPI Ranks: 256
+Total Execution Time: 2509.917414 seconds
+Total MPI Time (all ranks): 28144.846367 seconds
+Average MPI Time per rank: 109.940806 seconds (4.38% of execution time)
+
+MPI Call Summary (Aggregated Across All Ranks):
+Function             |  Total Calls | Total Time (s) |   Avg Time (s) |   Min Time (s) |   Max Time (s) | % of MPI
+--------------------------------------------------------------------------------------------------------
+MPI_Allreduce        |       104960 |   28021.789324 |    0.266975889 |    0.000014637 |    0.865212856 | 99.5628%
+MPI_Barrier          |          256 |     119.664102 |    0.467437899 |    0.063589327 |    0.845449191 |  0.4252%
+MPI_Allgather        |          256 |       2.899641 |    0.011326724 |    0.000119625 |    0.025820076 |  0.0103%
+MPI_Reduce           |          256 |       0.493300 |    0.001926952 |    0.000012373 |    0.103283269 |  0.0018%
+
+NOTE: Total time represents the sum across all ranks.
+      Average time is per individual call.
+      Min/Max times are across all calls on all ranks.
+Elapsed Time: 2546.901s
+    CPU Time: 158851.010s
+        Effective Time: 155928.919s
+            Idle: 0.010s
+            Poor: 155928.909s
+            Ok: 0s
+            Ideal: 0s
+            Over: 0s
+        Spin Time: 2922.091s
+            MPI Busy Wait Time: 2839.899s
+             | CPU time spent on waits for MPI communication operations is
+             | significant and can negatively impact the application performance
+             | and scalability. This can be caused by load imbalance between
+             | ranks, active communications or non-optimal settings of MPI
+             | library. Explore details on communication inefficiencies with
+             | Intel Trace Analyzer and Collector.
+             |
+            Other: 82.192s
+        Overhead Time: 0s
+            Other: 0s
+    Total Thread Count: 128
+    Paused Time: 0s
+
+Top Hotspots
+Function                  Module                           CPU Time
+------------------------  -----------------------------  ----------
+coord_to_cell_coordinate  soma_base.gnu_intel_mpi_debug  78673.841s
+update_density_fields     soma_base.gnu_intel_mpi_debug  11019.676s
+soma_normal_vector        soma_base.gnu_intel_mpi_debug  10381.893s
+calc_delta_bonded_energy  soma_base.gnu_intel_mpi_debug   6615.014s
+func@0x77b46              libm.so.6                       5650.319s
+[Others]                  N/A                            46510.267s
+Collection and Platform Info
+    Application Command Line: ../run_base_ref_gnu_mpi.0010/soma_base.gnu_intel_mpi_debug "-r" "42" "-t" "400" "--npoly=25000000" "--gen-state-file" 
+    Operating System: 4.18.0-553.27.1.el8_10.x86_64 Red Hat Enterprise Linux release 8.10 (Ootpa)
+    MPI Process Rank: 157
+    Computer Name: compute-b7-10.zaratan.umd.edu
+    Result Size: 3.3 GB 
+    Collection start time: 18:49:36 14/05/2025 UTC
+    Collection stop time: 19:32:35 14/05/2025 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Unknown
+        Frequency: 2.445 GHz 
+        Logical CPU Count: 128
+        Cache Allocation Technology
+            Level 2 capability: not detected
+            Level 3 capability: available
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+Elapsed Time: 2547.758s
+    CPU Time: 158896.990s
+        Effective Time: 153854.309s
+            Idle: 0.010s
+            Poor: 153854.299s
+            Ok: 0s
+            Ideal: 0s
+            Over: 0s
+        Spin Time: 5042.681s
+            MPI Busy Wait Time: 4956.316s
+             | CPU time spent on waits for MPI communication operations is
+             | significant and can negatively impact the application performance
+             | and scalability. This can be caused by load imbalance between
+             | ranks, active communications or non-optimal settings of MPI
+             | library. Explore details on communication inefficiencies with
+             | Intel Trace Analyzer and Collector.
+             |
+            Other: 86.365s
+        Overhead Time: 0s
+            Other: 0s
+    Total Thread Count: 128
+    Paused Time: 0s
+
+Top Hotspots
+Function                   Module                           CPU Time
+-------------------------  -----------------------------  ----------
+coord_to_cell_coordinate   soma_base.gnu_intel_mpi_debug  76609.534s
+update_density_fields      soma_base.gnu_intel_mpi_debug  11006.387s
+soma_normal_vector         soma_base.gnu_intel_mpi_debug  10389.025s
+calc_delta_bonded_energy   soma_base.gnu_intel_mpi_debug   6823.953s
+update_omega_fields_scmf0  soma_base.gnu_intel_mpi_debug   5376.836s
+[Others]                   N/A                            48691.255s
+Collection and Platform Info
+    Application Command Line: ../run_base_ref_gnu_mpi.0010/soma_base.gnu_intel_mpi_debug "-r" "42" "-t" "400" "--npoly=25000000" "--gen-state-file" 
+    Operating System: 4.18.0-553.27.1.el8_10.x86_64 Red Hat Enterprise Linux release 8.10 (Ootpa)
+    MPI Process Rank: 212
+    Computer Name: compute-b7-12.zaratan.umd.edu
+    Result Size: 3.3 GB 
+    Collection start time: 18:49:35 14/05/2025 UTC
+    Collection stop time: 19:32:39 14/05/2025 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Unknown
+        Frequency: 2.445 GHz 
+        Logical CPU Count: 128
+        Cache Allocation Technology
+            Level 2 capability: not detected
+            Level 3 capability: available
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+Elapsed Time: 2547.061s
+    CPU Time: 158874.520s
+        Effective Time: 156252.259s
+            Idle: 0.010s
+            Poor: 156252.249s
+            Ok: 0s
+            Ideal: 0s
+            Over: 0s
+        Spin Time: 2622.261s
+            MPI Busy Wait Time: 2540.930s
+             | CPU time spent on waits for MPI communication operations is
+             | significant and can negatively impact the application performance
+             | and scalability. This can be caused by load imbalance between
+             | ranks, active communications or non-optimal settings of MPI
+             | library. Explore details on communication inefficiencies with
+             | Intel Trace Analyzer and Collector.
+             |
+            Other: 81.331s
+        Overhead Time: 0s
+            Other: 0s
+    Total Thread Count: 128
+    Paused Time: 0s
+
+Top Hotspots
+Function                  Module                           CPU Time
+------------------------  -----------------------------  ----------
+coord_to_cell_coordinate  soma_base.gnu_intel_mpi_debug  79160.787s
+update_density_fields     soma_base.gnu_intel_mpi_debug  11018.287s
+soma_normal_vector        soma_base.gnu_intel_mpi_debug  10386.310s
+calc_delta_bonded_energy  soma_base.gnu_intel_mpi_debug   6610.087s
+func@0x77b41              libm.so.6                       5655.972s
+[Others]                  N/A                            46043.076s
+Collection and Platform Info
+    Application Command Line: ../run_base_ref_gnu_mpi.0010/soma_base.gnu_intel_mpi_debug "-r" "42" "-t" "400" "--npoly=25000000" "--gen-state-file" 
+    Operating System: 4.18.0-553.27.1.el8_10.x86_64 Red Hat Enterprise Linux release 8.10 (Ootpa)
+    Computer Name: compute-b7-3.zaratan.umd.edu
+    Result Size: 3.3 GB 
+    Collection start time: 18:49:36 14/05/2025 UTC
+    Collection stop time: 19:32:38 14/05/2025 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Unknown
+        Frequency: 2.445 GHz 
+        Logical CPU Count: 128
+        Cache Allocation Technology
+            Level 2 capability: not detected
+            Level 3 capability: available
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+Elapsed Time: 2548.222s
+    CPU Time: 158902.150s
+        Effective Time: 153623.558s
+            Idle: 0.010s
+            Poor: 153623.548s
+            Ok: 0s
+            Ideal: 0s
+            Over: 0s
+        Spin Time: 5278.592s
+            MPI Busy Wait Time: 5197.754s
+             | CPU time spent on waits for MPI communication operations is
+             | significant and can negatively impact the application performance
+             | and scalability. This can be caused by load imbalance between
+             | ranks, active communications or non-optimal settings of MPI
+             | library. Explore details on communication inefficiencies with
+             | Intel Trace Analyzer and Collector.
+             |
+            Other: 80.838s
+        Overhead Time: 0s
+            Other: 0s
+    Total Thread Count: 128
+    Paused Time: 0s
+
+Top Hotspots
+Function                  Module                           CPU Time
+------------------------  -----------------------------  ----------
+coord_to_cell_coordinate  soma_base.gnu_intel_mpi_debug  76200.899s
+update_density_fields     soma_base.gnu_intel_mpi_debug  11059.172s
+soma_normal_vector        soma_base.gnu_intel_mpi_debug  10403.414s
+calc_delta_bonded_energy  soma_base.gnu_intel_mpi_debug   6529.152s
+func@0x77b41              libm.so.6                       5652.709s
+[Others]                  N/A                            49056.804s
+Collection and Platform Info
+    Application Command Line: ../run_base_ref_gnu_mpi.0010/soma_base.gnu_intel_mpi_debug "-r" "42" "-t" "400" "--npoly=25000000" "--gen-state-file" 
+    Operating System: 4.18.0-553.27.1.el8_10.x86_64 Red Hat Enterprise Linux release 8.10 (Ootpa)
+    MPI Process Rank: 69
+    Computer Name: compute-b7-5.zaratan.umd.edu
+    Result Size: 3.3 GB 
+    Collection start time: 18:49:35 14/05/2025 UTC
+    Collection stop time: 19:32:45 14/05/2025 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Unknown
+        Frequency: 2.445 GHz 
+        Logical CPU Count: 128
+        Cache Allocation Technology
+            Level 2 capability: not detected
+            Level 3 capability: available
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.

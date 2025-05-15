@@ -1,0 +1,5 @@
+rm -rf *.o  hpgmgfv.out
+find . \( -name \*.o -o -name '*.fppized.f*' -o -name '*.i' -o -name '*.mod' \) -print | xargs rm -rf
+rm -rf hpgmgfv
+rm -rf hpgmgfv.exe
+rm -rf core

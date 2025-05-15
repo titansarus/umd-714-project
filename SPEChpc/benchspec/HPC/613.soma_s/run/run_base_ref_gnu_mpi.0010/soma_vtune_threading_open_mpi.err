@@ -1,0 +1,9 @@
+vtune: Analyzing data in the node-wide mode. The hostname (compute-b6-49.zaratan.umd.edu) will be added to the result path/name.
+vtune: Collection started.
+vtune: Analyzing data in the node-wide mode. The hostname (compute-b6-25.zaratan.umd.edu) will be added to the result path/name.
+vtune: Analyzing data in the node-wide mode. The hostname (compute-b6-26.zaratan.umd.edu) will be added to the result path/name.
+vtune: Collection started.
+vtune: Collection started.
+vtune: Analyzing data in the node-wide mode. The hostname (compute-b6-51.zaratan.umd.edu) will be added to the result path/name.
+vtune: Collection started.
+slurmstepd: error: *** STEP 11880513.1 ON compute-b6-25 CANCELLED AT 2025-05-14T17:42:24 DUE TO TIME LIMIT ***

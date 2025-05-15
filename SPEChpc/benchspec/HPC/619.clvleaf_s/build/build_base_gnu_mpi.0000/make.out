@@ -1,0 +1,145 @@
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG accelerate.F90 -o accelerate.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG data.F90 -o data.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG definitions.F90 -o definitions.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG pack_kernel.F90 -o pack_kernel.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG advec_cell_driver.F90 -o advec_cell_driver.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG advec_cell_kernel.F90 -o advec_cell_kernel.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG advec_mom_driver.F90 -o advec_mom_driver.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG advection.F90 -o advection.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG update_halo.F90 -o update_halo.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG update_tile_halo.F90 -o update_tile_halo.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG build_field.F90 -o build_field.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG calc_dt.F90 -o calc_dt.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG calc_dt_kernel.F90 -o calc_dt_kernel.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG specmpitime/specmpitime_mod.F90 -o specmpitime/specmpitime_mod.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG accelerate_kernel.F90 -o accelerate_kernel.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG advec_mom_kernel.F90 -o advec_mom_kernel.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG clover_leaf.F90 -o clover_leaf.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG field_summary.F90 -o field_summary.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG field_summary_kernel.F90 -o field_summary_kernel.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG ideal_gas.F90 -o ideal_gas.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG ideal_gas_kernel.F90 -o ideal_gas_kernel.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG flux_calc.F90 -o flux_calc.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG update_halo_kernel.F90 -o update_halo_kernel.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG clover.F90 -o clover.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG update_tile_halo_kernel.F90 -o update_tile_halo_kernel.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG flux_calc_kernel.F90 -o flux_calc_kernel.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG generate_chunk.F90 -o generate_chunk.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG generate_chunk_kernel.F90 -o generate_chunk_kernel.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG PdV.F90 -o PdV.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG hydro.F90 -o hydro.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG PdV_kernel.F90 -o PdV_kernel.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG report.F90 -o report.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG revert.F90 -o revert.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG revert_kernel.F90 -o revert_kernel.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG reset_field.F90 -o reset_field.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG reset_field_kernel.F90 -o reset_field_kernel.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG timestep.F90 -o timestep.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG viscosity.F90 -o viscosity.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG viscosity_kernel.F90 -o viscosity_kernel.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG initialise_chunk.F90 -o initialise_chunk.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG initialise.F90 -o initialise.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG initialise_chunk_kernel.F90 -o initialise_chunk_kernel.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG parse.F90 -o parse.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG start.F90 -o start.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG read_input.F90 -o read_input.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG timer.F90 -o timer.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG visit.F90 -o visit.fppized.f90
+mpiicc -c -o specmpitime/specmpitime.o -DSPEC -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 specmpitime/specmpitime.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiifort -c -o data.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none data.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o timer.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none timer.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o specmpitime/specmpitime_mod.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none specmpitime/specmpitime_mod.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o ideal_gas_kernel.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none ideal_gas_kernel.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o flux_calc_kernel.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none flux_calc_kernel.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o field_summary_kernel.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none field_summary_kernel.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o reset_field_kernel.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none reset_field_kernel.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o viscosity_kernel.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none viscosity_kernel.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o accelerate_kernel.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none accelerate_kernel.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o revert_kernel.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none revert_kernel.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o calc_dt_kernel.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none calc_dt_kernel.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o generate_chunk_kernel.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none generate_chunk_kernel.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o initialise_chunk_kernel.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none initialise_chunk_kernel.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o PdV_kernel.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none PdV_kernel.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o pack_kernel.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none pack_kernel.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o definitions.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none definitions.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o advec_cell_kernel.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none advec_cell_kernel.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o advec_mom_kernel.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none advec_mom_kernel.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o clover.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none clover.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o update_tile_halo_kernel.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none update_tile_halo_kernel.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o advec_cell_driver.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none advec_cell_driver.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o initialise_chunk.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none initialise_chunk.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o ideal_gas.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none ideal_gas.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o accelerate.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none accelerate.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o clover_leaf.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none clover_leaf.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o calc_dt.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none calc_dt.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o revert.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none revert.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o advec_mom_driver.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none advec_mom_driver.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o reset_field.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none reset_field.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o flux_calc.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none flux_calc.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o viscosity.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none viscosity.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o generate_chunk.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none generate_chunk.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o report.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none report.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o field_summary.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none field_summary.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o build_field.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none build_field.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o update_tile_halo.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none update_tile_halo.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o parse.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none parse.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o update_halo_kernel.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none update_halo_kernel.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o initialise.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none initialise.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o update_halo.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none update_halo.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o read_input.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none read_input.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o advection.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none advection.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o PdV.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none PdV.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o timestep.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none timestep.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o start.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none start.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o visit.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none visit.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o hydro.fppized.o -Ispecmpitime -Ofast -march=native -fno-stack-protector -ffree-line-length-none hydro.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort       -Ofast -march=native -fno-stack-protector     -ffree-line-length-none    accelerate.fppized.o accelerate_kernel.fppized.o advec_cell_driver.fppized.o advec_cell_kernel.fppized.o advec_mom_driver.fppized.o advec_mom_kernel.fppized.o advection.fppized.o build_field.fppized.o calc_dt.fppized.o calc_dt_kernel.fppized.o clover.fppized.o clover_leaf.fppized.o data.fppized.o definitions.fppized.o field_summary.fppized.o field_summary_kernel.fppized.o flux_calc.fppized.o flux_calc_kernel.fppized.o generate_chunk.fppized.o generate_chunk_kernel.fppized.o hydro.fppized.o ideal_gas.fppized.o ideal_gas_kernel.fppized.o initialise_chunk.fppized.o initialise_chunk_kernel.fppized.o initialise.fppized.o pack_kernel.fppized.o parse.fppized.o PdV.fppized.o PdV_kernel.fppized.o read_input.fppized.o report.fppized.o reset_field.fppized.o reset_field_kernel.fppized.o revert.fppized.o revert_kernel.fppized.o start.fppized.o timer.fppized.o timestep.fppized.o update_halo.fppized.o update_halo_kernel.fppized.o update_tile_halo.fppized.o update_tile_halo_kernel.fppized.o visit.fppized.o viscosity.fppized.o viscosity_kernel.fppized.o specmpitime/specmpitime_mod.fppized.o specmpitime/specmpitime.o                      -o clvleaf  
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE flagsdescription SYSTEM
+       "http://www.spec.org/dtd/cpuflags2.dtd">
+
+<!-- This file defines flags in 635.weather_s
+
+  Copyright 2015 Standard Performance Evaluation Corporation
+
+  $Revision: 5674 $
+  $Date: 2017-05-05 17:29:02 -0400 (Fri, 05 May 2017) $
+-->
+<flagsdescription>
+
+<filename>635.weather_s.flags</filename>
+
+<title>635.weather_s Flags</title>
+
+<header>
+<![CDATA[
+<p>miniWeather contains no additional define flags beyond the suite wide defaults.</p>
+]]>
+</header>
+
+</flagsdescription>
+

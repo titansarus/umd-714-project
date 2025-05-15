@@ -1,0 +1,5 @@
+rm -rf *.o  output6.train.txt
+find . \( -name \*.o -o -name '*.fppized.f*' -o -name '*.i' -o -name '*.mod' \) -print | xargs rm -rf
+rm -rf weather
+rm -rf weather.exe
+rm -rf core

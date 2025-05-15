@@ -1,0 +1,4 @@
+mpiicc -c -o specmpitime/specmpitime.o -DSPEC -DNDEBUG -DUSE_MPI -DSPEC_USE_LT_IN_KERNELS -I. -Iinclude -Iinclude/tree -Ispecmpitime    -Ofast -march=native -lm                 specmpitime/specmpitime.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicpc -c -o sqpatch.o -DSPEC -DNDEBUG -DUSE_MPI -DSPEC_USE_LT_IN_KERNELS -I. -Iinclude -Iinclude/tree -Ispecmpitime    -Ofast -march=native -std=c++14           sqpatch.cpp
+mpiicpc       -Ofast -march=native -std=c++14         sqpatch.o specmpitime/specmpitime.o                      -o sph_exa  

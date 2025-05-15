@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!DOCTYPE flagsdescription SYSTEM
+       "http://www.spec.org/dtd/cpuflags2.dtd">
+
+<!-- This file defines flags in 621.miniswp_s
+
+  Copyright 2015 Standard Performance Evaluation Corporation
+
+  $Revision: 5674 $
+  $Date: 2017-05-05 17:29:02 -0400 (Fri, 05 March 2018) $
+-->
+<flagsdescription>
+
+<filename>621.miniswp_s.flags</filename>
+
+<title>621.miniswp_s Flags</title>
+
+<header>
+<![CDATA[
+<p>These are flags that appear in the benchmark sources, categorized as to
+   whether they are portability candidates, mandatory, or forbidden.</p>
+]]>
+</header>
+
+<!-- flag name="DUSE_MPI" class="mandatory" -->
+<flag name="DUSE_MPI" class="mandatory">
+Mandatory flag enabling MPI by default.
+</flag>
+
+<flag name="DSPEC_OPENMP_THREADS" class="forbidden">
+When compiling for OpenMP use the "thread" version.  Default is to use the "task" version.
+Experimental only and not valid for use in compliant results.
+</flag>
+
+<flag name="DSPEC_USE_HOST_THREADS" class="portability">
+Configuration when using CPU host threading models.
+Default with OpenMP (-DSPEC_OPENMP) but may be disabled by setting -DSPEC_USE_HOST_THREADS=0.
+Set -DSPEC_USE_HOST_THREADS=1 when using OpenACC (-DSPEC_OPENACC) or OpenMP Target (-DSPEC_OPENMP_TARGET) when targeting
+multicore CPU.
+</flag>
+
+<flag name="DUSE_KBA" class="mandatory">
+Uses KBA to configure benchmark. 
+</flag>
+
+<flag name="DUSE_ACCELDIR" class="mandatory">
+Uses ACCELDIR to configure benchmark. 
+</flag>
+
+<!-- flag name="DNM_VALUE" class="forbidden" -->
+<flag name="DNM_VALUE" class="forbidden">
+Changes simulation size. Using this would lead to mismatched results.
+</flag>
+
+</flagsdescription>
+

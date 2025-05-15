@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE flagsdescription SYSTEM
+       "http://www.spec.org/dtd/cpuflags2.dtd">
+
+<!-- This file defines flags in 613.soma_s
+
+  Copyright 2018 Standard Performance Evaluation Corporation
+
+-->
+<flagsdescription>
+
+<filename>613.soma_s.flags</filename>
+
+<title>613.soma_s Flags</title>
+
+<header>
+<![CDATA[
+<p>These are flags that appear in the benchmark sources, categorized as to
+   whether they are portability candidates, mandatory, or forbidden.</p>
+]]>
+</header>
+
+<flag name="DSPEC_NO_VAR_ARRAY_REDUCE" class="portability">
+Disable use of reduction with variable array reduction variable (OpenMP 4.5,
+OpenACC 2.7) even if compiler reports support.
+</flag>
+
+<flag name="DSPEC_USE_HOST_THREADS" class="portability">
+Disable device specific API calls when using OpenMP Target to the host.
+</flag>
+
+</flagsdescription>
+

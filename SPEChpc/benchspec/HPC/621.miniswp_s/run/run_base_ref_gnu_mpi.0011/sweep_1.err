@@ -1,0 +1,2069 @@
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+Abort(1090959) on node 0 (rank 0 in comm 0): Fatal error in PMPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(178)........: 
+MPID_Init(1532)..............: 
+MPIDI_OFI_mpi_init_hook(1474): 
+(unknown)(): Other MPI error
+[unset]: write_line error; fd=-1 buf=:cmd=abort exitcode=1090959
+:
+system msg for write_line failure : Bad file descriptor
+mpirun: abort is already in progress...hit ctrl-c again to forcibly terminate
+
+[login-2:3909780:0:3909780] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x30)
+==== backtrace (tid:3909780) ====
+ 0 0x0000000000012d10 __funlockfile()  :0
+ 1 0x0000000000047688 PMIx_Finalize()  ???:0
+ 2 0x00000000000b989a ext3x_client_finalize()  ???:0
+ 3 0x0000000000076924 clean_abort.part.0()  ess_hnp_module.c:0
+ 4 0x00000000000769bc clean_abort()  ess_hnp_module.c:0
+ 5 0x000000000001f344 event_process_active_single_queue()  /tmp/devspackswinst/spack-stage/spack-stage-libevent-2.1.8-xqlb5yiqmuktjufma4jseozncaswvndp/spack-src/event.c:1646
+ 6 0x000000000001fb7f event_process_active()  /tmp/devspackswinst/spack-stage/spack-stage-libevent-2.1.8-xqlb5yiqmuktjufma4jseozncaswvndp/spack-src/event.c:1738
+ 7 0x000000000001fb7f event_base_loop()  /tmp/devspackswinst/spack-stage/spack-stage-libevent-2.1.8-xqlb5yiqmuktjufma4jseozncaswvndp/spack-src/event.c:1961
+ 8 0x000000000040178a orterun()  ???:0
+ 9 0x000000000003a7e5 __libc_start_main()  ???:0
+10 0x000000000040158e _start()  ???:0
+=================================
+-bash: mpirun: command not found

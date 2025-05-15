@@ -1,0 +1,167 @@
+
+
+********************************************************************************
+***                            HPGMG-FV Benchmark                            ***
+********************************************************************************
+
+
+===== Benchmark setup ==========================================================
+
+attempting to create a 128^3 level...
+  boundary condition = BC_DIRICHLET
+  Decomposing level via Z-mort ordering... done
+  Allocating vectors... done
+  Duplicating MPI_COMM_WORLD... done
+  Creating Poisson (a=0.000000, b=1.000000) test problem
+  calculating D^{-1} exactly for level h=7.812500e-03 using 64 colors...  done
+  estimating  lambda_max... <2.223332976448990e+00
+
+attempting to create a 64^3 level...
+  boundary condition = BC_DIRICHLET
+  Decomposing level via Z-mort ordering... done
+  Allocating vectors... done
+  Duplicating MPI_COMM_WORLD... done
+
+attempting to create a 32^3 level...
+  boundary condition = BC_DIRICHLET
+  Decomposing level via Z-mort ordering... done
+  Allocating vectors... done
+  Duplicating MPI_COMM_WORLD... done
+
+attempting to create a 16^3 level...
+  boundary condition = BC_DIRICHLET
+  Decomposing level via Z-mort ordering... done
+  Allocating vectors... done
+  Duplicating MPI_COMM_WORLD... done
+
+attempting to create a 8^3 level...
+  boundary condition = BC_DIRICHLET
+  Decomposing level via Z-mort ordering... done
+  Allocating vectors... done
+  Duplicating MPI_COMM_WORLD... done
+
+attempting to create a 4^3 level...
+  boundary condition = BC_DIRICHLET
+  Decomposing level via Z-mort ordering... done
+  Allocating vectors... done
+  Duplicating MPI_COMM_WORLD... done
+
+attempting to create a 2^3 level...
+  boundary condition = BC_DIRICHLET
+  Decomposing level via Z-mort ordering... done
+  Allocating vectors... done
+  Duplicating MPI_COMM_WORLD... done
+
+  Building restriction and interpolation lists... done
+
+  Building MPI subcommunicator for level 1... done
+  Building MPI subcommunicator for level 2... done
+  Building MPI subcommunicator for level 3... done
+  Building MPI subcommunicator for level 4... done
+  Building MPI subcommunicator for level 5... done
+  Building MPI subcommunicator for level 6... done
+
+  calculating D^{-1} exactly for level h=1.562500e-02 using 64 colors...  done
+  estimating  lambda_max... <2.223387382550026e+00
+  calculating D^{-1} exactly for level h=3.125000e-02 using 64 colors...  done
+  estimating  lambda_max... <2.223793919672764e+00
+  calculating D^{-1} exactly for level h=6.250000e-02 using 64 colors...  done
+  estimating  lambda_max... <2.226274209954397e+00
+  calculating D^{-1} exactly for level h=1.250000e-01 using 64 colors...  done
+  estimating  lambda_max... <2.230456244630961e+00
+  calculating D^{-1} exactly for level h=2.500000e-01 using 64 colors...  done
+  estimating  lambda_max... <2.232895109306462e+00
+  calculating D^{-1} exactly for level h=5.000000e-01 using 8 colors...  done
+  estimating  lambda_max... <1.375886524822695e+00
+
+
+
+===== Running 20 solves ========================================================
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+
+
+===== Running 20 solves ========================================================
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+
+
+===== Running 20 solves ========================================================
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+
+
+===== Richardson error analysis ================================================
+FMGSolve... f-cycle     norm=7.454823500507857e-06  rel=7.517923682618053e-06  done
+FMGSolve... f-cycle     norm=6.934667596747435e-05  rel=7.171755554914199e-05  done
+FMGSolve... f-cycle     norm=8.424967268479966e-04  rel=9.623699915968146e-04  done
+  h=7.812500000000000e-03  ||error||=2.342436689257467e-07
+  order=3.625
+
+
+===== Deallocating memory ======================================================
+attempting to free the restriction and interpolation lists... done
+attempting to free the     2^3 level... done
+attempting to free the     4^3 level... done
+attempting to free the     8^3 level... done
+attempting to free the    16^3 level... done
+attempting to free the    32^3 level... done
+attempting to free the    64^3 level... done
+attempting to free the   128^3 level... done
+
+
+===== Done =====================================================================

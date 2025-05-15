@@ -1,0 +1,5 @@
+rm -rf *.o  pot3d1.out
+find . \( -name \*.o -o -name '*.fppized.f*' -o -name '*.i' -o -name '*.mod' \) -print | xargs rm -rf
+rm -rf pot3d
+rm -rf pot3d.exe
+rm -rf core

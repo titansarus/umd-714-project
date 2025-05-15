@@ -1,0 +1,5 @@
+rm -rf *.o  clover.out
+find . \( -name \*.o -o -name '*.fppized.f*' -o -name '*.i' -o -name '*.mod' \) -print | xargs rm -rf
+rm -rf clvleaf
+rm -rf clvleaf.exe
+rm -rf core

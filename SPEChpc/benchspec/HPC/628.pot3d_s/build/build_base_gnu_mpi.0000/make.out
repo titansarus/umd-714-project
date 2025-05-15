@@ -1,0 +1,899 @@
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG number_types.F90 -o number_types.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/HDF5.F90 -o hdf5/HDF5.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5fortran_types.F90 -o hdf5/H5fortran_types.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5Eff.F90 -o hdf5/H5Eff.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5f90global.F90 -o hdf5/H5f90global.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5Fff.F90 -o hdf5/H5Fff.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5Gff.F90 -o hdf5/H5Gff.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5Iff.F90 -o hdf5/H5Iff.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5fortkit.F90 -o hdf5/H5fortkit.fppized.f90
+meike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5Dff.F90 -o hdf5/H5Dff.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5Off.F90 -o hdf5/H5Off.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5Lff.F90 -o hdf5/H5Lff.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5Rff.F90 -o hdf5/H5Rff.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5Zff.F90 -o hdf5/H5Zff.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG specmpitime/specmpitime_mod.F90 -o specmpitime/specmpitime_mod.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5_ff.F90 -o hdf5/H5_ff.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5Sff.F90 -o hdf5/H5Sff.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG zm_parse_modules.F90 -o zm_parse_modules.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5Tff.F90 -o hdf5/H5Tff.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5DSff.F90 -o hdf5/H5DSff.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG zm_parse.F90 -o zm_parse.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG zm_sds.F90 -o zm_sds.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG pot3d.F90 -o pot3d.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG zm_sds_modules.F90 -o zm_sds_modules.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5Pff.F90 -o hdf5/H5Pff.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5_gen.F90 -o hdf5/H5_gen.fppized.f90
+mpiicc -c -o specmpitime/specmpitime.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 specmpitime/specmpitime.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5CS.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5CS.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5ACdbg.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5ACdbg.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Cdbg.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Cdbg.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Cepoch.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Cepoch.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5ACproxy_entry.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5ACproxy_entry.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Cprefetched.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Cprefetched.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Bcache.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Bcache.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5B2stat.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5B2stat.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Ctag.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Ctag.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Adeprec.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Adeprec.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Af.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Af.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5B2dbg.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5B2dbg.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Atest.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Atest.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Bdbg.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Bdbg.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Abtree2.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Abtree2.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Ctest.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Ctest.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Clog.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Clog.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Clog_trace.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Clog_trace.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Clog_json.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Clog_json.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5B2test.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5B2test.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Adense.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Adense.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+hdf5/H5Adense.c(331): warning #2331: a value of type "const H5A_t *" cannot be used to initialize an entity of type "H5A_t *" (dropping qualifiers)
+          H5A_t *old_attr = *user_attr;
+                            ^
+
+mpiicc -c -o hdf5/H5Cquery.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Cquery.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5ACmpio.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5ACmpio.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5B2leaf.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5B2leaf.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5B2hdr.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5B2hdr.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5B2cache.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5B2cache.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5B2.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5B2.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5A.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5A.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5B2internal.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5B2internal.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5B.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5B.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5D.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5D.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Dbtree.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Dbtree.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5AC.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5AC.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Cmpio.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Cmpio.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Aint.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Aint.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+hdf5/H5Aint.c(200): warning #2330: argument of type "const H5T_t *" is incompatible with parameter of type "H5T_t *" (dropping qualifiers)
+      if(NULL == (attr->shared->dt = H5T_copy(type, H5T_COPY_ALL)))
+                                              ^
+
+hdf5/H5Aint.c(638): warning #2330: argument of type "const H5T_t *" is incompatible with parameter of type "H5T_t *" (dropping qualifiers)
+                          (dst_id = H5I_register(H5I_DATATYPE, H5T_copy(mem_type, H5T_COPY_ALL), FALSE)) < 0)
+                                                                        ^
+
+hdf5/H5Aint.c(738): warning #2330: argument of type "const H5T_t *" is incompatible with parameter of type "H5T_t *" (dropping qualifiers)
+              if((src_id = H5I_register(H5I_DATATYPE, H5T_copy(mem_type, H5T_COPY_ALL), FALSE)) < 0 ||
+                                                               ^
+
+mpiicc -c -o hdf5/H5B2int.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5B2int.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Dcompact.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Dcompact.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Dbtree2.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Dbtree2.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5CX.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5CX.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Ddbg.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Ddbg.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Cimage.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Cimage.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Ddeprec.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Ddeprec.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Df.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Df.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Dnone.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Dnone.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Defl.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Defl.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Dcontig.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Dcontig.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Dsingle.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Dsingle.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Dlayout.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Dlayout.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Dfill.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Dfill.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+hdf5/H5Dfill.c(239): warning #2330: argument of type "const H5T_t *" is incompatible with parameter of type "H5T_t *" (dropping qualifiers)
+              if((src_id = H5I_register(H5I_DATATYPE, H5T_copy(fill_type, H5T_COPY_ALL), FALSE)) < 0)
+                                                               ^
+
+hdf5/H5Dfill.c(242): warning #2330: argument of type "const H5T_t *" is incompatible with parameter of type "H5T_t *" (dropping qualifiers)
+              if((dst_id = H5I_register(H5I_DATATYPE, H5T_copy(buf_type, H5T_COPY_ALL), FALSE)) < 0)
+                                                               ^
+
+hdf5/H5Dfill.c(408): warning #2330: argument of type "const H5T_t *" is incompatible with parameter of type "H5T_t *" (dropping qualifiers)
+              if(NULL == (fb_info->mem_type = H5T_copy(dset_type, H5T_COPY_TRANSIENT)))
+                                                       ^
+
+mpiicc -c -o hdf5/H5Dtest.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Dtest.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Doh.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Doh.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5EAstat.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5EAstat.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Dselect.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Dselect.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5EAint.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5EAint.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5EAdblkpage.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5EAdblkpage.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Dearray.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Dearray.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5EAdbg.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5EAdbg.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Edeprec.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Edeprec.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5EAhdr.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5EAhdr.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5EAtest.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5EAtest.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5EAsblock.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5EAsblock.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5EAiblock.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5EAiblock.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5EAdblock.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5EAdblock.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Ef.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Ef.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Dio.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Dio.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Dfarray.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Dfarray.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5EA.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5EA.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Dscatgath.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Dscatgath.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5EAcache.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5EAcache.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Eint.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Eint.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FA.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FA.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FAcache.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FAcache.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FAdblkpage.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FAdblkpage.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FAdbg.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FAdbg.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FAdblock.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FAdblock.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FAint.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FAint.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5F.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5F.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FAstat.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FAstat.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FAhdr.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FAhdr.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5E.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5E.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Dmpio.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Dmpio.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FAtest.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FAtest.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FDdirect.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FDdirect.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Dint.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Dint.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+hdf5/H5Dint.c(508): warning #2330: argument of type "const H5T_t *" is incompatible with parameter of type "H5T_t *" (dropping qualifiers)
+          if((dset->shared->type = H5T_copy(type, H5T_COPY_ALL)) == NULL)
+                                            ^
+
+mpiicc -c -o hdf5/H5FDstdio.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FDstdio.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FDtest.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FDtest.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FDint.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FDint.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FDmpi.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FDmpi.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FDwindows.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FDwindows.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FDspace.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FDspace.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FDsec2.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FDsec2.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Dvirtual.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Dvirtual.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FSint.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FSint.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FDcore.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FDcore.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FSdbg.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FSdbg.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FSstat.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FSstat.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FO.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FO.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FDfamily.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FDfamily.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FDlog.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FDlog.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FStest.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FStest.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FDmulti.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FDmulti.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FD.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FD.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FDmpio.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FDmpio.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Dchunk.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Dchunk.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+hdf5/H5Dchunk.c(5796): warning #2330: argument of type "const hsize_t={unsigned long long} *" is incompatible with parameter of type "hsize_t={unsigned long long} *" (dropping qualifiers)
+      if(H5D__chunk_file_alloc(udata->idx_info_dst, NULL, &udata_dst.chunk_block, &need_insert, udata_dst.common.scaled) < 0)
+                                                                                                ^
+
+hdf5/H5Dchunk.c(5933): warning #2330: argument of type "const H5T_t *" is incompatible with parameter of type "H5T_t *" (dropping qualifiers)
+          if(NULL == (dt_mem = H5T_copy(dt_src, H5T_COPY_TRANSIENT)))
+                                        ^
+
+hdf5/H5Dchunk.c(5941): warning #2330: argument of type "const H5T_t *" is incompatible with parameter of type "H5T_t *" (dropping qualifiers)
+          if(NULL == (dt_dst = H5T_copy(dt_src, H5T_COPY_TRANSIENT)))
+                                        ^
+
+mpiicc -c -o hdf5/H5FS.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FS.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Fdeprec.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Fdeprec.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Fcwfs.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Fcwfs.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Fdbg.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Fdbg.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FScache.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FScache.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Faccum.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Faccum.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Ff.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Ff.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Ffake.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Ffake.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Fio.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Fio.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Fefc.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Fefc.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Fmpi.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Fmpi.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Fquery.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Fquery.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Fsfile.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Fsfile.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Fspace.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Fspace.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5C.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5C.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Fmount.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Fmount.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FSsection.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FSsection.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Fsuper_cache.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Fsuper_cache.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Ftest.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Ftest.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Gbtree2.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Gbtree2.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Gcache.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Gcache.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5G.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5G.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Gcompact.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Gcompact.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Gf.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Gf.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Fsuper.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Fsuper.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Gent.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Gent.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Gdense.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Gdense.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Glink.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Glink.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Gdeprec.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Gdeprec.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Gloc.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Gloc.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5FL.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5FL.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Goh.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Goh.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Groot.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Groot.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Fint.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Fint.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Gint.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Gint.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HFdtable.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HFdtable.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Gtest.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Gtest.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HF.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HF.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Gname.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Gname.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Gstab.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Gstab.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Gobj.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Gobj.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HFbtree2.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HFbtree2.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HFiter.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HFiter.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Gnode.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Gnode.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HFdblock.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HFdblock.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HFstat.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HFstat.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HFdbg.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HFdbg.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HFtiny.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HFtiny.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HFtest.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HFtest.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5lib_settings.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5lib_settings.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HFspace.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HFspace.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HFhuge.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HFhuge.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HFhdr.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HFhdr.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HFman.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HFman.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Gtraverse.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Gtraverse.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HGdbg.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HGdbg.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HGcache.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HGcache.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HGquery.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HGquery.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HG.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HG.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HFcache.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HFcache.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+hdf5/H5HFcache.c(772): warning #2332: a value of type "const H5F_t *" cannot be assigned to an entity of type "H5F_t *" (dropping qualifiers)
+      hdr->f = f;
+             ^
+
+hdf5/H5HFcache.c(1362): warning #2332: a value of type "const H5F_t *" cannot be assigned to an entity of type "H5F_t *" (dropping qualifiers)
+      hdr->f = f;
+             ^
+
+mpiicc -c -o hdf5/H5HFiblock.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HFiblock.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HLdbg.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HLdbg.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HL.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HL.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HLdblk.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HLdblk.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HLprfx.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HLprfx.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HLcache.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HLcache.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HLint.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HLint.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5If.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5If.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HP.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HP.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Itest.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Itest.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Lexternal.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Lexternal.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5HFsection.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5HFsection.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Lf.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Lf.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5MM.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5MM.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5MPtest.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5MPtest.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5MFaggr.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5MFaggr.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5MP.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5MP.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5I.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5I.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5MFsection.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5MFsection.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Obtreek.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Obtreek.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Oainfo.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Oainfo.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5MFdbg.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5MFdbg.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Obogus.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Obogus.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5O.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5O.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Ocache_image.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Ocache_image.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Odrvinfo.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Odrvinfo.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Ocont.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Ocont.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Oattr.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Oattr.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Ochunk.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Ochunk.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Of.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Of.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Oginfo.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Oginfo.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5L.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5L.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Ofsinfo.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Ofsinfo.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Odbg.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Odbg.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Oflush.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Oflush.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Oname.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Oname.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Oattribute.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Oattribute.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Omtime.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Omtime.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Olinfo.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Olinfo.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Onull.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Onull.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Oefl.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Oefl.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Ofill.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Ofill.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Olink.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Olink.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Ocache.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Ocache.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Orefcount.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Orefcount.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Ocopy.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Ocopy.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Oshmesg.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Oshmesg.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Ostab.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Ostab.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Oshared.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Oshared.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Osdspace.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Osdspace.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Ounknown.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Ounknown.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Otest.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Otest.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5PL.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5PL.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Olayout.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Olayout.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Opline.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Opline.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Pacpl.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Pacpl.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Omessage.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Omessage.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5PLint.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5PLint.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Odtype.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Odtype.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+hdf5/H5Odtype.c(1190): warning #2330: argument of type "const H5T_t *" is incompatible with parameter of type "H5T_t *" (dropping qualifiers)
+      if(NULL == (dst = H5T_copy(src, H5T_COPY_ALL)))
+                                 ^
+
+hdf5/H5Odtype.c(1544): warning #2330: argument of type "const H5T_t *" is incompatible with parameter of type "H5T_t *" (dropping qualifiers)
+          if(NULL == (udata->src_dtype = H5T_copy(dt_src, H5T_COPY_TRANSIENT)))
+                                                  ^
+
+mpiicc -c -o hdf5/H5PLplugin_cache.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5PLplugin_cache.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Oalloc.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Oalloc.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5PLpath.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5PLpath.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5MF.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5MF.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Pdeprec.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Pdeprec.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5P.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5P.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Oint.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Oint.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Pfmpl.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Pfmpl.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5PB.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5PB.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Pdapl.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Pdapl.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+hdf5/H5Pdapl.c(208): warning #167: argument of type "herr_t={int} (*)(const void *, void **, size_t={unsigned long} *)" is incompatible with parameter of type "H5P_prp_encode_func_t"
+               NULL, NULL, NULL, H5D_ACS_DATA_CACHE_NUM_SLOTS_ENC, H5D_ACS_DATA_CACHE_NUM_SLOTS_DEC, NULL, NULL, NULL, NULL) < 0)
+                                 ^
+
+hdf5/H5Pdapl.c(213): warning #167: argument of type "herr_t={int} (*)(const void *, void **, size_t={unsigned long} *)" is incompatible with parameter of type "H5P_prp_encode_func_t"
+               NULL, NULL, NULL, H5D_ACS_DATA_CACHE_BYTE_SIZE_ENC, H5D_ACS_DATA_CACHE_BYTE_SIZE_DEC, NULL, NULL, NULL, NULL) < 0)
+                                 ^
+
+hdf5/H5Pdapl.c(235): warning #167: argument of type "herr_t={int} (*)(const void *, void **, size_t={unsigned long} *)" is incompatible with parameter of type "H5P_prp_encode_func_t"
+              NULL, H5D_ACS_VDS_PREFIX_SET, H5D_ACS_VDS_PREFIX_GET, H5D_ACS_VDS_PREFIX_ENC, H5D_ACS_VDS_PREFIX_DEC,
+                                                                    ^
+
+mpiicc -c -o hdf5/H5Pencdec.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Pencdec.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Plcpl.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Plcpl.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Pgcpl.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Pgcpl.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Pstrcpl.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Pstrcpl.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Ptest.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Ptest.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5RS.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5RS.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5R.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5R.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Pocpypl.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Pocpypl.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+hdf5/H5Pocpypl.c(171): warning #167: argument of type "herr_t={int} (*)(const void *, void **, size_t={unsigned long} *)" is incompatible with parameter of type "H5P_prp_encode_func_t"
+              NULL, H5O_CPY_MERGE_COMM_DT_LIST_SET, H5O_CPY_MERGE_COMM_DT_LIST_GET, H5O_CPY_MERGE_COMM_DT_LIST_ENC, H5O_CPY_MERGE_COMM_DT_LIST_DEC,
+                                                                                    ^
+
+mpiicc -c -o hdf5/H5Plapl.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Plapl.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Pdxpl.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Pdxpl.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Pf.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Pf.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Pfcpl.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Pfcpl.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Rdeprec.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Rdeprec.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Rf.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Rf.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Rint.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Rint.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Pocpl.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Pocpl.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Pdcpl.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Pdcpl.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+hdf5/H5Pdcpl.c(3362): warning #2330: argument of type "const H5T_t *" is incompatible with parameter of type "H5T_t *" (dropping qualifiers)
+      if((dst_id = H5I_register(H5I_DATATYPE, H5T_copy(type, H5T_COPY_TRANSIENT), FALSE)) < 0)
+                                                       ^
+
+mpiicc -c -o hdf5/H5SMbtree2.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5SMbtree2.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5ST.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5ST.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Sdbg.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Sdbg.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5SMtest.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5SMtest.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5SMmessage.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5SMmessage.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5SMcache.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5SMcache.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Sf.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Sf.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Sall.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Sall.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5TS.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5TS.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Snone.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Snone.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Stest.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Stest.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Tcset.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Tcset.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Tdbg.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Tdbg.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5SM.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5SM.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Tarray.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Tarray.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Sselect.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Sselect.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5S.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5S.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Tdeprec.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Tdeprec.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Pfapl.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Pfapl.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+hdf5/H5Pfapl.c(521): warning #167: argument of type "herr_t={int} (*)(const void *, void **, size_t={unsigned long} *)" is incompatible with parameter of type "H5P_prp_encode_func_t"
+              NULL, NULL, NULL, H5F_ACS_LIBVER_LOW_BOUND_ENC, H5F_ACS_LIBVER_LOW_BOUND_DEC,
+                                ^
+
+hdf5/H5Pfapl.c(527): warning #167: argument of type "herr_t={int} (*)(const void *, void **, size_t={unsigned long} *)" is incompatible with parameter of type "H5P_prp_encode_func_t"
+              NULL, NULL, NULL, H5F_ACS_LIBVER_HIGH_BOUND_ENC, H5F_ACS_LIBVER_HIGH_BOUND_DEC,
+                                ^
+
+mpiicc -c -o hdf5/H5Smpio.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Smpio.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Tfixed.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Tfixed.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Tcompound.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Tcompound.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+hdf5/H5Tcompound.c(464): warning #2330: argument of type "const H5T_t *" is incompatible with parameter of type "H5T_t *" (dropping qualifiers)
+      parent->shared->u.compnd.memb[idx].type = H5T_copy(member, H5T_COPY_ALL);
+                                                         ^
+
+mpiicc -c -o hdf5/H5Tenum.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Tenum.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+hdf5/H5Tenum.c(111): warning #2330: argument of type "const H5T_t *" is incompatible with parameter of type "H5T_t *" (dropping qualifiers)
+      ret_value->shared->parent = H5T_copy(parent, H5T_COPY_ALL);
+                                           ^
+
+hdf5/H5Tenum.c(412): warning #2330: argument of type "const H5T_t *" is incompatible with parameter of type "H5T_t *" (dropping qualifiers)
+      if(NULL == (copied_dt = H5T_copy(dt, H5T_COPY_ALL)))
+                                       ^
+
+hdf5/H5Tenum.c(551): warning #2330: argument of type "const H5T_t *" is incompatible with parameter of type "H5T_t *" (dropping qualifiers)
+      if (NULL==(copied_dt=H5T_copy(dt, H5T_COPY_ALL)))
+                                    ^
+
+mpiicc -c -o hdf5/H5Tf.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Tf.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Pint.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Pint.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Tcommit.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Tcommit.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Toh.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Toh.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Tfields.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Tfields.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Toffset.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Toffset.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Tfloat.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Tfloat.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Topaque.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Topaque.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Spoint.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Spoint.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Tinit.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Tinit.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Tpad.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Tpad.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Tnative.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Tnative.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Torder.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Torder.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5UC.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5UC.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Tvisit.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Tvisit.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Tstrpad.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Tstrpad.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Tprecis.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Tprecis.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5IMff.F90 -o hdf5/H5IMff.fppized.f90
+mpiicc -c -o hdf5/H5Tbit.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Tbit.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5WB.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5WB.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5TBff.F90 -o hdf5/H5TBff.fppized.f90
+/home/jumeike/scratch.cmsc714/final-project/bin/specperl /home/jumeike/scratch.cmsc714/final-project/bin/harness/specpp -DSPEC -DNDEBUG -Ihdf5 -Ihdf5/include -DNDEBUG hdf5/H5LTff.F90 -o hdf5/H5LTff.fppized.f90
+mpiicc -c -o hdf5/H5Zdeflate.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Zdeflate.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Tvlen.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Tvlen.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+hdf5/H5Tvlen.c(135): warning #2330: argument of type "const H5T_t *" is incompatible with parameter of type "H5T_t *" (dropping qualifiers)
+      if(NULL == (dt->shared->parent = H5T_copy(base, H5T_COPY_ALL)))
+                                                ^
+
+mpiicc -c -o hdf5/H5Zf.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Zf.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5VM.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5VM.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Zfletcher32.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Zfletcher32.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5LTparse.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5LTparse.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Zshuffle.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Zshuffle.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5dbg.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5dbg.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5timer.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5timer.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5f90kit.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5f90kit.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o libz/adler32.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 libz/adler32.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5DO.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5DO.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5system.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5system.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5LTanalyze.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5LTanalyze.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+hl/src/H5LTanalyze.c(2110): warning #266: function "isatty" declared implicitly
+          b->yy_is_interactive = file ? (isatty( fileno(file) ) > 0) : 0;
+                                         ^
+
+mpiicc -c -o hdf5/H5_f.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5_f.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5checksum.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5checksum.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o libz/crc32.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 libz/crc32.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o libz/inffast.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 libz/inffast.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o libz/inftrees.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 libz/inftrees.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5DSfc.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5DSfc.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Z.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Z.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o libz/compress.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 libz/compress.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5IMfc.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5IMfc.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5IM.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5IM.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o libz/zutil.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 libz/zutil.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5IMcc.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5IMcc.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5PT.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5PT.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5LD.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5LD.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiifort -c -o number_types.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none number_types.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiicc -c -o libz/uncompr.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 libz/uncompr.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5LTfc.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5LTfc.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiifort -c -o hdf5/H5fortran_types.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5fortran_types.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiicc -c -o libz/infback.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 libz/infback.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiifort -c -o hdf5/H5fortkit.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5fortkit.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o specmpitime/specmpitime_mod.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none specmpitime/specmpitime_mod.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiicc -c -o hdf5/H5TBfc.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5TBfc.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o libz/gzclose.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 libz/gzclose.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5DS.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5DS.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o libz/gzlib.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 libz/gzlib.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o libz/trees.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 libz/trees.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o libz/gzwrite.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 libz/gzwrite.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiifort -c -o hdf5/H5f90global.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5f90global.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiicc -c -o hdf5/H5T.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5T.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+hdf5/H5T.c(4681): warning #2330: argument of type "const H5T_t *" is incompatible with parameter of type "H5T_t *" (dropping qualifiers)
+          if(NULL == (path->src = H5T_copy(src, H5T_COPY_ALL)))
+                                           ^
+
+hdf5/H5T.c(4683): warning #2330: argument of type "const H5T_t *" is incompatible with parameter of type "H5T_t *" (dropping qualifiers)
+          if(NULL == (path->dst = H5T_copy(dst, H5T_COPY_ALL)))
+                                           ^
+
+mpiicc -c -o libz/inflate.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 libz/inflate.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5LT.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5LT.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiifort -c -o hdf5/H5Zff.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5Zff.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o hdf5/H5Eff.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5Eff.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o hdf5/H5Iff.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5Iff.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiicc -c -o libz/gzread.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 libz/gzread.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiifort -c -o hdf5/H5Fff.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5Fff.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o hdf5/H5Aff.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5Aff.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o hdf5/H5Rff.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5Rff.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o hdf5/H5Gff.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5Gff.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiicc -c -o hdf5/H5TB.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5TB.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiifort -c -o hdf5/H5Lff.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5Lff.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o hdf5/H5Dff.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5Dff.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o hdf5/H5Off.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5Off.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o hdf5/H5Tff.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5Tff.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiicc -c -o hdf5/H5trace.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5trace.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o libz/deflate.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 libz/deflate.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiifort -c -o hdf5/H5Sff.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5Sff.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o hdf5/H5_ff.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5_ff.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o hdf5/H5Pff.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5Pff.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiicc -c -o hdf5/H5Shyper.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Shyper.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Zscaleoffset.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Zscaleoffset.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiicc -c -o hdf5/H5Ztrans.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Ztrans.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiifort -c -o hdf5/H5_gen.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5_gen.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o hdf5/HDF5.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/HDF5.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiicc -c -o hdf5/H5SL.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5SL.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiifort -c -o zm_sds_modules.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none zm_sds_modules.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o hdf5/H5DSff.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5DSff.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o zm_parse_modules.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none zm_parse_modules.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o hdf5/H5IMff.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5IMff.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o hdf5/H5TBff.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5TBff.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o hdf5/H5LTff.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none hdf5/H5LTff.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o zm_parse.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none zm_parse.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiicc -c -o hdf5/H5Znbit.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Znbit.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiifort -c -o zm_sds.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none zm_sds.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiifort -c -o pot3d.fppized.o -Ofast -march=native -fno-stack-protector -ffree-line-length-none pot3d.fppized.f90
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'
+mpiicc -c -o hdf5/H5Tconv.o -DSPEC -DNDEBUG  -Ihdf5/include -Ilibz/include -DNDEBUG -Ispecmpitime   -Ofast -march=native -lm                 hdf5/H5Tconv.c
+icc: warning #10315: specifying -lm before files may supersede the Intel(R) math library and affect performance
+mpiifort       -Ofast -march=native -fno-stack-protector     -ffree-line-length-none    number_types.fppized.o pot3d.fppized.o zm_parse.fppized.o zm_parse_modules.fppized.o zm_sds.fppized.o zm_sds_modules.fppized.o specmpitime/specmpitime_mod.fppized.o specmpitime/specmpitime.o hdf5/H5.o hdf5/H5A.o hdf5/H5AC.o hdf5/H5ACdbg.o hdf5/H5ACmpio.o hdf5/H5ACproxy_entry.o hdf5/H5Abtree2.o hdf5/H5Adense.o hdf5/H5Adeprec.o hdf5/H5Af.o hdf5/H5Aint.o hdf5/H5Atest.o hdf5/H5B.o hdf5/H5B2.o hdf5/H5B2cache.o hdf5/H5B2dbg.o hdf5/H5B2hdr.o hdf5/H5B2int.o hdf5/H5B2internal.o hdf5/H5B2leaf.o hdf5/H5B2stat.o hdf5/H5B2test.o hdf5/H5Bcache.o hdf5/H5Bdbg.o hdf5/H5C.o hdf5/H5CS.o hdf5/H5Cdbg.o hdf5/H5Cepoch.o hdf5/H5Cimage.o hdf5/H5Clog.o hdf5/H5Clog_json.o hdf5/H5Clog_trace.o hdf5/H5Cmpio.o hdf5/H5Cprefetched.o hdf5/H5Cquery.o hdf5/H5Ctag.o hdf5/H5Ctest.o hdf5/H5CX.o hdf5/H5D.o hdf5/H5Dbtree.o hdf5/H5Dbtree2.o hdf5/H5Dchunk.o hdf5/H5Dcompact.o hdf5/H5Dcontig.o hdf5/H5Ddbg.o hdf5/H5Ddeprec.o hdf5/H5Dearray.o hdf5/H5Defl.o hdf5/H5Df.o hdf5/H5Dfarray.o hdf5/H5Dfill.o hdf5/H5Dint.o hdf5/H5Dio.o hdf5/H5Dlayout.o hdf5/H5Dmpio.o hdf5/H5Dnone.o hdf5/H5Doh.o hdf5/H5Dscatgath.o hdf5/H5Dselect.o hdf5/H5Dsingle.o hdf5/H5Dtest.o hdf5/H5Dvirtual.o hdf5/H5E.o hdf5/H5EA.o hdf5/H5EAcache.o hdf5/H5EAdbg.o hdf5/H5EAdblkpage.o hdf5/H5EAdblock.o hdf5/H5EAhdr.o hdf5/H5EAiblock.o hdf5/H5EAint.o hdf5/H5EAsblock.o hdf5/H5EAstat.o hdf5/H5EAtest.o hdf5/H5Edeprec.o hdf5/H5Ef.o hdf5/H5Eint.o hdf5/H5F.o hdf5/H5FA.o hdf5/H5FAcache.o hdf5/H5FAdbg.o hdf5/H5FAdblkpage.o hdf5/H5FAdblock.o hdf5/H5FAhdr.o hdf5/H5FAint.o hdf5/H5FAstat.o hdf5/H5FAtest.o hdf5/H5FD.o hdf5/H5FDcore.o hdf5/H5FDdirect.o hdf5/H5FDfamily.o hdf5/H5FDint.o hdf5/H5FDlog.o hdf5/H5FDmpi.o hdf5/H5FDmpio.o hdf5/H5FDmulti.o hdf5/H5FDsec2.o hdf5/H5FDspace.o hdf5/H5FDstdio.o hdf5/H5FDtest.o hdf5/H5FDwindows.o hdf5/H5FL.o hdf5/H5FO.o hdf5/H5FS.o hdf5/H5FScache.o hdf5/H5FSdbg.o hdf5/H5FSint.o hdf5/H5FSsection.o hdf5/H5FSstat.o hdf5/H5FStest.o hdf5/H5Faccum.o hdf5/H5Fcwfs.o hdf5/H5Fdbg.o hdf5/H5Fdeprec.o hdf5/H5Fefc.o hdf5/H5Ff.o hdf5/H5Ffake.o hdf5/H5Fint.o hdf5/H5Fio.o hdf5/H5Fmount.o hdf5/H5Fmpi.o hdf5/H5Fquery.o hdf5/H5Fsfile.o hdf5/H5Fspace.o hdf5/H5Fsuper.o hdf5/H5Fsuper_cache.o hdf5/H5Ftest.o hdf5/H5G.o hdf5/H5Gbtree2.o hdf5/H5Gcache.o hdf5/H5Gcompact.o hdf5/H5Gdense.o hdf5/H5Gdeprec.o hdf5/H5Gent.o hdf5/H5Gf.o hdf5/H5Gint.o hdf5/H5Glink.o hdf5/H5Gloc.o hdf5/H5Gname.o hdf5/H5Gnode.o hdf5/H5Gobj.o hdf5/H5Goh.o hdf5/H5Groot.o hdf5/H5Gstab.o hdf5/H5Gtest.o hdf5/H5Gtraverse.o hdf5/H5HF.o hdf5/H5HFbtree2.o hdf5/H5HFcache.o hdf5/H5HFdbg.o hdf5/H5HFdblock.o hdf5/H5HFdtable.o hdf5/H5HFhdr.o hdf5/H5HFhuge.o hdf5/H5HFiblock.o hdf5/H5HFiter.o hdf5/H5HFman.o hdf5/H5HFsection.o hdf5/H5HFspace.o hdf5/H5HFstat.o hdf5/H5HFtest.o hdf5/H5HFtiny.o hdf5/H5HG.o hdf5/H5HGcache.o hdf5/H5HGdbg.o hdf5/H5HGquery.o hdf5/H5HL.o hdf5/H5HLcache.o hdf5/H5HLdbg.o hdf5/H5HLdblk.o hdf5/H5HLint.o hdf5/H5HLprfx.o hdf5/H5HP.o hdf5/H5I.o hdf5/H5If.o hdf5/H5Itest.o hdf5/H5L.o hdf5/H5Lexternal.o hdf5/H5lib_settings.o hdf5/H5Lf.o hdf5/H5MF.o hdf5/H5MFaggr.o hdf5/H5MFdbg.o hdf5/H5MFsection.o hdf5/H5MM.o hdf5/H5MP.o hdf5/H5MPtest.o hdf5/H5O.o hdf5/H5Oainfo.o hdf5/H5Oalloc.o hdf5/H5Oattr.o hdf5/H5Oattribute.o hdf5/H5Obogus.o hdf5/H5Obtreek.o hdf5/H5Ocache.o hdf5/H5Ocache_image.o hdf5/H5Ochunk.o hdf5/H5Ocont.o hdf5/H5Ocopy.o hdf5/H5Odbg.o hdf5/H5Odrvinfo.o hdf5/H5Odtype.o hdf5/H5Oefl.o hdf5/H5Of.o hdf5/H5Ofill.o hdf5/H5Oflush.o hdf5/H5Ofsinfo.o hdf5/H5Oginfo.o hdf5/H5Oint.o hdf5/H5Olayout.o hdf5/H5Olinfo.o hdf5/H5Olink.o hdf5/H5Omessage.o hdf5/H5Omtime.o hdf5/H5Oname.o hdf5/H5Onull.o hdf5/H5Opline.o hdf5/H5Orefcount.o hdf5/H5Osdspace.o hdf5/H5Oshared.o hdf5/H5Oshmesg.o hdf5/H5Ostab.o hdf5/H5Otest.o hdf5/H5Ounknown.o hdf5/H5P.o hdf5/H5PB.o hdf5/H5PL.o hdf5/H5PLint.o hdf5/H5PLpath.o hdf5/H5PLplugin_cache.o hdf5/H5Pacpl.o hdf5/H5Pdapl.o hdf5/H5Pdcpl.o hdf5/H5Pdeprec.o hdf5/H5Pdxpl.o hdf5/H5Pencdec.o hdf5/H5Pf.o hdf5/H5Pfapl.o hdf5/H5Pfcpl.o hdf5/H5Pfmpl.o hdf5/H5Pgcpl.o hdf5/H5Pint.o hdf5/H5Plapl.o hdf5/H5Plcpl.o hdf5/H5Pocpl.o hdf5/H5Pocpypl.o hdf5/H5Pstrcpl.o hdf5/H5Ptest.o hdf5/H5R.o hdf5/H5RS.o hdf5/H5Rdeprec.o hdf5/H5Rf.o hdf5/H5Rint.o hdf5/H5S.o hdf5/H5SL.o hdf5/H5SM.o hdf5/H5SMbtree2.o hdf5/H5SMcache.o hdf5/H5SMmessage.o hdf5/H5SMtest.o hdf5/H5ST.o hdf5/H5Sall.o hdf5/H5Sdbg.o hdf5/H5Sf.o hdf5/H5Shyper.o hdf5/H5Smpio.o hdf5/H5Snone.o hdf5/H5Spoint.o hdf5/H5Sselect.o hdf5/H5Stest.o hdf5/H5T.o hdf5/H5TS.o hdf5/H5Tarray.o hdf5/H5Tbit.o hdf5/H5Tcommit.o hdf5/H5Tcompound.o hdf5/H5Tconv.o hdf5/H5Tcset.o hdf5/H5Tdbg.o hdf5/H5Tdeprec.o hdf5/H5Tenum.o hdf5/H5Tf.o hdf5/H5Tfields.o hdf5/H5Tfixed.o hdf5/H5Tfloat.o hdf5/H5Tinit.o hdf5/H5Tnative.o hdf5/H5Toffset.o hdf5/H5Toh.o hdf5/H5Topaque.o hdf5/H5Torder.o hdf5/H5Tpad.o hdf5/H5Tprecis.o hdf5/H5Tstrpad.o hdf5/H5Tvisit.o hdf5/H5Tvlen.o hdf5/H5UC.o hdf5/H5VM.o hdf5/H5WB.o hdf5/H5Z.o hdf5/H5Zdeflate.o hdf5/H5Zf.o hdf5/H5Zfletcher32.o hdf5/H5Znbit.o hdf5/H5Zscaleoffset.o hdf5/H5Zshuffle.o hdf5/H5Ztrans.o hdf5/H5_f.o hdf5/H5checksum.o hdf5/H5dbg.o hdf5/H5f90kit.o hdf5/H5system.o hdf5/H5timer.o hdf5/H5trace.o hdf5/H5_gen.fppized.o hdf5/H5Aff.fppized.o hdf5/H5Dff.fppized.o hdf5/H5Eff.fppized.o hdf5/H5Fff.fppized.o hdf5/H5Gff.fppized.o hdf5/H5Iff.fppized.o hdf5/H5Lff.fppized.o hdf5/H5Off.fppized.o hdf5/H5Pff.fppized.o hdf5/H5Rff.fppized.o hdf5/H5Sff.fppized.o hdf5/H5Tff.fppized.o hdf5/H5Zff.fppized.o hdf5/H5_ff.fppized.o hdf5/H5f90global.fppized.o hdf5/H5fortkit.fppized.o hdf5/H5fortran_types.fppized.o hdf5/HDF5.fppized.o hdf5/H5DO.o hdf5/H5DS.o hdf5/H5IM.o hdf5/H5LD.o hdf5/H5LT.o hdf5/H5LTanalyze.o hdf5/H5LTparse.o hdf5/H5PT.o hdf5/H5TB.o hdf5/H5DSfc.o hdf5/H5DSff.fppized.o hdf5/H5IMcc.o hdf5/H5IMfc.o hdf5/H5IMff.fppized.o hdf5/H5LTfc.o hdf5/H5LTff.fppized.o hdf5/H5TBfc.o hdf5/H5TBff.fppized.o libz/adler32.o libz/crc32.o libz/deflate.o libz/infback.o libz/inffast.o libz/inflate.o libz/inftrees.o libz/trees.o libz/zutil.o libz/compress.o libz/uncompr.o libz/gzclose.o libz/gzlib.o libz/gzread.o libz/gzwrite.o                      -o pot3d  
+ifort: command line warning #10006: ignoring unknown option '-ffree-line-length-none'

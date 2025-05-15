@@ -1,0 +1,5 @@
+
+
+# End dependencies
+# These are the build dependencies
+$(addsuffix $(OBJ), miniWeather.fppized): miniWeather.fppized.f90 $(addsuffix $(OBJ),$(basename ) specmpitime/specmpitime_mod.fppized)

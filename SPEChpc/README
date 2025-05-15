@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+                                SPEChpc
+-------------------------------------------------------------------------------
+  Installing: Mount the ISO, then:  install.sh    (Unix, Linux, etc.)
+                               or:  install.bat   (Windows)
+
+      Detail: https://www.spec.org/hpc2021/Docs/install-guide-unix.html     (*)
+
+ Quick start: https://www.spec.org/hpc2021/Docs/quick-start.html            (*)
+
+    Examples: $SPEC/config/    (Unix)
+
+    Licenses: https://www.spec.org/hpc2021/Docs/licenses.html               (*)
+-------------------------------------------------------------------------------
+(*) All of these are also on your kit.  If your screen has a little picture of
+    the ISO kit, try clicking on the Docs directory.
+-------------------------------------------------------------------------------

@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>619.clvleaf_s: SPEChpc 2021 Benchmark Description</title>
+</head>
+<body>
+<div style="text-align: center">
+<h1>619.clvleaf_s<br />
+SPEChpc&trade; 2021 Benchmark Description</h1>
+</div>
+
+<h2>Benchmark Name</h2>
+
+<p>619.clvleaf_s </p>
+
+<hr />
+
+<h2>Benchmark Author</h2>
+
+<p>Submitted by Simon McIntosh-Smith, simonm __at__ cs.bris.ac.uk </p>
+
+<p>Simon McIntosh-Smith &lt;simonm &#x5b;at&#x5d; cs.bris.ac.uk &gt;<br />
+University of Bristol<br />
+Bristol, BS8 1TH, UK<br /></p>
+
+<p> Authors listed in alphabetic order: <br/> 
+---------------------------------- <br/>  
+<ul>
+<li> David Beckingsale </li>
+<li> Michael Boulton </li>
+<li> Tom Deakin </li>
+<li> Wayne Gaudin </li>
+<li> Andy Herdman </li>
+<li> Steven Jarvis </li>
+<li> Andrew Mallinson </li>
+<li> Matt Martineau </li>
+<li> Simon McIntosh-Smith </li>
+<li> Oliver Perks </li>
+</ul>
+</p>
+
+
+<hr />
+
+<h2>Benchmark Program General Category</h2>
+
+<p>Physics / High Energy Physics</p>
+
+<hr />
+
+<h2>Benchmark Description</h2>
+
+<p>CloverLeaf is a mini-app that solves the compressible Euler equations 
+on a Cartesian grid, using an explicit, second-order accurate method. 
+Each cell stores three values: energy, density, and pressure. A velocity 
+vector is stored at each cell corner. This arrangement of data, with some 
+quantities at cell centers, and others at cell corners is known as a 
+staggered grid. CloverLeaf currently solves the equations in two dimensions. 
+</p>
+
+<p>The computation in CloverLeaf has been broken down into "kernels" -
+low level building blocks with minimal complexity. Each kernel loops over 
+the entire grid and updates one (or some) mesh variables, based on a 
+kernel-dependent computational stencil. Control logic within each kernel 
+is kept to a minimum , allowing maximum optimisation by the compiler. 
+Memory is sacrificed in order to increase peformance, and any updates to 
+variables that would introduce dependencies between loop iterations are 
+written into copies of the mesh. </p>
+
+<hr />
+
+<h2>Input Description</h2>
+
+<p>All the input that is required to
+generate a CloverLeaf run is contained within the clover.in
+input file.</p>
+
+<p>The logical mesh size is defined
+by the x_cells and y_cells
+input parameters.</p>
+
+<p>The physical mesh size is defined by the 
+xmin, xmax, ymin and ymax parameters.</p>
+
+<p>The different ideal gas states
+are defined using the state keyword. State 1 is always the background 
+material that will infill where either states are not
+defined.</p>
+
+<pre>
+e.g. state 1 density=0.2 energy=1.0
+     state 2 density=1.0 energy=2.5 geometry=rectangle xmin=0.0 ymin=0.0 xmax=5.0 ymax=2.0
+
+</pre>
+<p>The control parameters are used
+to set timestep frequency and end times.</p>
+
+<pre>
+e.g. initial_timestep=0.04
+     end_time=0.5
+
+</pre
+
+<p>There are a number of other
+inputs that can be used for fine control, profiling and visualization. The full
+description of these can be found in the links detailed below.</p>
+
+
+<hr>
+<h2>Output Description</h2>
+
+<p>The most important output from
+CloverLeaf is the field summary print that details the average state variables
+of the system, which includes pressure, kinetic energy and internal energy.</p>
+
+<p>Timestep information is also output every step.</p>
+
+<p>VTK files can also be outputted
+to allow visualization but this is not recommended for benchmarking runs due to
+the overhead incurred.</p>
+
+
+<hr />
+
+<h2>Programming Language</h2>
+
+<p>Fortran</p>
+
+<hr />
+
+<h2>Known portability issues</h2>
+
+None.
+
+<hr />
+
+<h2>Version and Licensing</h2>
+
+<p>Application Version: 1.3</p>
+<p>License: GPL 3</p>
+
+<hr />
+
+<h2>References</h2>
+
+<ul>
+<li><a href=
+"http://uk-mac.github.io/CloverLeaf">http://uk-mac.github.io/CloverLeaf</a>
+</li>
+
+</ul>
+
+<ul>
+<li>
+McIntosh-Smith, S., Boulton, M., Curran, D. and Price, J., 2014, June. On the 
+performance portability of structured grid codes on many-core computer 
+architectures. In International Supercomputing Conference (pp. 53-75). Springer, 
+Cham.
+<a href=
+"https://link.springer.com/chapter/10.1007/978-3-319-07518-1_4">https://link.springer.com/chapter/10.1007/978-3-319-07518-1_4</a>
+</li>
+
+
+<hr />
+
+<p>Last updated: $Date$</p>
+</body>
+</html>

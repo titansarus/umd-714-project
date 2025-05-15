@@ -1,0 +1,319 @@
+energy_totals[0]: 8021606400.000000
+energy_totals[1]: 32086425600.000000
+energy_totals[2]: 8021606400.000000
+energy_totals[3]: 32086425600.000000
+energy_totals[4]: 8021606400.000000
+energy_totals[5]: 32086425600.000000
+energy_totals[6]: 8021606400.000000
+energy_totals[7]: 32086425600.000000
+energy_totals[8]: 8021606400.000000
+energy_totals[9]: 32086425600.000000
+energy_totals[10]: 8021606400.000000
+energy_totals[11]: 32086425600.000000
+energy_totals[12]: 8021606400.000000
+energy_totals[13]: 32086425600.000000
+energy_totals[14]: 8021606400.000000
+energy_totals[15]: 32086425600.000000
+energy_totals[16]: 8021606400.000000
+energy_totals[17]: 32086425600.000000
+energy_totals[18]: 8021606400.000000
+energy_totals[19]: 32086425600.000000
+energy_totals[20]: 8021606400.000000
+energy_totals[21]: 32086425600.000000
+energy_totals[22]: 8021606400.000000
+energy_totals[23]: 32086425600.000000
+energy_totals[24]: 8021606400.000000
+energy_totals[25]: 32086425600.000000
+energy_totals[26]: 8021606400.000000
+energy_totals[27]: 32086425600.000000
+energy_totals[28]: 8021606400.000000
+energy_totals[29]: 32086425600.000000
+energy_totals[30]: 8021606400.000000
+energy_totals[31]: 32086425600.000000
+energy_totals[32]: 8021606400.000000
+energy_totals[33]: 32086425600.000000
+energy_totals[34]: 8021606400.000000
+energy_totals[35]: 32086425600.000000
+energy_totals[36]: 8021606400.000000
+energy_totals[37]: 32086425600.000000
+energy_totals[38]: 8021606400.000000
+energy_totals[39]: 32086425600.000000
+energy_totals[40]: 8021606400.000000
+energy_totals[41]: 32086425600.000000
+energy_totals[42]: 8021606400.000000
+energy_totals[43]: 32086425600.000000
+energy_totals[44]: 8021606400.000000
+energy_totals[45]: 32086425600.000000
+energy_totals[46]: 8021606400.000000
+energy_totals[47]: 32086425600.000000
+energy_totals[48]: 8021606400.000000
+energy_totals[49]: 32086425600.000000
+energy_totals[50]: 8021606400.000000
+energy_totals[51]: 32086425600.000000
+energy_totals[52]: 8021606400.000000
+energy_totals[53]: 32086425600.000000
+energy_totals[54]: 8021606400.000000
+energy_totals[55]: 32086425600.000000
+energy_totals[56]: 8021606400.000000
+energy_totals[57]: 32086425600.000000
+energy_totals[58]: 8021606400.000000
+energy_totals[59]: 32086425600.000000
+energy_totals[60]: 8021606400.000000
+energy_totals[61]: 32086425600.000000
+energy_totals[62]: 8021606400.000000
+energy_totals[63]: 32086425600.000000
+
+========================================
+AGGREGATED MPI TIMING REPORT (ALL RANKS)
+========================================
+Number of MPI Ranks: 256
+Total Execution Time: 831.024503 seconds
+Total MPI Time (all ranks): 120349.659877 seconds
+Average MPI Time per rank: 470.115859 seconds (56.57% of execution time)
+
+MPI Call Summary (Aggregated Across All Ranks):
+Function             |  Total Calls | Total Time (s) |   Avg Time (s) |   Min Time (s) |   Max Time (s) | % of MPI
+--------------------------------------------------------------------------------------------------------
+MPI_Recv             |      2458560 |  100311.082939 |    0.040800746 |    0.000000080 |    5.304354860 | 83.3497%
+MPI_Send             |      2458560 |   19746.474726 |    0.008031724 |    0.000000120 |    0.377697680 | 16.4076%
+MPI_Barrier          |          512 |     289.857744 |    0.566128407 |    0.000064742 |    2.703967161 |  0.2408%
+MPI_Allreduce        |        17152 |       2.244467 |    0.000130857 |    0.000009979 |    0.009793241 |  0.0019%
+
+NOTE: Total time represents the sum across all ranks.
+      Average time is per individual call.
+      Min/Max times are across all calls on all ranks.
+Elapsed Time: 860.638s
+    CPU Time: 53138.330s
+        Effective Time: 35666.419s
+            Idle: 0.010s
+            Poor: 35666.409s
+            Ok: 0s
+            Ideal: 0s
+            Over: 0s
+        Spin Time: 17471.911s
+         | A significant portion of CPU time is spent waiting. Use this metric
+         | to discover which synchronizations are spinning. Consider adjusting
+         | spin wait parameters, changing the lock implementation (for example,
+         | by backing off then descheduling), or adjusting the synchronization
+         | granularity.
+         |
+            MPI Busy Wait Time: 17389.098s
+             | CPU time spent on waits for MPI communication operations is
+             | significant and can negatively impact the application performance
+             | and scalability. This can be caused by load imbalance between
+             | ranks, active communications or non-optimal settings of MPI
+             | library. Explore details on communication inefficiencies with
+             | Intel Trace Analyzer and Collector.
+             |
+            Other: 82.812s
+        Overhead Time: 0s
+            Other: 0s
+    Total Thread Count: 128
+    Paused Time: 0s
+
+Top Hotspots
+Function             Module                            CPU Time
+-------------------  ------------------------------  ----------
+Sweeper_sweep_cell   sweep_base.gnu_intel_mpi_debug  17788.948s
+PMPI_Recv            libmpi.so.12                    14745.897s
+ucp_worker_progress  libucp.so.0                      5820.561s
+Quantities_solve     sweep_base.gnu_intel_mpi_debug   4058.194s
+PMPI_Send            libmpi.so.12                     2846.003s
+[Others]             N/A                              7878.726s
+Collection and Platform Info
+    Application Command Line: ../run_base_ref_gnu_mpi.0011/sweep_base.gnu_intel_mpi_debug "--niterations" "80" "--ncell_x" "128" "--ncell_y" "64" "--ncell_z" "64" "--ne" "64" "--na" "32" "--nblock_z" "8" "--nthread_e" "1" 
+    Operating System: 4.18.0-553.27.1.el8_10.x86_64 Red Hat Enterprise Linux release 8.10 (Ootpa)
+    Computer Name: compute-b8-13.zaratan.umd.edu
+    Result Size: 1.1 GB 
+    Collection start time: 18:38:00 14/05/2025 UTC
+    Collection stop time: 18:53:23 14/05/2025 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Unknown
+        Frequency: 2.445 GHz 
+        Logical CPU Count: 128
+        Cache Allocation Technology
+            Level 2 capability: not detected
+            Level 3 capability: available
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+Elapsed Time: 859.408s
+    CPU Time: 53205.920s
+        Effective Time: 35572.738s
+            Idle: 0.010s
+            Poor: 35572.728s
+            Ok: 0s
+            Ideal: 0s
+            Over: 0s
+        Spin Time: 17633.182s
+         | A significant portion of CPU time is spent waiting. Use this metric
+         | to discover which synchronizations are spinning. Consider adjusting
+         | spin wait parameters, changing the lock implementation (for example,
+         | by backing off then descheduling), or adjusting the synchronization
+         | granularity.
+         |
+            MPI Busy Wait Time: 17561.679s
+             | CPU time spent on waits for MPI communication operations is
+             | significant and can negatively impact the application performance
+             | and scalability. This can be caused by load imbalance between
+             | ranks, active communications or non-optimal settings of MPI
+             | library. Explore details on communication inefficiencies with
+             | Intel Trace Analyzer and Collector.
+             |
+            Other: 71.503s
+        Overhead Time: 0s
+            Other: 0s
+    Total Thread Count: 128
+    Paused Time: 0s
+
+Top Hotspots
+Function             Module                            CPU Time
+-------------------  ------------------------------  ----------
+Sweeper_sweep_cell   sweep_base.gnu_intel_mpi_debug  17820.057s
+PMPI_Recv            libmpi.so.12                    13754.391s
+ucp_worker_progress  libucp.so.0                      5657.214s
+Quantities_solve     sweep_base.gnu_intel_mpi_debug   4052.463s
+PMPI_Send            libmpi.so.12                     3001.376s
+[Others]             N/A                              8920.418s
+Collection and Platform Info
+    Application Command Line: ../run_base_ref_gnu_mpi.0011/sweep_base.gnu_intel_mpi_debug "--niterations" "80" "--ncell_x" "128" "--ncell_y" "64" "--ncell_z" "64" "--ne" "64" "--na" "32" "--nblock_z" "8" "--nthread_e" "1" 
+    Operating System: 4.18.0-553.27.1.el8_10.x86_64 Red Hat Enterprise Linux release 8.10 (Ootpa)
+    MPI Process Rank: 19
+    Computer Name: compute-b7-8.zaratan.umd.edu
+    Result Size: 1.1 GB 
+    Collection start time: 18:38:02 14/05/2025 UTC
+    Collection stop time: 18:54:17 14/05/2025 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Unknown
+        Frequency: 2.445 GHz 
+        Logical CPU Count: 128
+        Cache Allocation Technology
+            Level 2 capability: not detected
+            Level 3 capability: available
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+Elapsed Time: 855.987s
+    CPU Time: 53163.030s
+        Effective Time: 35655.247s
+            Idle: 0.010s
+            Poor: 35655.237s
+            Ok: 0s
+            Ideal: 0s
+            Over: 0s
+        Spin Time: 17507.783s
+         | A significant portion of CPU time is spent waiting. Use this metric
+         | to discover which synchronizations are spinning. Consider adjusting
+         | spin wait parameters, changing the lock implementation (for example,
+         | by backing off then descheduling), or adjusting the synchronization
+         | granularity.
+         |
+            MPI Busy Wait Time: 17432.491s
+             | CPU time spent on waits for MPI communication operations is
+             | significant and can negatively impact the application performance
+             | and scalability. This can be caused by load imbalance between
+             | ranks, active communications or non-optimal settings of MPI
+             | library. Explore details on communication inefficiencies with
+             | Intel Trace Analyzer and Collector.
+             |
+            Other: 75.292s
+        Overhead Time: 0s
+            Other: 0s
+    Total Thread Count: 128
+    Paused Time: 0s
+
+Top Hotspots
+Function             Module                            CPU Time
+-------------------  ------------------------------  ----------
+Sweeper_sweep_cell   sweep_base.gnu_intel_mpi_debug  17800.141s
+PMPI_Recv            libmpi.so.12                    14500.857s
+ucp_worker_progress  libucp.so.0                      5789.190s
+Quantities_solve     sweep_base.gnu_intel_mpi_debug   4057.566s
+PMPI_Send            libmpi.so.12                     2774.909s
+[Others]             N/A                              8240.367s
+Collection and Platform Info
+    Application Command Line: ../run_base_ref_gnu_mpi.0011/sweep_base.gnu_intel_mpi_debug "--niterations" "80" "--ncell_x" "128" "--ncell_y" "64" "--ncell_z" "64" "--ne" "64" "--na" "32" "--nblock_z" "8" "--nthread_e" "1" 
+    Operating System: 4.18.0-553.27.1.el8_10.x86_64 Red Hat Enterprise Linux release 8.10 (Ootpa)
+    MPI Process Rank: 90
+    Computer Name: compute-b8-11.zaratan.umd.edu
+    Result Size: 1.1 GB 
+    Collection start time: 18:38:04 14/05/2025 UTC
+    Collection stop time: 18:54:41 14/05/2025 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Unknown
+        Frequency: 2.445 GHz 
+        Logical CPU Count: 128
+        Cache Allocation Technology
+            Level 2 capability: not detected
+            Level 3 capability: available
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+Elapsed Time: 857.857s
+    CPU Time: 53174.700s
+        Effective Time: 35609.780s
+            Idle: 0.010s
+            Poor: 35609.770s
+            Ok: 0s
+            Ideal: 0s
+            Over: 0s
+        Spin Time: 17564.920s
+         | A significant portion of CPU time is spent waiting. Use this metric
+         | to discover which synchronizations are spinning. Consider adjusting
+         | spin wait parameters, changing the lock implementation (for example,
+         | by backing off then descheduling), or adjusting the synchronization
+         | granularity.
+         |
+            MPI Busy Wait Time: 17481.913s
+             | CPU time spent on waits for MPI communication operations is
+             | significant and can negatively impact the application performance
+             | and scalability. This can be caused by load imbalance between
+             | ranks, active communications or non-optimal settings of MPI
+             | library. Explore details on communication inefficiencies with
+             | Intel Trace Analyzer and Collector.
+             |
+            Other: 83.007s
+        Overhead Time: 0s
+            Other: 0s
+    Total Thread Count: 128
+    Paused Time: 0s
+
+Top Hotspots
+Function             Module                            CPU Time
+-------------------  ------------------------------  ----------
+Sweeper_sweep_cell   sweep_base.gnu_intel_mpi_debug  17820.955s
+PMPI_Recv            libmpi.so.12                    13070.575s
+ucp_worker_progress  libucp.so.0                      5855.515s
+Quantities_solve     sweep_base.gnu_intel_mpi_debug   4035.058s
+PMPI_Send            libmpi.so.12                     3602.705s
+[Others]             N/A                              8789.892s
+Collection and Platform Info
+    Application Command Line: ../run_base_ref_gnu_mpi.0011/sweep_base.gnu_intel_mpi_debug "--niterations" "80" "--ncell_x" "128" "--ncell_y" "64" "--ncell_z" "64" "--ne" "64" "--na" "32" "--nblock_z" "8" "--nthread_e" "1" 
+    Operating System: 4.18.0-553.27.1.el8_10.x86_64 Red Hat Enterprise Linux release 8.10 (Ootpa)
+    MPI Process Rank: 199
+    Computer Name: compute-b8-14.zaratan.umd.edu
+    Result Size: 1.1 GB 
+    Collection start time: 18:38:03 14/05/2025 UTC
+    Collection stop time: 18:54:33 14/05/2025 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Unknown
+        Frequency: 2.445 GHz 
+        Logical CPU Count: 128
+        Cache Allocation Technology
+            Level 2 capability: not detected
+            Level 3 capability: available
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.

@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>613.soma_s: SPEChpc 2021 Benchmark Description</title>
+</head>
+<body>
+<div style="text-align: center">
+<h1>613.soma_s<br />
+SPEChpc&trade; 2021 Benchmark Description</h1>
+</div>
+
+<h2>Benchmark Name</h2>
+
+<p>613.soma_s (SOMA Offers Monte-Carlo Acceleration)</p>
+
+<hr />
+
+<h2>Benchmark Author</h2>
+
+<p>Submitted by Ludwig Schneider for the SOMA collaboration
+and prepared by Guido Juckeland and Jeffrey Kelling.</p>
+
+<ul>
+  <li>Ludwig Schneider &lt;l-schneider &#x5b;at&#x5d; posteo.de&gt;</li>
+  <li>Guido Juckeland &lt;g.juckeland &#x5b;at&#x5d; hzdr.de&gt;</li>
+  <li>Jeffrey Kelling &lt;j.kelling &#x5b;at&#x5d; hzdr.de&gt;</li>
+</ul>
+</p>
+
+<hr />
+
+<h2>Benchmark Program General Category</h2>
+
+<p>Physics / Polymeric Systems</p>
+
+<hr />
+
+<h2>Benchmark Description</h2>
+
+<p>
+SOMA is a software package, which offers High Performance Computing Monte-Carlo
+simulations of the "Single Chain in Mean Field" model for soft coarse grained
+polymers. </p>
+
+<p>
+The paper for this model is:
+  Daoulas, Kostas Ch. and Müller, Marcus , J. Chem.Phys.2006, 125,18 </p>
+
+<hr />
+
+<h2>MPI Usage</h2>
+
+<p>MPI functions MPI_Isend, MPI_Irecv, along with a variety of
+variations of MPI_Bcast and MPI_Allreduce are used.
+The input grid is partitioned into subgrids, choosing an
+optimal configuration for the requested number of ranks.
+<hr />
+
+<h2>Input Description</h2>
+
+<p> A SPEChpc sample input file with comments explaining the
+different parameters is included below. The only difference between
+the three data sets, test, train and ref, is in the number of simulated polymers
+and the number of simulated time steps.</p>
+
+<pre>
+ -r 42 [initial seed for the random number generator]
+ -t 200 [number of simulated time steps]
+ --npoly=14000000 [number of simulated polymers]
+ --gen-state-file [output the state of the simulation into a file for correctnes
+                   verification]   
+
+</pre>
+
+<hr />
+
+<h2>Output Description</h2>
+
+
+<p>The following output is emitted to stdout to follow progress of the code and 
+for debugging purposes</p>
+
+<pre>
+All 24 ranks use fixed seed 42.
+timesteps="200"
+rng-seed="42"
+npoly="14000000"
+gen-state-file
+system is system info not available with C std 199901.
+GIT version of SOMA is benchmark version based on tag 0.5.0 gitlab.com/InnocentBug/SOMA compiled on Jun 17 2019 12:07:53.
+MPI version: Open MPI v4.0.1, package: Open MPI schmaik@tauruslogin4.taurus.hrsk.tu-dresden.de Distribution, ident: 4.0.1, repo rev: v4.0.1, Mar 26, 2019 3.1
+INFO: At t= 0 particle_type test test passed
+INFO: At t= 0 area51 violation test passed
+INFO: At t= 0 area51 exact test passed
+Running for 35 [s] | TPS 0.265766 | steps-to-go: 198 | ETA: Tue Jun 18 11:55:01 2019
+Running for 49 [s] | TPS 0.112398 | steps-to-go: 197 | ETA: Tue Jun 18 12:12:02 2019
+Running for 63 [s] | TPS 0.0872277 | steps-to-go: 196 | ETA: Tue Jun 18 12:20:30 2019
+Running for 77 [s] | TPS 0.0784876 | steps-to-go: 195 | ETA: Tue Jun 18 12:24:42 2019
+Running for 91 [s] | TPS 0.0747191 | steps-to-go: 194 | ETA: Tue Jun 18 12:26:48 2019
+Running for 105 [s] | TPS 0.0729575 | steps-to-go: 193 | ETA: Tue Jun 18 12:27:51 2019
+Running for 119 [s] | TPS 0.0720669 | steps-to-go: 192 | ETA: Tue Jun 18 12:28:24 2019
+Running for 134 [s] | TPS 0.0716433 | steps-to-go: 191 | ETA: Tue Jun 18 12:28:40 2019
+Running for 148 [s] | TPS 0.0714849 | steps-to-go: 190 | ETA: Tue Jun 18 12:28:46 2019
+Running for 162 [s] | TPS 0.0713562 | steps-to-go: 189 | ETA: Tue Jun 18 12:28:51 2019
+Running for 176 [s] | TPS 0.0713378 | steps-to-go: 188 | ETA: Tue Jun 18 12:28:52 2019
+...
+Running for 2819 [s] | TPS 0.0710227 | steps-to-go: 0 | ETA: Tue Jun 18 12:29:00 2019
+INFO: At t= 200 area51 violation test passed
+INFO: At t= 200 area51 exact test passed
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+State file generated
+Rank: 10 	 polymers 583333
+Rank: 18 	 polymers 583333
+Rank: 4 	 polymers 583334
+Rank: 2 	 polymers 583334
+Rank: 6 	 polymers 583334
+Rank: 8 	 polymers 583333
+Rank: 12 	 polymers 583333
+Rank: 14 	 polymers 583333
+Rank: 5 	 polymers 583334
+Rank: 11 	 polymers 583333
+Rank: 7 	 polymers 583334
+Rank: 17 	 polymers 583333
+Rank: 1 	 polymers 583334
+Rank: 9 	 polymers 583333
+Rank: 23 	 polymers 583333
+Rank: 3 	 polymers 583334
+Rank: 19 	 polymers 583333
+Rank: 15 	 polymers 583333
+Rank: 21 	 polymers 583333
+Rank: 16 	 polymers 583333
+Rank: 20 	 polymers 583333
+Rank: 0 	 polymers 583334
+Rank: 22 	 polymers 583333
+Rank: 13 	 polymers 583333
+
+</pre>
+
+<p>The code also writes a file state*.txt - the file name contains the parameters
+with which the application was called - which is used to compare correctness.
+A sample output is:</p>
+
+<pre>
+Rg: 0.171553 0.057182 0.057189 0.057182
+ba: 0.005331 0.005331 0.005331 -0.000000 0.000000 0.000000 
+msd: 0.055934 0.055926 0.055927 0.167788 0.011642 0.011633 0.011637 0.034911 
+BE: 1332934222.475488
+</pre>
+
+<hr />
+
+<h2>Programming Language</h2>
+
+<p>C</p>
+
+<hr />
+
+<h2>Known portability issues</h2>
+
+None.
+
+<hr />
+
+<h2>Version and Licensing</h2>
+
+Version 0.5.0, distributed under the GNU General Public License v3.
+
+<hr />
+
+<h2>References</h2>
+
+<ul>
+<li><a href=
+"https://gitlab.com/InnocentBug/SOMA">https://gitlab.com/InnocentBug/SOMA</a>
+</li>
+
+
+<hr />
+
+<p>Last updated: $Date$</p>
+</body>
+</html>

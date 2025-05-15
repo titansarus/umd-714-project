@@ -1,0 +1,171 @@
+# specinvoke r4356
+#  Invoked as: /home/jumeike/scratch.cmsc714/final-project/bin/specinvoke -d /home/jumeike/scratch.cmsc714/final-project/benchspec/HPC/605.lbm_s/run/run_base_ref_gnu_mpi.0010 -f speccmds.cmd -q -e speccmds.err -o speccmds.stdout -nn
+# timer ticks over every 1000 ns
+# Environment in effect for these runs:
+ACC_NUM_CORES=1
+ACL_BOARD_VENDOR_PATH=/opt/Intel/OpenCLFPGA/oneAPI/Boards
+ACL_BOARD_VENDOR_PATH_modshare=/opt/Intel/OpenCLFPGA/oneAPI/Boards:1
+ARCH=x86_64
+ARCHIVEDIR=/archive/byuser/jumeike
+BASH_FUNC__module_raw%%='() {  unset _mlshdbg;  if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '\''1'\'' ]; then  case "$-" in   *v*x*)  set +vx;  _mlshdbg='\''vx'\''  ;;  *v*)  set +v;  _mlshdbg='\''v'\''  ;;  *x*)  set +x;  _mlshdbg='\''x'\''  ;;  *)  _mlshdbg='"''"'  ;;  esac;  fi;  unset _mlre _mlIFS;  if [ -n "${IFS+x}" ]; then  _mlIFS=$IFS;  fi;  IFS='\'' '\'';  for _mlv in ${MODULES_RUN_QUARANTINE:-};  do  if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then  if [ -n "`eval '\''echo ${'\''$_mlv'\''+x}'\''`" ]; then  _mlre="${_mlre:-}${_mlv}_modquar='\''`eval '\''echo ${'\''$_mlv'\''}'\''`'\'' ";  fi;  _mlrv="MODULES_RUNENV_${_mlv}";  _mlre="${_mlre:-}${_mlv}='\''`eval '\''echo ${'\''$_mlrv'\'':-}'\''`'\'' ";  fi;  done;  if [ -n "${_mlre:-}" ]; then  eval `eval ${_mlre} /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash '\''"$@"'\''`;  else  eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;  fi;  _mlstatus=$?;  if [ -n "${_mlIFS+x}" ]; then  IFS=$_mlIFS;  else  unset IFS;  fi;  unset _mlre _mlv _mlrv _mlIFS;  if [ -n "${_mlshdbg:-}" ]; then  set -$_mlshdbg;  fi;  unset _mlshdbg;  return $_mlstatus }'
+BASH_FUNC_ml%%='() {  module ml "$@" }'
+BASH_FUNC_module%%='() {  _module_raw "$@" 2>&1 }'
+BASH_FUNC_switchml%%='() {  typeset swfound=1;  if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '\''1'\'' ]; then  typeset swname='\''main'\'';  if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then  typeset swfound=0;  unset MODULES_USE_COMPAT_VERSION;  fi;  else  typeset swname='\''compatibility'\'';  if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then  typeset swfound=0;  MODULES_USE_COMPAT_VERSION=1;  export MODULES_USE_COMPAT_VERSION;  fi;  fi;  if [ $swfound -eq 0 ]; then  echo "Switching to Modules $swname version";  source /usr/share/Modules/init/bash;  else  echo "Cannot switch to Modules $swname version, command not found";  return 1;  fi }'
+BASH_FUNC_which%%='() {  ( alias;  eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@ }'
+CC=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/bin/intel64/icc
+CLASSPATH=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/lib/mpi.jar
+CLASSPATH_modshare=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/lib/mpi.jar:1
+CLUSTER=hpcc_zaratan
+CMAKE_PREFIX_PATH=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby
+CMAKE_PREFIX_PATH_modshare=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby:1
+CMPLR_ROOT=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest
+CPATH=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/include:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/include:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/include:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/include
+CPATH_modshare=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/include:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/include:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/include:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/include:1
+CPLUS_INCLUDE_PATH=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/include:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/include
+CPLUS_INCLUDE_PATH_modshare=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/include:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/include:1
+CPU_COMPAT_MICROARCHS='zen3 zen2 zen x86_64_v3 x86_64_v2 x86_64'
+CPU_MICROARCH=zen3
+CXX=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/bin/intel64/icpc
+C_INCLUDE_PATH=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/include:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/include
+C_INCLUDE_PATH_modshare=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/include:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/include:1
+DBUS_SESSION_BUS_ADDRESS='unix:path=/run/user/449016/bus'
+ENV_SET=true
+F77=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/bin/intel64/ifort
+F90=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/bin/intel64/ifort
+FC=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/bin/intel64/ifort
+FI_PROVIDER_PATH=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/libfabric/lib/prov:/usr/lib64/libfabric
+FI_PROVIDER_PATH_modshare=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/libfabric/lib/prov:1:/usr/lib64/libfabric:1
+FPGA_VARS_ARGS=''
+FPGA_VARS_DIR=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib/oclfpga
+HISTCONTROL=ignoredups
+HISTSIZE=1000
+HOME=/home/jumeike
+HOSTNAME=login-2.zaratan.umd.edu
+INCLUDE=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/include:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/include
+INCLUDE_modshare=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/include:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/include:1
+INTELFPGAOCLSDKROOT=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib/oclfpga
+INTELMPI_BINDIR=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/bin
+INTELMPI_INCDIR=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/include
+INTELMPI_LIBDIR=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/lib
+INTELMPI_ROOT=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby
+I_MPI_ADJUST_ALLGATHER=2
+I_MPI_ADJUST_ALLGATHERV=2
+I_MPI_ADJUST_ALLREDUCE=2
+I_MPI_ADJUST_ALLTOALL=1
+I_MPI_ADJUST_ALLTOALLV=1
+I_MPI_ADJUST_BARRIER=2
+I_MPI_ADJUST_BCAST=1
+I_MPI_ADJUST_GATHER=2
+I_MPI_ADJUST_GATHERV=2
+I_MPI_ADJUST_REDUCE=2
+I_MPI_ADJUST_SCAN=1
+I_MPI_ADJUST_SCATTER=2
+I_MPI_ADJUST_SCATTERV=2
+I_MPI_FABRICS=shm:ofi
+I_MPI_ROOT=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest
+KPRINCIPAL=jumeike
+KRB5CCNAME=FILE:/tmp/krb5cc_449016_LvBKlI
+LANG=C.UTF-8
+LC_ALL=C
+LC_LANG=C
+LD_LIBRARY_PATH=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib/x64:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib/emu:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib/oclfpga/host/linux64/lib:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib/oclfpga/linux64/lib:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/compiler/lib/intel64_lin:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/lib:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/libfabric/lib:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/lib/release:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/lib:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/lib
+LD_LIBRARY_PATH_modshare=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib/oclfpga/host/linux64/lib:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/lib:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/lib:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/lib/release:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/lib:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib/x64:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/compiler/lib/intel64_lin:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/libfabric/lib:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib/emu:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib/oclfpga/linux64/lib:1
+LESSOPEN='||/usr/bin/lesspipe.sh %s'
+LIBC_FATAL_STDERR_=1
+LIBRARY_PATH=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/compiler/lib/intel64_lin:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/lib:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/libfabric/lib:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/lib/release:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/lib:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/lib
+LIBRARY_PATH_modshare=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/lib:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/lib:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/lib/release:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/lib:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/compiler/lib/intel64_lin:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/libfabric/lib:1
+LOADEDMODULES=hpcc/zaratan:intel/2021.4.0:intel-mpi/intel/2021.4.0/zen2/2021.6.0
+LOADEDMODULES_modshare=intel/2021.4.0:1:intel-mpi/intel/2021.4.0/zen2/2021.6.0:1:hpcc/zaratan:1
+LOGNAME=jumeike
+LS_COLORS='rs=0:di=38;5;33:ln=38;5;51:mh=00:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=01;05;37;41:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;40:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.zst=38;5;9:*.tzst=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.wim=38;5;9:*.swm=38;5;9:*.dwm=38;5;9:*.esd=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.mjpg=38;5;13:*.mjpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.m4a=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.oga=38;5;45:*.opus=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:'
+MAIL=/var/spool/mail/jumeike
+MANPATH=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/documentation/en/man/common:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/man:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/compiler/latest/documentation/en/man/common::/opt/symas/share/man
+MANPATH_modshare=:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/documentation/en/man/common:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/man:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/compiler/latest/documentation/en/man/common:1:/opt/symas/share/man:2
+MODULECONTACT=hpcc-help@umd.edu
+MODULEPATH=/software/modulefiles/modules/root:/software/modulefiles/modules/production/rhel8:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+MODULEPATH_modshare=/usr/share/Modules/modulefiles:2:/etc/modulefiles:2:/usr/share/modulefiles:2
+MODULERCFILE=/software/modulefiles/etc/modulerc.global
+MODULESHOME=/usr/share/Modules
+MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
+MODULES_LMALTNAME='hpcc/zaratan&hpcc/default&hpcc:intel-mpi/intel/2021.4.0/zen2/2021.6.0&intel-mpi/default&intel-mpi&intel-mpi/intel/2021.4.0/zen2/default&intel-mpi/intel/2021.4.0/zen2&intel-mpi/intel/2021.4.0/default&intel-mpi/intel/2021.4.0'
+MODULES_LMALTNAME_modshare='intel-mpi/intel/2021.4.0/zen2/2021.6.0&intel-mpi/default&intel-mpi&intel-mpi/intel/2021.4.0/zen2/default&intel-mpi/intel/2021.4.0/zen2&intel-mpi/intel/2021.4.0/default&intel-mpi/intel/2021.4.0:1:hpcc/zaratan&hpcc/default&hpcc:1'
+MODULES_LMCONFLICT='hpcc/zaratan&hpcc:intel/2021.4.0&aocc&gcc&intel&nvhpc&oneapi&pgi:intel-mpi/intel/2021.4.0/zen2/2021.6.0&intel-mpi'
+MODULES_LMCONFLICT_modshare='hpcc/zaratan&hpcc:1:intel/2021.4.0&aocc&gcc&intel&nvhpc&oneapi&pgi:1:intel-mpi/intel/2021.4.0/zen2/2021.6.0&intel-mpi:1'
+MODULES_LMNOTUASKED=intel/2021.4.0
+MODULES_LMNOTUASKED_modshare=intel/2021.4.0:1
+MODULES_LMPREREQ='intel-mpi/intel/2021.4.0/zen2/2021.6.0&intel/2021.4.0'
+MODULES_LMPREREQ_modshare='intel-mpi/intel/2021.4.0/zen2/2021.6.0&intel/2021.4.0:1'
+MODULES_RUN_QUARANTINE='LD_LIBRARY_PATH LD_PRELOAD'
+MPICC=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/bin/mpiicc
+MPICXX=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/bin/mpiicpc
+MPIF77=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/bin/mpiifort
+MPIF90=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/bin/mpiifort
+MPIFC=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/bin/mpiifort
+MPIROOT=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest
+OCL_ICD_FILENAMES=libintelocl_emu.so:libalteracl.so:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib/x64/libintelocl.so
+OCL_ICD_FILENAMES_modshare=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib/x64/libintelocl.so:1:libintelocl_emu.so:1:libalteracl.so:1
+OLDPWD=/home/jumeike/scratch.cmsc714/final-project/benchspec/HPC/613.soma_s/build
+OMPI_MCA_opal_warn_on_missing_libcuda=0
+OMP_NUM_THREADS=1
+OSNAME=linux
+OSREV=rel80
+PATH=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/bin/intel64:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/bin:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/libfabric/bin:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/bin:/home/jumeike/scratch.cmsc714/final-project/bin:/home/jumeike/.local/bin:/home/jumeike/bin:/software/acigs-utilities/bin:/usr/share/Modules/bin:/usr/lib/heimdal/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/symas/bin:/opt/dell/srvadmin/bin
+PATH_modshare=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/bin/intel64:1:/home/jumeike/.local/bin:1:/home/jumeike/bin:1:/usr/bin:1:/usr/share/Modules/bin:1:/usr/local/bin:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/libfabric/bin:1:/opt/dell/srvadmin/bin:1:/home/jumeike/scratch.cmsc714/final-project/bin:1:/opt/symas/bin:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/bin:1:/software/acigs-utilities/bin:1:/usr/lib/heimdal/bin:1:/usr/sbin:1:/usr/local/sbin:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/bin:1
+PKG_CONFIG_PATH=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/lib/pkgconfig:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/lib/pkgconfig:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/lib/pkgconfig:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/lib/pkgconfig
+PKG_CONFIG_PATH_modshare=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/mpi/latest/lib/pkgconfig:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/lib/pkgconfig:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/lib/pkgconfig:1:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-mpi-2021.6.0-2oot2wpg3gwoewapf4yeno73oe6blsby/lib/pkgconfig:1
+SCRATCHDIR=/beegfs/byuser/jumeike
+SELINUX_LEVEL_REQUESTED=''
+SELINUX_ROLE_REQUESTED=''
+SELINUX_USE_CURRENT_RANGE=''
+SHELL=/bin/bash
+SPEC=/home/jumeike/scratch.cmsc714/final-project
+SPECDB_PWD=/home/jumeike/scratch.cmsc714/final-project/benchspec/HPC/613.soma_s/build/build_base_gnu_mpi.0000
+SPECPERLLIB=/home/jumeike/scratch.cmsc714/final-project/bin/lib:/home/jumeike/scratch.cmsc714/final-project/bin
+SSH_CLIENT='10.174.55.72 52548 22'
+SSH_CONNECTION='10.174.55.72 52548 128.8.17.232 22'
+SSH_TTY=/dev/pts/66
+S_COLORS=auto
+TERM=xterm-256color
+TPCLUSTERNAME=zaratan
+USER=jumeike
+XDG_RUNTIME_DIR=/run/user/449016
+XDG_SESSION_ID=58359
+_LMFILES_=/software/modulefiles/modules/production/rhel8/hpcc/zaratan:/software/modulefiles/modules/production/rhel8/intel/2021.4.0:/software/modulefiles/modules/production/rhel8/intel-mpi/intel/2021.4.0/zen2/2021.6.0
+_LMFILES__modshare=/software/modulefiles/modules/production/rhel8/intel/2021.4.0:1:/software/modulefiles/modules/production/rhel8/intel-mpi/intel/2021.4.0/zen2/2021.6.0:1:/software/modulefiles/modules/production/rhel8/hpcc/zaratan:1
+which_declare='declare -f'
+export ACC_NUM_CORES ACL_BOARD_VENDOR_PATH ACL_BOARD_VENDOR_PATH_modshare ARCH
+export ARCHIVEDIR BASH_FUNC__module_raw%% BASH_FUNC_ml%% BASH_FUNC_module%%
+export BASH_FUNC_switchml%% BASH_FUNC_which%% CC CLASSPATH CLASSPATH_modshare
+export CLUSTER CMAKE_PREFIX_PATH CMAKE_PREFIX_PATH_modshare CMPLR_ROOT CPATH
+export CPATH_modshare CPLUS_INCLUDE_PATH CPLUS_INCLUDE_PATH_modshare
+export CPU_COMPAT_MICROARCHS CPU_MICROARCH CXX C_INCLUDE_PATH
+export C_INCLUDE_PATH_modshare DBUS_SESSION_BUS_ADDRESS ENV_SET F77 F90 FC
+export FI_PROVIDER_PATH FI_PROVIDER_PATH_modshare FPGA_VARS_ARGS FPGA_VARS_DIR
+export HISTCONTROL HISTSIZE HOME HOSTNAME INCLUDE INCLUDE_modshare
+export INTELFPGAOCLSDKROOT INTELMPI_BINDIR INTELMPI_INCDIR INTELMPI_LIBDIR
+export INTELMPI_ROOT I_MPI_ADJUST_ALLGATHER I_MPI_ADJUST_ALLGATHERV
+export I_MPI_ADJUST_ALLREDUCE I_MPI_ADJUST_ALLTOALL I_MPI_ADJUST_ALLTOALLV
+export I_MPI_ADJUST_BARRIER I_MPI_ADJUST_BCAST I_MPI_ADJUST_GATHER
+export I_MPI_ADJUST_GATHERV I_MPI_ADJUST_REDUCE I_MPI_ADJUST_SCAN
+export I_MPI_ADJUST_SCATTER I_MPI_ADJUST_SCATTERV I_MPI_FABRICS I_MPI_ROOT
+export KPRINCIPAL KRB5CCNAME LANG LC_ALL LC_LANG LD_LIBRARY_PATH
+export LD_LIBRARY_PATH_modshare LESSOPEN LIBC_FATAL_STDERR_ LIBRARY_PATH
+export LIBRARY_PATH_modshare LOADEDMODULES LOADEDMODULES_modshare LOGNAME
+export LS_COLORS MAIL MANPATH MANPATH_modshare MODULECONTACT MODULEPATH
+export MODULEPATH_modshare MODULERCFILE MODULESHOME MODULES_CMD MODULES_LMALTNAME
+export MODULES_LMALTNAME_modshare MODULES_LMCONFLICT MODULES_LMCONFLICT_modshare
+export MODULES_LMNOTUASKED MODULES_LMNOTUASKED_modshare MODULES_LMPREREQ
+export MODULES_LMPREREQ_modshare MODULES_RUN_QUARANTINE MPICC MPICXX MPIF77
+export MPIF90 MPIFC MPIROOT OCL_ICD_FILENAMES OCL_ICD_FILENAMES_modshare OLDPWD
+export OMPI_MCA_opal_warn_on_missing_libcuda OMP_NUM_THREADS OSNAME OSREV PATH
+export PATH_modshare PKG_CONFIG_PATH PKG_CONFIG_PATH_modshare SCRATCHDIR
+export SELINUX_LEVEL_REQUESTED SELINUX_ROLE_REQUESTED SELINUX_USE_CURRENT_RANGE
+export SHELL SPEC SPECDB_PWD SPECPERLLIB SSH_CLIENT SSH_CONNECTION SSH_TTY
+export S_COLORS TERM TPCLUSTERNAME USER XDG_RUNTIME_DIR XDG_SESSION_ID _LMFILES_
+export _LMFILES__modshare which_declare
+unset PWD
+unset SHLVL
+# Starting run for copy #0
+cd /home/jumeike/scratch.cmsc714/final-project/benchspec/HPC/605.lbm_s/run/run_base_ref_gnu_mpi.0010
+mpirun  -np 256 ../run_base_ref_gnu_mpi.0010/lbm_base.gnu_mpi 0<&- > lbm.out 2>> lbm.err
+specinvoke exit: rc=0

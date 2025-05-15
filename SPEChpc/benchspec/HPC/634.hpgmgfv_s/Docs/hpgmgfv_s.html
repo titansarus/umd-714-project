@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>634.hpgmgfv_s SPEChpc 2021 Benchmark Description</title>
+</head>
+<body>
+<div style="text-align: center">
+<h1>634.hpgmgfv_s<br />
+SPEChpc&trade; 2021 Benchmark Description</h1>
+</div>
+
+<h2>Benchmark Name</h2>
+
+<p>634.hpgmgfv_s (HPGMG-FV)</p>
+
+<hr />
+
+<h2>Benchmark Author</h2>
+
+<p>Submitted by Christopher Steven Daley csdaley __at__ lbl.gov</p>
+
+<p>Authors: <br/>
+<ul>
+<li>Sam Williams (Lawrence Berkeley National Laboratory)</li> 
+<li>Nikolay Sakharnykh (NVIDIA)</li>
+<li>Christopher Steven Daley (Lawrence Berkeley National Laboratory)</li>
+<li>Hadia Ahmed (Lawrence Berkeley National Laboratory)</li>
+<li>Mat Colgrove (NVIDIA)</li>
+</ul>
+
+<hr />
+
+<h2>Benchmark Program General Category</h2>
+
+<p>Cosmology, Astrophysics, Combustion</p>
+
+<hr />
+
+<h2>Benchmark Description</h2>
+
+<p>High Performance Geometric Multigrid (HPGMG-FV) is a benchmark designed to proxy the finite-volume based geometric multigrid linear solvers found in adaptive mesh refinement (AMR) based applications like Nyx, Castro, Maestro, IAMR and PeleLM. HPGMG-FV solves variable-coefficient elliptic problems on Cartesian grids using the finite volume method (FV). The method is fourth-order accurate. More information about the benchmark is at <a href="https://crd.lbl.gov/departments/computer-science/PAR/research/hpgmg">https://crd.lbl.gov/departments/computer-science/PAR/research/hpgmg</a>. The benchmark complements the HPL and HPCG benchmarks as a way to rank the TOP-500 computing systems. The most recent HPGMG list as of Nov 2018 is at <a href="https://crd.lbl.gov/departments/computer-science/PAR/research/hpgmg/results/results-201811/">https://crd.lbl.gov/departments/computer-science/PAR/research/hpgmg/results/results-201811/</a>. The list shows results obtained on many leading HPC platforms: K computer (Fujitsu SPARC64 VIIIfx), Sunway TahihuLight, Cori (Cray X40), Mira (BG/Q), Titan (Cray XK7), etc.. It also shows that the benchmark has been run with up to 131K MPI ranks. The version of HPGMG submitted to SPEC is based on the CUDA-port at <a href="https://bitbucket.org/nsakharnykh/hpgmg-cuda">https://bitbucket.org/nsakharnykh/hpgmg-cuda</a>. The submitted version provides MPI and optional OpenMP, OpenMP target offload, OpenACC and CUDA parallelism.
+</p>
+
+
+<hr />
+
+<h2>Input Description</h2>
+
+<p>
+The control file contains two integers:
+
+<ul>
+<li> Log to base 2 of the box dimension
+<li> Log to base 2 of the grid dimension
+</ul>
+
+If the control file contains "6 7" then the finest grid will contain boxes of size 64**3 grid points and will have a total of 128**3 grid points. The boxes are distributed across MPI ranks.
+</p>
+
+</pre>
+
+<hr />
+
+<h2>Output Description</h2>
+
+
+<p>
+The benchmark performs multiple linear solves and performs an error check each time. 
+
+<h2>Programming Language</h2>
+
+<p>C</p>
+
+<hr />
+
+<h2>External Dependencies</h2>
+
+<p>The optional CUDA configuration depends on the CUDA CUB library (<a href="https://nvlabs.github.io/cub/">https://nvlabs.github.io/cub/</a>)</p>
+
+<h2>Runtime Limitations (such as number of ranks)</h2>
+
+<p>None</p>
+
+<h2>Known portability issues</h2>
+
+<p>None<p>
+
+<hr />
+
+<h2>Version and Licensing</h2>
+
+<p>Copyright (c) 2014, The Regents of the University of California, through Lawrence Berkeley National Laboratory and UChicago Argonne, LLC. All rights reserved.</p>
+<p>Copyright (c) 2014-2015, NVIDIA CORPORATION. All rights reserved.</p>
+
+<hr />
+
+<h2>References</h2>
+
+<ul>
+<li><a href="https://hpgmg.org/">https://hpgmg.org/</a>
+<li><a href="https://bitbucket.org/hpgmg/hpgmg">https://bitbucket.org/hpgmg/hpgmg</a>
+<li><a href="https://bitbucket.org/nsakharnykh/hpgmg-cuda">https://bitbucket.org/nsakharnykh/hpgmg-cuda</a>
+<li><a href="https://crd.lbl.gov/departments/computer-science/PAR/research/hpgmg">https://crd.lbl.gov/departments/computer-science/PAR/research/hpgmg</a>
+<li><a href="https://crd.lbl.gov/departments/computer-science/PAR/research/hpgmg/results/results-201811/">https://crd.lbl.gov/departments/computer-science/PAR/research/hpgmg/results/results-201811/</a>
+
+
+</li>
+
+<hr />
+
+<p>Last updated: $Date$</p>
+</body>
+</html>
