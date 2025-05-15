@@ -1,0 +1,7 @@
+298 [23286291306240] INFO mrtehelpers.mrteenv <> - Product libs directory: /cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1/lib64
+298 [23286291306240] INFO mrtehelpers.mrteenv <> - File mask: amplxe_tpssmrte_clrprof*
+325 [23286291306240] INFO mrtehelpers.mrteenv <> - File name: lib
+325 [23286291306240] INFO mrtehelpers.mrteenv <> - File mask: amplxe_tpssmrte_clrprof*
+336 [23286291306240] INFO mrtehelpers.mrteenv <> - File name: lib
+336 [23286291306240] ERROR mrtehelpers.mrteenv <> - Failed to init shared librarylib located at /cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1/lib64, at file: vcs/mrtehelpers3/src/mrteenv/mrte_profiling_initializer.cpp:485
+336 [23286291306240] ERROR mrtehelpers.mrteenv <> - CLR support is disabled because profiler GUID is empty, at file: vcs/mrtehelpers3/src/mrteenv/mrte_profiling_initializer.cpp:308

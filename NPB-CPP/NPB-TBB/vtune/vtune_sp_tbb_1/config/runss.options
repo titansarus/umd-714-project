@@ -1,0 +1,16 @@
+-r
+/scratch/zt1/project/cmsc714/user/borhani/Project/NPB-CPP/NPB-TBB/bin/vtune_bt_tbb_1_sp
+--stack-stitching
+--data-limit-mb=1000
+--disk-space-limit=0
+--mrte-type=java,python
+--stack-unwind-limit=8388608
+--itt-config=frame
+--itt-config=task,event,counter
+--stackwalk=offline
+--mrte-mode=auto
+--type=cpu:counters:nostack
+--type=cpu:stack
+--interval=10
+--
+./sp.A

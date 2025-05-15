@@ -1,0 +1,101 @@
+29 [22362319593536] INFO perfrun.launcher <> - Launcher main begin
+36 [22362319593536] INFO perfrun.launcher <> - MessageCatalogInit finished
+36 [22362319593536] INFO perfrun.launcher <> - Launcher instance created
+36 [22362319593536] INFO perfrun.launcher <> - argc = 7; cmdline = /cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1/bin64/amplxe-runss --ui-output-format xml --ui-output-fd 6 --option-file /scratch/zt1/project/cmsc714/user/borhani/Project/NPB-CPP/NPB-TBB/bin/vtune_bt_tbb_1/config/runss.options 
+101 [22362319593536] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+101 [22362319593536] INFO perfrun.launcher <> - create file finder object
+101 [22362319593536] INFO perfrun.launcher <> - create a result directory: pattern = /scratch/zt1/project/cmsc714/user/borhani/Project/NPB-CPP/NPB-TBB/bin/vtune_bt_tbb_1 pid = 4294967295
+175 [22362319593536] INFO perfrun.sdk <> - checked that the directory /scratch/zt1/project/cmsc714/user/borhani/Project/NPB-CPP/NPB-TBB/bin/vtune_bt_tbb_1 is a local directory
+177 [22362319593536] INFO perfrun.sdk <> - the directory /scratch/zt1/project/cmsc714/user/borhani/Project/NPB-CPP/NPB-TBB/bin/vtune_bt_tbb_1 is located on a share or its FS ID is unknown 428016422
+177 [22362319593536] INFO perfrun.sdk <> - checked that the directory /tmp/amplxe-tmp-borhani is a local directory
+177 [22362319593536] INFO perfrun.sdk <> - the directory /tmp/amplxe-tmp-borhani is a local directory with FS type ID 61267
+178 [22362319593536] INFO perfrun.launcher <> - Create a local result directory /tmp/amplxe-tmp-borhani/amplxe-res-146395-377356009084975 due to the user result path /scratch/zt1/project/cmsc714/user/borhani/Project/NPB-CPP/NPB-TBB/bin/vtune_bt_tbb_1 is located on a share
+178 [22362319593536] INFO perfrun.launcher <> - create data directory = /tmp/amplxe-tmp-borhani/amplxe-res-146395-377356009084975/data.0
+191 [22362319593536] INFO perfrun.launcher <> - create data directory = /scratch/zt1/project/cmsc714/user/borhani/Project/NPB-CPP/NPB-TBB/bin/vtune_bt_tbb_1/data.0
+214 [22362319593536] INFO perfrun.launcher <> - Creating the master collection flag
+234 [22362319593536] INFO perfrun.launcher <> - Done creating the master collection flag
+260 [22362194306816] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+261 [22362194306816] INFO perfrun.sdk <> - Allocating TMU :/tmp/amplxe-tmp-borhani/amplxe-res-146395-377356009084975/data.0/systemcollector-146395-compute-b5-18.zaratan.umd.edu.sc
+261 [22362194306816] INFO perfrun.system <> - Tpss based collection
+261 [22362194306816] INFO perfrun.launcher <> - plugin [ptracecollector] was disabled because it doesn't support the given collection type.
+261 [22362194306816] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+261 [22362194306816] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+261 [22362194306816] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+261 [22362194306816] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+262 [22362194306816] INFO perfrun.mrte <> - system-wide mode is 0
+262 [22362194306816] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+295 [22362194306816] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=/tmp/amplxe-tmp-borhani/amplxe-res-146395-377356009084975/data.0
+295 [22362194306816] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=compute-b5-18.zaratan.umd.edu
+295 [22362194306816] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_tpssmrte_javaprof_1.0 -Dsun.boot.library.path=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1/lib32/runtime:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1/lib64/runtime
+295 [22362194306816] INFO perfrun.mrte <> - Data directory: /tmp/amplxe-tmp-borhani/amplxe-res-146395-377356009084975/data.0
+295 [22362194306816] INFO perfrun.mrte <> - Mrte plugin is initialized
+295 [22362194306816] INFO perfrun.launcher <> - plugin [emon] was disabled because it doesn't support the given collection type.
+295 [22362194306816] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+295 [22362194306816] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+295 [22362194306816] INFO perfrun.launcher <> - plugin [sep] was disabled because it doesn't support the given collection type.
+295 [22362194306816] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+295 [22362194306816] INFO perfrun.launcher <> - plugin [perf] was disabled because it doesn't support the given collection type.
+295 [22362194306816] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+295 [22362194306816] INFO perfrun.tpss <> - initialize tpss controller
+295 [22362194306816] INFO perfrun.tpss <> - configure collection mode: value = cpu:counters:nostack
+295 [22362194306816] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+295 [22362194306816] INFO perfrun.tpss <> - default obj-size-min=1024
+295 [22362194306816] INFO perfrun.tpss <> - default hash-table-size=0
+295 [22362194306816] INFO perfrun.launcher <> - plugin [exprof] was disabled because it doesn't support the given collection type.
+295 [22362194306816] INFO perfrun.launcher <> - plugin [media] was disabled because it doesn't support the given collection type.
+295 [22362194306816] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+295 [22362194306816] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+295 [22362194306816] INFO perfrun.launcher <> - plugin [parallelfs] was disabled because it doesn't support the given collection type.
+295 [22362194306816] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+295 [22362194306816] INFO perfrun.launcher <> - plugin [hwloc] was disabled because it doesn't support the given collection type.
+295 [22362194306816] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+295 [22362194306816] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+295 [22362319593536] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1/lib32/runtime:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1/lib64/runtime:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib/x64:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib/emu:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib/oclfpga/host/linux64/lib:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/lib/oclfpga/linux64/lib:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/compiler/latest/linux/compiler/lib/intel64_lin:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-x86_64/gcc-rh8-8.5.0/intel-oneapi-compilers-2021.4.0-2r6fhg5mdwsjvqitoyhhsvgp3hes4e3h/lib:/scratch/zt1/project/cmsc714/user/borhani/Project/NPB-CPP/libs/tbb-2020.1/build/linux_intel64_gcc_cc8.5.0_libc2.28_kernel4.18.0_release
+295 [22362319593536] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = /cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1/lib32/runtime/libittnotify_collector.so
+295 [22362319593536] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = /cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1/lib64/runtime/libittnotify_collector.so
+295 [22362319593536] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+295 [22362319593536] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = /cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1/lib32/runtime/libittnotify_collector.so
+295 [22362319593536] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = /cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1/lib64/runtime/libittnotify_collector.so
+295 [22362319593536] INFO perfrun.launcher <> - set environment variable: VS_PROFILER = libittnotify_collector.so
+295 [22362319593536] INFO perfrun.launcher <> - set environment variable: OMP_TOOL_LIBRARIES = /cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1/lib32/runtime/libittnotify_collector.so:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1/lib64/runtime/libittnotify_collector.so
+295 [22362319593536] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+295 [22362319593536] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+295 [22362319593536] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+295 [22362319593536] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+295 [22362319593536] INFO perfrun.launcher <> - set environment variable: OMP_TOOL = disabled
+295 [22362319593536] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = /tmp/amplxe-tmp-borhani/amplxe-res-146395-377356009084975/data.0
+296 [22362319593536] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = compute-b5-18.zaratan.umd.edu
+296 [22362319593536] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_tpssmrte_javaprof_1.0 -Dsun.boot.library.path=/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1/lib32/runtime:/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1/lib64/runtime
+296 [22362319593536] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+354 [22362319593536] INFO perfrun.launcher <> - Launcher: command line to start before modification = ./bt.A
+354 [22362319593536] INFO perfrun.launcher <> - Launcher: command line to start after modification = /cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1/bin64/pin -error_file /tmp/amplxe-tmp-borhani/amplxe-res-146395-377356009084975/data.0/pinerr.tpsslog -detach_reattach -follow_execv -tool_load_option deepbind -t64 /cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1/lib64/libtpsstool.so -t /cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1/lib32/libtpsstool.so -server_name tpss_ipc.146395 -prd_dir /cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1 -- ./bt.A
+354 [22362319593536] INFO perfrun.launcher <> - ProcessCreator object was created
+355 [22362319593536] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+371 [22362194306816] WARN perfrun.system <> - Could not do anything with /sys/kernel/debug/kvm: boost::filesystem::status: Permission denied: "/sys/kernel/debug/kvm", at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:797
+371 [22362194306816] WARN perfrun.system <> - Folder "/var/run/libvirt/qemu/"doesn't exist, at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:810
+399 [22362194306816] WARN perfrun.sdk <> - Failed to find xl binary on any of the system paths: /bin, /sbin, /usr/bin, /usr/sbin., at file: vcs/perfrun1/sdk/src/utils.cpp:197
+399 [22362194306816] WARN perfrun.system <> - Could not start ContainerMapping collector, at file: vcs/perfrun1/plugins/system/src/controller.cpp:456
+454 [22362194306816] INFO perfrun.vdso <> - Helper runtool '/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1/bin32/amplxe-runss -dump-vdso -r /tmp/amplxe-tmp-borhani/amplxe-res-146395-377356009084975 --tmp-dir /tmp/amplxe-tmp-borhani' returned 1
+691 [22362194306816] INFO perfrun.vdso <> - Helper runtool '/cvmfs/hpcsw.umd.edu/spack-software/2022.06.15/linux-rhel8-zen2/intel-2021.4.0/intel-oneapi-vtune-2021.7.1-jhpewnx4fmcu2nob5e5zhkmucympmlpu/vtune/2021.7.1/bin64/amplxe-runss -dump-vdso -r /tmp/amplxe-tmp-borhani/amplxe-res-146395-377356009084975 --tmp-dir /tmp/amplxe-tmp-borhani' returned 0
+691 [22362194306816] INFO perfrun.itt <> - start itt controller for pid #146400
+691 [22362194306816] INFO perfrun.tpss <> - start tpss controller for pid #146400
+742 [22362319593536] INFO perfrun.launcher <> - Launcher: all plugins were started
+742 [22362319593536] INFO perfrun.launcher <> - DirectoryMonitor object was created
+742 [22362319593536] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+742 [22362319593536] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+742 [22362319593536] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+742 [22362319593536] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+784 [22362319593536] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+38176 [22362319593536] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+38308 [22362194306816] INFO perfrun.itt <> - stop itt controller
+38308 [22362194306816] INFO perfrun.itt <> - detach itt controller
+38308 [22362194306816] INFO perfrun.tpss <> - stop tpss controller
+38309 [22362194306816] INFO perfrun.sdk <> - De-allocating TMU: /tmp/amplxe-tmp-borhani/amplxe-res-146395-377356009084975/data.0/systemcollector-146395-compute-b5-18.zaratan.umd.edu.sc
+38309 [22362194306816] INFO perfrun.system <> - closed the system trace file: /tmp/amplxe-tmp-borhani/amplxe-res-146395-377356009084975/data.0/systemcollector-146395-compute-b5-18.zaratan.umd.edu.sc
+38309 [22362319593536] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+38401 [22362319593536] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+38401 [22362319593536] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+38401 [22362319593536] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+38401 [22362319593536] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs/perfrun1/launcher/src/command_handler.cpp:212
+39021 [22362319593536] INFO perfrun.launcher <> - Application exit code: 0
+39021 [22362319593536] INFO perfrun.launcher <> - Exit code: 0
